@@ -1,0 +1,21 @@
+ul#jm_sl_navigation {position: fixed; margin: 0px; padding: 0px; list-style: none; z-index:9999; font-family: Arial,Helvetica,sans-serif}
+ul#jm_sl_navigation li {padding: 1px 0px 1px 0px; overflow: hidden}
+ul#jm_sl_navigation li a {display: block; width: 170px; background-repeat:no-repeat; text-decoration: none;	font-size: 12px; color: #FFFFFF; font-weight: bold}
+ul#jm_sl_navigation .vk a{background-image: url(icons/vkcom.png)}
+ul#jm_sl_navigation .vk a:hover{background-color: #4F93B3}
+ul#jm_sl_navigation .ok a{background-image: url(icons/ok.png)}
+ul#jm_sl_navigation .ok a:hover{background-color: #FA9100}
+ul#jm_sl_navigation .moymir a{background-image: url(icons/moymir.png)}
+ul#jm_sl_navigation .moymir a:hover{background-color: #346FAA}
+ul#jm_sl_navigation .facebook a{background-image: url(icons/facebook.png)}
+ul#jm_sl_navigation .facebook a:hover{background-color: #3B5998}
+ul#jm_sl_navigation .twitter a  {background-image: url(icons/twitter.png)}
+ul#jm_sl_navigation .twitter a:hover{background-color: #62BDB2}
+ul#jm_sl_navigation .google a {background-image: url(icons/google.png)}
+ul#jm_sl_navigation .google a:hover{background-color: #DB4A39}
+ul#jm_sl_navigation .myspace a {background-image: url(icons/myspace.png)}
+ul#jm_sl_navigation .myspace a:hover{background-color: #3B64B3}
+ul#jm_sl_navigation .youtube a {background-image: url(icons/youtube.png)}
+ul#jm_sl_navigation .youtube a:hover{background-color: #CC252C}
+ul#jm_sl_navigation .linkedin a {background-image: url(icons/linedin.png)}
+ul#jm_sl_navigation .linkedin a:hover{background-color: #4F93B3}

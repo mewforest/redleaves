@@ -1,0 +1,122 @@
+
+div.app-widget
+{padding-bottom: 25px !important;}
+
+.article-aside {margin-bottom: 2px !important;}
+
+#community-wrap .js-toolbar .navbar-inner {
+padding: 2;
+min-height: 30px;
+}
+
+#community-wrap .js-toolbar .nav>li>a {
+line-height: 20px;
+height: 30px;
+padding: 6px 12px;
+}
+
+.t3-content {
+padding-top: 0px;
+}
+
+.navbar {
+min-height: 0px;
+}
+
+.label-info {
+    background-color: #FFFFFF;border: 1px; border-style: solid; border-color: #CCCCCC; 
+
+}
+.label-info[href]:hover, .label-info[href]:focus { background-color: #D2322D ; border: 1px; border-style: solid; border-color: #FFFFFF; 
+
+}
+
+.label {
+    border-radius: 0;
+    color: #999999;
+    font-style: italic; 
+    display: inline;
+    font-size: 75%;
+    line-height: 1;
+    padding: 0.2em 0.6em 0.3em;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.row-fluid {
+margin-left: 0px;
+}
+
+
+
+#community-wrap .js-focus-cover:after {
+padding-top: 27%;
+}
+
+#cWindow { box-sizing: content-box;}
+
+.article-footer {
+    margin-bottom: 5px;
+}
+
+.article-header {margin-bottom: -15px;}
+
+
+.alert .close {
+    right: 0px !important;
+}
+
+/* #community-wrap .joms-postbox-input {
+    overflow: auto;
+} */
+
+.joms-inputbox .inputbox {height: inherit; min-height: 32px;}
+
+ul#jm_sl_navigation li a {
+    background-color: #FFFFFF;
+}
+
+ul#jm_sl_navigation li a {
+    margin-right: 5px; }
+
+
+#community-wrap .hero-area .hero-area-wrapper {
+    position: initial;
+}
+#community-wrap .hero-area {
+    height: 390px;
+}
+#community-wrap .hero-area {
+    border-radius: 4px;}
+
+ a.forgot.btn {height: 30px !important;} 
+
+#sclogin-157 {padding-top: 20px;}
+
+/* 2016 правки */ 
+
+.joms-focus__cover, .joms-hcard__cover {
+    min-height: 184px;
+    max-height: 247px;
+}
+
+
+.dropdown-toggle {
+    color: #555555;
+}
+
+
+article{
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;}
+.tags{
+    margin-top: -3px;
+    float: right;
+    margin-bottom: 9px;}
+
+
+
+.site-slogan
+{font-family: Consolas;}
