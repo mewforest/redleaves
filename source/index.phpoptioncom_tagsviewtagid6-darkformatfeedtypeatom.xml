@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/bdthemes_shortcodes/css/shortcode-ultimate.css" type="text/css"?>
+<?xml-stylesheet href="/plugins/system/bdthemes_shortcodes/css/font-awesome.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="ru-ru">
+	<title type="text">Красные Листья - Красные Листья</title>
+	<subtitle type="text">Красные Листья - необычный литературный проект, который объединяет молодых авторов.</subtitle>
+	<link rel="alternate" type="text/html" href="http://redleaves.ru"/>
+	<id>http://redleaves.ru/index.php</id>
+	<updated>2021-06-14T12:36:52+01:00</updated>
+	<author>
+		<name>Красные Листья</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://redleaves.ru/index.php?option=com_tags&amp;view=tag&amp;id=6-dark&amp;format=feed&amp;type=atom"/>
+	<entry>
+		<title>Amai Riro: Две жизни - одна лишняя</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=5:two-lives-one-extra&amp;catid=9&amp;Itemid=264"/>
+		<published>2013-08-25T13:58:35+01:00</published>
+		<updated>2013-08-25T13:58:35+01:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=5:two-lives-one-extra&amp;catid=9&amp;Itemid=264</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Amai Riro: Две жизни - одна лишняя&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/two-lives-one-extra.jpg&quot; alt=&quot;two-lives-one-extra&quot; width=&quot;482&quot; height=&quot;301&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Проза&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;/strong&gt;Как часто мы смотрим различные детективы и боевики, где множество смертей. Но как правило,мы не обращаем на это пристально внимания. Мало кто позже проектирует это на реальную жизнь. Но что если взглянуть на это именно с точки зрения нашей обычной жизни? Какова цена для вроде бы высшей цели?&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Amai Riro: Две жизни - одна лишняя&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/two-lives-one-extra.jpg&quot; alt=&quot;two-lives-one-extra&quot; width=&quot;482&quot; height=&quot;301&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Проза&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;/strong&gt;Как часто мы смотрим различные детективы и боевики, где множество смертей. Но как правило,мы не обращаем на это пристально внимания. Мало кто позже проектирует это на реальную жизнь. Но что если взглянуть на это именно с точки зрения нашей обычной жизни? Какова цена для вроде бы высшей цели?&lt;/p&gt;
+</content>
+		<category term="Amai Riro: Две жизни - одна лишняя" />
+	</entry>
+	<entry>
+		<title>Aquamarine: 1</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=7:the-one&amp;catid=9&amp;Itemid=264"/>
+		<published>2012-10-23T09:09:23+01:00</published>
+		<updated>2012-10-23T09:09:23+01:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=7:the-one&amp;catid=9&amp;Itemid=264</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Aquamarine: 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/the-one.jpg&quot; alt=&quot;the-one&quot; width=&quot;496&quot; height=&quot;310&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: записи (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Никто не звонит, не пишет...&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Aquamarine: 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/the-one.jpg&quot; alt=&quot;the-one&quot; width=&quot;496&quot; height=&quot;310&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: записи (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Никто не звонит, не пишет...&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Aquamarine: 1" />
+	</entry>
+	<entry>
+		<title>Aquamarine: 62461</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=8:62461&amp;catid=9&amp;Itemid=264"/>
+		<published>2012-10-31T15:14:03+00:00</published>
+		<updated>2012-10-31T15:14:03+00:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=8:62461&amp;catid=9&amp;Itemid=264</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Aquamarine: 62461&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/62461.jpg&quot; alt=&quot;62461&quot; width=&quot;457&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: записи (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Легкое желание уснуть на некоторое время одной...&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Aquamarine: 62461&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/62461.jpg&quot; alt=&quot;62461&quot; width=&quot;457&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: записи (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Легкое желание уснуть на некоторое время одной...&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Aquamarine: 62461" />
+	</entry>
+	<entry>
+		<title>Aquamarine: 98745</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=9:98745&amp;catid=9&amp;Itemid=264"/>
+		<published>2012-11-09T15:22:11+00:00</published>
+		<updated>2012-11-09T15:22:11+00:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=9:98745&amp;catid=9&amp;Itemid=264</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Aquamarine: 98745&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/98745.jpg&quot; alt=&quot;98745&quot; width=&quot;500&quot; height=&quot;332&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: записи (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Новое интересное произведение от Aquamarine&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Aquamarine: 98745&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/98745.jpg&quot; alt=&quot;98745&quot; width=&quot;500&quot; height=&quot;332&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: записи (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Новое интересное произведение от Aquamarine&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Aquamarine: 98745" />
+	</entry>
+	<entry>
+		<title>Fragile Cor: Inconsciente</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=15:inconsciente&amp;catid=9&amp;Itemid=264"/>
+		<published>2013-04-02T13:02:47+01:00</published>
+		<updated>2013-04-02T13:02:47+01:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=15:inconsciente&amp;catid=9&amp;Itemid=264</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: Inconsciente (бессознательно - исп.)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/inconsciente.jpg&quot; alt=&quot;inconsciente&quot; width=&quot;535&quot; height=&quot;282&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: триллер (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Fragile Cor написала своё новое произведение обозначив его &quot;not for everyone&quot;, интригует?&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: Inconsciente (бессознательно - исп.)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/inconsciente.jpg&quot; alt=&quot;inconsciente&quot; width=&quot;535&quot; height=&quot;282&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: триллер (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Fragile Cor написала своё новое произведение обозначив его &quot;not for everyone&quot;, интригует?&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Fragile Cor: Inconsciente" />
+	</entry>
+	<entry>
+		<title>Fragile Cor: The End</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=18:the-end&amp;catid=8&amp;Itemid=263"/>
+		<published>2012-10-11T15:23:18+01:00</published>
+		<updated>2012-10-11T15:23:18+01:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=18:the-end&amp;catid=8&amp;Itemid=263</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: The End (Конец)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/the-end.png&quot; alt=&quot;the-end&quot; width=&quot;414&quot; height=&quot;315&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &quot;Как же мы любим то, что нас убивает.&quot; Fragile Cor&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: The End (Конец)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/the-end.png&quot; alt=&quot;the-end&quot; width=&quot;414&quot; height=&quot;315&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &quot;Как же мы любим то, что нас убивает.&quot; Fragile Cor&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Fragile Cor: The End" />
+	</entry>
+	<entry>
+		<title>Fragile Cor: Считал ли я ее виновной ?</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=25:do-i-think-her-guilty&amp;catid=9&amp;Itemid=264"/>
+		<published>2013-08-28T06:24:53+01:00</published>
+		<updated>2013-08-28T06:24:53+01:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=25:do-i-think-her-guilty&amp;catid=9&amp;Itemid=264</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: left;&quot;&gt;&lt;strong&gt;Fragile Cor: Считал ли я ее виновной? (Глава 1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/do-i-think-her-guilty.jpg&quot; alt=&quot;do-i-think-her-guilty&quot; width=&quot;207&quot; height=&quot;310&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: психологический триллер (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;/strong&gt;Этот треугольник был обречен: что объединяет простого студента, опытного адвоката и девушку на которой стоит клеймо убийцы? Что, если все не так просто?&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p style=&quot;text-align: left;&quot;&gt;&lt;strong&gt;Fragile Cor: Считал ли я ее виновной? (Глава 1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/do-i-think-her-guilty.jpg&quot; alt=&quot;do-i-think-her-guilty&quot; width=&quot;207&quot; height=&quot;310&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: психологический триллер (проза)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;/strong&gt;Этот треугольник был обречен: что объединяет простого студента, опытного адвоката и девушку на которой стоит клеймо убийцы? Что, если все не так просто?&lt;/p&gt;
+</content>
+		<category term="Fragile Cor: Считал ли я ее виновной ?" />
+	</entry>
+	<entry>
+		<title>Hank Stemper: Fenibutia</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=87:fenibutia&amp;catid=9&amp;Itemid=264"/>
+		<published>2014-09-24T18:57:39+01:00</published>
+		<updated>2014-09-24T18:57:39+01:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=87:fenibutia&amp;catid=9&amp;Itemid=264</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;http://redleaves.ru/images/tony/97465406_plusBh1rgU9NG3H3fC9JhhFVKTDrA7sq4D2oWLA_0187f.jpg&quot; alt=&quot;97465406_plusBh1rgU9NG3H3fC9JhhFVKTDrA7sq4D2oWLA_0187f.jpg&quot; width=&quot;426&quot; height=&quot;320&quot; /&gt;&lt;/strong&gt;&lt;em&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: dark, Stephen King style&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: автор, являясь ярым поклонником Стивена Кинга, решил немного закинуться Фенибутом, и вот что из этого получилось :)&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;http://redleaves.ru/images/tony/97465406_plusBh1rgU9NG3H3fC9JhhFVKTDrA7sq4D2oWLA_0187f.jpg&quot; alt=&quot;97465406_plusBh1rgU9NG3H3fC9JhhFVKTDrA7sq4D2oWLA_0187f.jpg&quot; width=&quot;426&quot; height=&quot;320&quot; /&gt;&lt;/strong&gt;&lt;em&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: dark, Stephen King style&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: автор, являясь ярым поклонником Стивена Кинга, решил немного закинуться Фенибутом, и вот что из этого получилось :)&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Hank Stemper: Fenibutia" />
+	</entry>
+	<entry>
+		<title>Hank Stemper: Вернутьcя, чтобы уйти...</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=56:back-to-leave-leave-to-return&amp;catid=9&amp;Itemid=264"/>
+		<published>2012-05-19T16:45:56+01:00</published>
+		<updated>2012-05-19T16:45:56+01:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=56:back-to-leave-leave-to-return&amp;catid=9&amp;Itemid=264</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Хэнк Стэмпер: &lt;/strong&gt;&lt;strong&gt;Вернутьcя, чтобы уйти. Уйти, чтобы вернуться.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top; border: 0;&quot; src=&quot;http://redleaves.ru/images/old/hank_stemper.jpg&quot; alt=&quot;&quot; width=&quot;450&quot; height=&quot;301&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Фэнтэзи&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;/strong&gt;&lt;strong&gt;Достаточно интересный рассказ, описывающий жизнь после ядерной войны, связывая её с личной жизнью героя.&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Хэнк Стэмпер: &lt;/strong&gt;&lt;strong&gt;Вернутьcя, чтобы уйти. Уйти, чтобы вернуться.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top; border: 0;&quot; src=&quot;http://redleaves.ru/images/old/hank_stemper.jpg&quot; alt=&quot;&quot; width=&quot;450&quot; height=&quot;301&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Фэнтэзи&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;/strong&gt;&lt;strong&gt;Достаточно интересный рассказ, описывающий жизнь после ядерной войны, связывая её с личной жизнью героя.&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Hank Stemper: Вернутьcя, чтобы уйти..." />
+	</entry>
+	<entry>
+		<title>Hank Stemper: Дивный Новый Мир</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=29:brave-new-world&amp;catid=9&amp;Itemid=264"/>
+		<published>2013-03-30T15:43:07+00:00</published>
+		<updated>2013-03-30T15:43:07+00:00</updated>
+		<id>http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=29:brave-new-world&amp;catid=9&amp;Itemid=264</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Хэнк Стэмпер: Дивный Новый Мир&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/brave-new-world.jpg&quot; alt=&quot;brave-new-world&quot; width=&quot;313&quot; height=&quot;313&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Фантастика, проза (рассказ)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;/strong&gt;Автор поделился своей очередной фантазией, наполнив рассказ описаниями постапокалиптического мира и картинами из жизни главной героини.&lt;strong&gt; &lt;strong&gt;&lt;strong&gt;(&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;{tip Причина ограничения::Милый воздушный рассказик ^^}16+{/tip}&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;)&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Хэнк Стэмпер: Дивный Новый Мир&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/brave-new-world.jpg&quot; alt=&quot;brave-new-world&quot; width=&quot;313&quot; height=&quot;313&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Фантастика, проза (рассказ)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;/strong&gt;Автор поделился своей очередной фантазией, наполнив рассказ описаниями постапокалиптического мира и картинами из жизни главной героини.&lt;strong&gt; &lt;strong&gt;&lt;strong&gt;(&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;{tip Причина ограничения::Милый воздушный рассказик ^^}16+{/tip}&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;)&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Hank Stemper: Дивный Новый Мир" />
+	</entry>
+</feed>
