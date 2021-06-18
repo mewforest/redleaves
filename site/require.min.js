@@ -36,7 +36,7 @@ ul#jm_sl_navigation li a {background-color:#33353B;text-align:right;}ul#jm_sl_n
 	<script src="media/jui/js/jquery-migrate.min.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 	<script src="plugins/system/bdthemes_shortcodes/js/shortcode-ultimate.js" type="text/javascript"></script>
 	<script src="media/foundry/3.1/config/ae1b014a33a8731200677b9d6ba741d4.js" type="text/javascript"></script>
-	<script src="media/com_komento/config/b111904a9d06c6090d54dd3660dfd1b8.js" type="text/javascript"></script>
+	<script src="media/com_komento/config/4cb183688509b13c860214e4cf3ce94e.js" type="text/javascript"></script>
 	<script src="media/system/js/caption.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 	<script src="plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 	<script src="plugins/system/t3/base-bs3/js/jquery.tap.min.js" type="text/javascript"></script>
@@ -51,12 +51,12 @@ jQuery(window).on('load',  function() {
 	<script type='text/javascript'>
                 /*<![CDATA[*/
                     var jax_live_site = 'index.htm';
-                    var jax_token_var='5792c85b6d1190953a40ff64e5478d55';
+                    var jax_token_var='836c816eb63e07077391e287d42a7a55';
                 /*]]>*/
                 </script><script type="text/javascript" src="plugins/system/jomsocial.system/pc_includes/ajax_1.5.pack.js"></script>
 	<script defer async src="media/foundry/3.1/scripts/foundry.min.js"></script>
 	<script defer async src="media/com_komento/scripts/komento-2.0.8.optimized.min.js"></script>
-	<script>Komento.token = "5792c85b6d1190953a40ff64e5478d55";</script>
+	<script>Komento.token = "836c816eb63e07077391e287d42a7a55";</script>
 	<script defer async src="media/com_komento/resources/f669ed7c12f1926d9fdc0033e781201f.js"></script>
 	<script type="text/javascript" src="plugins/system/lazyloadforjoomla/assets/js/lazyloadforjoomla-jquery.js"></script>
 <script type="text/javascript">jQuery(document).ready(function() {jQuery("img").lazyload();});</script>
@@ -96,7 +96,20 @@ jQuery(window).on('load',  function() {
 <![endif]-->
 
 <!-- You can add Google Analytics here or use T3 Injection feature -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "../httpsmc.yandex.ru/metrika/tag.js", "ym");
 
+   ym(16412803, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="../httpsmc.yandex.ru/watch/16412803" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
@@ -151,14 +164,6 @@ jQuery(window).on('load',  function() {
 </li>
 <li itemprop='name'  data-id="263" data-level="1">
 <a itemprop='url' class="" href="index.phpoptioncom_contentviewcategorylayoutblogid8itemid263.htm"   data-target="#">Стихи </a>
-
-</li>
-<li itemprop='name'  data-id="265" data-level="1">
-<a itemprop='url' class="" href="index.phpoptioncom_contentviewcategoryid2itemid265.htm"   data-target="#">Песочница </a>
-
-</li>
-<li itemprop='name'  data-id="233" data-level="1">
-<a itemprop='url' class="" href="index.phpoptioncom_searchviewsearchsearchword_25d0_25~1.htm"   data-target="#">Поиск </a>
 
 </li>
 <li itemprop='name'  data-id="261" data-level="1">
@@ -220,8 +225,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:1181" />
-					Просмотров: 1181			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:1196" />
+					Просмотров: 1196			</dd>						</dl>
             
             
 
@@ -311,8 +316,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:1077" />
-					Просмотров: 1077			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:1093" />
+					Просмотров: 1093			</dd>						</dl>
             
             
 
@@ -390,8 +395,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:992" />
-					Просмотров: 992			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:1003" />
+					Просмотров: 1003			</dd>						</dl>
             
             
 
@@ -473,8 +478,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:928" />
-					Просмотров: 928			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:939" />
+					Просмотров: 939			</dd>						</dl>
             
             
 
@@ -494,7 +499,7 @@ jQuery(window).on('load',  function() {
 			
 			
 			<p><strong>Nero Gatto: Небесной красоты глаза...</strong></p>
-<p><strong><img style="vertical-align: top; border: 0;" src="plugins/system/lazyloadforjoomla/assets/images/blank.gif" data-src="../httpsimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b266a93-9db7-4241-8917-0d13eb560e2a/d13oplp-65d9d702-0fc1-4285-8266-d402be1ed612.jpgtoken~1.jpg" alt="" width="450" height="301" /><noscript><img style="vertical-align: top; border: 0;" src="../httpsimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b266a93-9db7-4241-8917-0d13eb560e2a/d13oplp-65d9d702-0fc1-4285-8266-d402be1ed612.jpgtoken~1.jpg" alt="" width="450" height="301" /></noscript></strong></p>
+<p><strong><img style="vertical-align: top; border: 0;" src="plugins/system/lazyloadforjoomla/assets/images/blank.gif" data-src="../fc00.deviantart.net/fs20/f/2007/279/5/d/blue_eyes_by_manicfairytale.jpg.htm" alt="" width="450" height="301" /><noscript><img style="vertical-align: top; border: 0;" src="../fc00.deviantart.net/fs20/f/2007/279/5/d/blue_eyes_by_manicfairytale.jpg.htm" alt="" width="450" height="301" /></noscript></strong></p>
 <p><strong>Жанр: о любви (стихи)</strong></p>
 <p><strong>О произведении: одно из самых лучших стихотворений на сайте<br /></strong></p>
 		</section>
@@ -556,8 +561,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:886" />
-					Просмотров: 886			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:897" />
+					Просмотров: 897			</dd>						</dl>
             
             
 
@@ -639,8 +644,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:858" />
-					Просмотров: 858			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:869" />
+					Просмотров: 869			</dd>						</dl>
             
             
 
@@ -718,8 +723,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:850" />
-					Просмотров: 850			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:861" />
+					Просмотров: 861			</dd>						</dl>
             
             
 
@@ -801,8 +806,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:845" />
-					Просмотров: 845			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:855" />
+					Просмотров: 855			</dd>						</dl>
             
             
 
@@ -880,8 +885,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:809" />
-					Просмотров: 809			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:820" />
+					Просмотров: 820			</dd>						</dl>
             
             
 
@@ -962,8 +967,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:737" />
-					Просмотров: 737			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:748" />
+					Просмотров: 748			</dd>						</dl>
             
             
 

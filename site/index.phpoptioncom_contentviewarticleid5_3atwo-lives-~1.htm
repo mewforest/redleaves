@@ -40,7 +40,7 @@ ul#jm_sl_navigation li { right: -138px;position:relative;-webkit-transition: rig
 <script src="plugins/system/bdthemes_shortcodes/js/shortcode-ultimate.js" type="text/javascript"></script>
 <script src="plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 <script src="media/foundry/3.1/config/ae1b014a33a8731200677b9d6ba741d4.js" type="text/javascript"></script>
-<script src="media/com_komento/config/99bd0cdec136eab48116b84993e66ea8.js" type="text/javascript"></script>
+<script src="media/com_komento/config/713a0865a55413fb5df59b476c515bd0.js" type="text/javascript"></script>
 <script src="media/system/js/caption.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 <script src="plugins/system/t3/base-bs3/js/jquery.tap.min.js" type="text/javascript"></script>
 <script src="plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
@@ -55,12 +55,12 @@ jQuery(window).on('load',  function() {
 <script type="text/javascript">
                 /*<![CDATA[*/
                     var jax_live_site = 'index.htm';
-                    var jax_token_var='5792c85b6d1190953a40ff64e5478d55';
+                    var jax_token_var='836c816eb63e07077391e287d42a7a55';
                 /*]]>*/
                 </script><script src="plugins/system/jomsocial.system/pc_includes/ajax_1.5.pack.js" type="text/javascript"></script>
 <script async="" defer="" src="media/foundry/3.1/scripts/foundry.min.js"></script>
 <script async="" defer="" src="media/com_komento/scripts/komento-2.0.8.optimized.min.js"></script>
-<script>Komento.token = "5792c85b6d1190953a40ff64e5478d55";</script>
+<script>Komento.token = "836c816eb63e07077391e287d42a7a55";</script>
 <script async="" defer="" src="media/com_komento/resources/f669ed7c12f1926d9fdc0033e781201f.js"></script>
 <script src="plugins/system/lazyloadforjoomla/assets/js/lazyloadforjoomla-jquery.js" type="text/javascript"></script>
 <script type="text/javascript">jQuery(document).ready(function() {jQuery("img").lazyload();});</script>
@@ -93,6 +93,20 @@ jQuery(window).on('load',  function() {
 <script type="text/javascript" src="plugins/system/t3/base-bs3/js/respond.min.js"></script>
 <![endif]-->
 <!-- You can add Google Analytics here or use T3 Injection feature -->
+<!-- Yandex.Metrika counter -->
+<!--ipt type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(16412803, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</scri-->
+<noscript><div><img alt="" src="../httpsmc.yandex.ru/watch/16412803" style="position:absolute; left:-9999px;"/></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
 <body>
 <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
@@ -131,12 +145,6 @@ jQuery(window).on('load',  function() {
 <li data-id="263" data-level="1" itemprop="name">
 <a class="" data-target="#" href="index.phpoptioncom_contentviewcategorylayoutblogid8itemid263.htm" itemprop="url">Стихи </a>
 </li>
-<li data-id="265" data-level="1" itemprop="name">
-<a class="" data-target="#" href="index.phpoptioncom_contentviewcategoryid2itemid265.htm" itemprop="url">Песочница </a>
-</li>
-<li data-id="233" data-level="1" itemprop="name">
-<a class="" data-target="#" href="index.phpoptioncom_searchviewsearchsearchword_25d0_25~1.htm" itemprop="url">Поиск </a>
-</li>
 <li data-id="261" data-level="1" itemprop="name">
 <a class="" data-target="#" href="index.phpoptioncom_contentviewarticleid82itemid261.htm" itemprop="url"><i class="icon-pencil"></i>Написать статью </a>
 </li>
@@ -171,8 +179,8 @@ jQuery(window).on('load',  function() {
 <a href="index.phpoptioncom_contentviewcategoryid9itemid264.htm"><span itemprop="genre">Проза</span></a> </dd>
 <dd class="hits">
 <i class="fa fa-eye"></i>
-<meta content="UserPageVisits:637" itemprop="interactionCount"/>
-					Просмотров: 637			</dd> </dl>
+<meta content="UserPageVisits:644" itemprop="interactionCount"/>
+					Просмотров: 644			</dd> </dl>
 </aside>
 <!-- //Aside -->
 <div class="tags">
@@ -228,8 +236,8 @@ Komento.ready(function($) {
 	Komento.cid			= "5";
 	Komento.contentLink	= "index.phpoptioncom_contentviewarticleid5_3atwo-lives~2.htm";
 	Komento.sort		= "latest";
-	Komento.loadedCount	= parseInt(1);
-	Komento.totalCount	= parseInt(1);
+	Komento.loadedCount	= parseInt(0);
+	Komento.totalCount	= parseInt(0);
 
 	if( Komento.options.konfig.enable_shorten_link == 0 ) {
 		Komento.shortenLink = Komento.contentLink;
@@ -238,153 +246,10 @@ Komento.ready(function($) {
 </script>
 <div class="theme-freso" id="section-kmt">
 <!-- START: Pro Version Only -->
-<script type="text/javascript">
-Komento.require()
-.script('komento.ratings')
-.done(function($)
-{
-	$('[data-rating-overall]').implement(Komento.Controller.Ratings.Item);
-});
-</script>
-<div class="kmt-ratings-overview">
-<h3 class="kmt-title">Рейтинг статьи (0)</h3>
-<div class="kmt-ratings-result kmt-ratings-stars" data-rating-overall="">
-<input name="ratings" title="Very poor" type="radio" value="1"/>
-<input name="ratings" title="Poor" type="radio" value="2"/>
-<input name="ratings" title="Not that bad" type="radio" value="3"/>
-<input name="ratings" title="Fair" type="radio" value="4"/>
-<input name="ratings" title="Average" type="radio" value="5"/>
-<input name="ratings" title="Almost good" type="radio" value="6"/>
-<input name="ratings" title="Good" type="radio" value="7"/>
-<input name="ratings" title="Very good" type="radio" value="8"/>
-<input name="ratings" title="Excellent" type="radio" value="9"/>
-<input name="ratings" title="Perfect" type="radio" value="10"/>
-</div>
-<span class="kmt-ratings-title">Рейтинг: 0 из 5 звёзд</span>
-</div><!-- END: Pro Version Only -->
-<script type="text/javascript">
-	Komento.require()
-	.script(
-		'komento.language',
-		'komento.common',
-		'komento.commentform'
-	)
-	.done(function($) {
-		if($('.commentForm').exists()) {
-			Komento.options.element.form = $('.commentForm').addController(Komento.Controller.CommentForm);
-			Komento.options.element.form.kmt = Komento.options.element;
-		}
-	});
-
-	</script>
-<div class="commentForm kmt-form clearfix" id="kmt-form">
-<a class="addCommentButton kmt-form-addbutton" href="javascript:void(0);"><b>Добавить комментарий</b></a>
-<div class="formArea kmt-form-area hidden">
-<h3 class="kmt-title">Оставьте свой комментарий</h3>
-<a id="commentform" name="commentform"></a>
-<div class="kmt-login">
-<div class="kmt-login-header">
-<h5 class="kmt-login-title">Войдите на Красные Листья, чтобы оставить комментарий</h5>
-</div>
-<form action="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=9&amp;Itemid=264" class="kmt-login-form" method="post">
-<ul class="reset-ul kmt-login-form-list">
-<li>
-<label for="username">
-<span>Логин</span>
-<input class="input text" id="username" name="username" type="text"/>
-</label>
-</li><!--
---><li>
-<label for="password">
-<span>Пароль</span>
-<input class="input text" id="passwd" name="password" type="password"/>
-</label>
-</li>
-</ul>
-<div class="kmt-login-body">
-<div class="float-r">
-<button class="input button kmt-login-button" type="submit">Войти</button>
-</div>
-<div class="float-r">
-</div>
-</div>
-<input name="option" type="hidden" value="com_users"/>
-<input name="task" type="hidden" value="user.login"/>
-<input name="return" type="hidden" value="L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJmlkPTU6dHdvLWxpdmVzLW9uZS1leHRyYSZjYXRpZD05Jkl0ZW1pZD0yNjQ=">
-<input name="5792c85b6d1190953a40ff64e5478d55" type="hidden" value="1"> </input></input></form>
-<div class="kmt-login-footer">
-<a class="kmt-login-link link-register" href="index.phpoptioncom_communityviewregister.htm"><i></i>Регистрация</a>
-<a class="kmt-login-link link-forgot" href="index.phpoptioncom_usersviewresetitemid101.htm"><i></i>Забыли пароль?</a>
-</div>
-</div>
-<h4 class="kmt-title">Оставить комментарий как гость</h4>
-<form>
-<ul class="formAlert kmt-form-alert hidden"></ul>
-<div class="kmt-form-author clearfix formAuthor">
-<ul class="reset-ul float-li">
-<li class="col kmt-form-name">
-<div>
-<input class="input text" id="register-name" name="name" placeholder="Имя (Обязательно)" tabindex="41" type="text"/>
-</div>
-</li>
-<li class="col kmt-form-email">
-<div>
-<input class="input text" id="register-email" name="email" placeholder="Email (Обязательно)" tabindex="42" type="text"/>
-</div>
-</li>
-</ul>
-</div>
-<!-- START: Pro Version Only -->
-<script type="text/javascript">
-Komento.require()
-.script('komento.ratings')
-.done(function($)
-{
-	$('[data-rating-form]').implement(Komento.Controller.Ratings.Form);
-});
-</script>
-<div class="kmt-form-ratings">
-<label>Оцените статью :</label>
-<div class="kmt-ratings-stars" data-rating-form="">
-<input class="odd" name="ratings" title="Very poor" type="radio" value="1"/>
-<input name="ratings" title="Poor" type="radio" value="2"/>
-<input name="ratings" title="Not that bad" type="radio" value="3"/>
-<input name="ratings" title="Fair" type="radio" value="4"/>
-<input name="ratings" title="Average" type="radio" value="5"/>
-<input name="ratings" title="Almost good" type="radio" value="6"/>
-<input name="ratings" title="Good" type="radio" value="7"/>
-<input name="ratings" title="Very good" type="radio" value="8"/>
-<input name="ratings" title="Excellent" type="radio" value="9"/>
-<input name="ratings" title="Perfect" type="radio" value="10"/>
-<input data-rating-value="" type="hidden" value=""/>
-</div>
-</div> <!-- END: Pro Version Only -->
-<div class="kmt-form-content">
-<div class="kmt-form-editor">
-<div>
-<textarea class="commentInput input textarea" cols="50" id="commentInput" rows="10" tabindex="44"></textarea>
-</div>
-</div>
-<div class="kmt-form-addon">
-<div class="commentLength kmt-form-length kmt-has-tip">
-<b><span class="commentLengthCount">0</span>
-</b>
-</div>
-</div>
-</div>
-<!-- START: Pro Version Only -->
-<div class="kmt-form-upload">
-</div>
 <!-- END: Pro Version Only -->
-<div class="kmt-form-submit clearfix float-wrapper">
-<button class="submitButton kmt-btn-submit disabled" type="button">Отправить комментарий</button>
-<button class="cancelButton kmt-btn-cancel" type="button">Отменить</button>
-</div>
-<input name="parent" type="hidden" value="0"/>
-<input name="task" type="hidden" value="commentSave"/>
-<input class="pageItemId" name="pageItemId" type="hidden" value="264"/>
-</form>
-</div>
+<div class="commentForm kmt-form clearfix" id="kmt-form">
+<div class="kmt-not-allowed">
+					Чтобы оставить комментарий, необходимо зарегистрироваться				</div>
 </div>
 <script type="text/javascript">
 Komento.require().script('komento.famelist').done(function($) {
@@ -419,7 +284,6 @@ Komento.require().script('komento.commenttools').done(function($) {
 <!-- Comment Title -->
 <div class="kmt-comment-tools-title">
 <strong class="kmt-count">
-<span class="commentCounter">1</span>
 		Комментарии	</strong> | <a class="kmt-addyours" href="index.phpoptioncom_contentviewarticleid5_3atwo-lives~2.htm#kmt-form">Добавить комментарий</a>
 </div>
 <div class="kmt-comment-tools-toolbar">
@@ -431,84 +295,8 @@ Komento.require().script('komento.commenttools').done(function($) {
 </div>
 <div class="commentList kmt-list-wrap commentList-5">
 <ul class="kmt-list reset-child">
-<li childs="0" class="kmt-item kmt-comment-item-public kmt-comment-item-usergroup-15 kmt-66 kmt-child-0 kmt-published" depth="0" id="kmt-66" itemscope="" itemtype="http://schema.org/Comment" parentid="kmt-0" published="1">
-<div class="kmt-wrap" style="margin-left: 0px !important">
-<!-- Avatar div.kmt-avatar -->
-<div class="kmt-avatar" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">
-<img class="avatar" data-src="components/com_community/assets/default-general-avatar-thumb.jpg" itemprop="image" src="plugins/system/lazyloadforjoomla/assets/images/blank.gif"/><noscript><img class="avatar" itemprop="image" src="components/com_community/assets/default-general-avatar-thumb.jpg"/></noscript>
-</div>
-<!-- User rank div.kmt-rank -->
-<div class="kmt-content">
-<div class="kmt-head">
-<!-- Name span.kmt-author -->
-<h3 class="kmt-author" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">
-<span itemprop="name">Гость - hosting</span>
-</h3>
-<!-- Location span.kmt-location -->
-<!-- In reply to span.kmt-inreplyto -->
-<span class="kmt-option float-wrapper">
-<!-- Report Comment span.kmt-report-wrap -->
-<!-- Permalink span.kmt-permalink-wrap -->
-<!-- AdminTools span.kmt-admin-wrap -->
-</span>
-<!-- START: Pro Version Only -->
-<!-- Ratings -->
-<!-- END: Pro Version Only -->
-</div>
-<div class="kmt-body">
-<i></i>
-<!-- Comment div.kmt-text -->
-<div class="commentText kmt-text" itemprop="text"><p><a href="../httpswww.good-webhosting.com/default.htm" rel="nofollow" target="_blank"><img alt="https://www.amplitude-surgical.com/images/hosting-cheap-42118.jpg" data-src="https://www.amplitude-surgical.com/images/hosting-cheap-42118.jpg" src="plugins/system/lazyloadforjoomla/assets/images/blank.gif" style="max-width:600px;max-height:600px;"/><noscript><img alt="https://www.amplitude-surgical.com/images/hosting-cheap-42118.jpg" src="../httpswww.amplitude-surgical.com/images/hosting-cheap-42118.jpg" style="max-width:600px;max-height:600px;"/></noscript></a></p></div>
-<!-- START: Pro Version Only -->
-<!-- Attachment div.kmt-attachments -->
-<!-- END: Pro Version Only -->
-<!-- Info span.kmt-info -->
-<span class="commentInfo kmt-info hidden"></span>
-</div>
-<div class="kmt-control">
-<div class="kmt-control-user float-wrapper">
-<div class="kmt-meta">
-<!-- Time span.kmt-time -->
-<span class="kmt-time">
-<time datetime="2019-09-10T03:49:22+01:00" itemprop="dateCreated">
-	около 1 года назад	</time>
-<!-- Extended data for schema purposes -->
-<time class="hidden" datetime="2019-09-10T03:49:22+01:00" itemprop="datePublished"></time>
-</span>
-</div>
-<!-- Likes span.kmt-like-wrap -->
-<span class="kmt-like-wrap">
-<a class="kmt-btn kmt-like kmt-disabled" href="javascript:void(0);" title="Нравится"><span>Нравится</span></a>
-<!-- Likes counter -->
-<b class="likesCounter kmt-like-counter"><i></i><span>0</span></b>
-</span>
-<!-- Share div.kmt-share-wrap -->
-<span class="kmt-share-wrap">
-<!-- Share button -->
-<a class="shareButton kmt-btn kmt-share" href="javascript:void(0);"><span>Поделиться</span></a>
-<span class="kmt-share-balloon">
-<span>
-<i></i>
-<span class="kmt-share-url">
-<span>URL:</span>
-<input class="short-url input text" type="text" value="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=5:two-lives-one-extra&amp;catid=9:prose&amp;Itemid=264#kmt-66"/>
-</span>
-<span class="kmt-share-social">
-<i>
-<a class="socialButton share-facebook" commentid="66" content="" type="facebook" url="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=5:two-lives-one-extra&amp;catid=9:prose&amp;Itemid=264#kmt-66">Facebook</a>
-<a class="socialButton share-twitter" commentid="66" content="" type="twitter" url="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=5:two-lives-one-extra&amp;catid=9:prose&amp;Itemid=264#kmt-66">Twitter</a>
-<a class="socialButton share-googleplus" commentid="66" content="" type="googleplus" url="http://redleaves.ru/index.php?option=com_content&amp;view=article&amp;id=5:two-lives-one-extra&amp;catid=9:prose&amp;Itemid=264#kmt-66">Google Plus</a>
-</i>
-</span>
-</span>
-</span>
-</span>
-<!-- Reply span.kmt-reply-wrap -->
-</div>
-</div>
-</div>
-</div>
-</li>
+<li class="kmt-empty-comment">
+			Комментарии не найдены		</li>
 </ul>
 </div>
 </div>
@@ -520,7 +308,7 @@ Komento.require().script('komento.commenttools').done(function($) {
 </div>
 </div>
 </div><!--/section-kmt-->
-<span id="komento-token" style="display:none;"><input name="5792c85b6d1190953a40ff64e5478d55" type="hidden" value="1"/></span></div>
+<span id="komento-token" style="display:none;"><input name="836c816eb63e07077391e287d42a7a55" type="hidden" value="1"/></span></div>
 </div>
 <!-- //MAIN CONTENT -->
 <!-- SIDEBAR RIGHT -->

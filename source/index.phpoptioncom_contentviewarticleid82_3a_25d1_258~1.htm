@@ -16,6 +16,7 @@
 	<link href="templates/t3_bs3_blank/local/css/themes/red/bootstrap.css" rel="stylesheet" type="text/css" />
 	<link href="plugins/system/bdthemes_shortcodes/css/shortcode-ultimate.css" rel="stylesheet" type="text/css" />
 	<link href="plugins/system/bdthemes_shortcodes/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="plugins/content/lvspoiler/assets/mootools/spoiler.css" rel="stylesheet" type="text/css" />
 	<link href="media/tooltips/css/style.min.css" rel="stylesheet" type="text/css" />
 	<link href="templates/system/css/system.css" rel="stylesheet" type="text/css" />
 	<link href="templates/t3_bs3_blank/local/css/themes/red/legacy-grid.css" rel="stylesheet" type="text/css" />
@@ -25,13 +26,40 @@
 	<link href="templates/t3_bs3_blank/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link href="modules/mod_social_slider/assets/style.css" rel="stylesheet" type="text/css" />
 	<style type="text/css">
+
+    .sp-head-click a{font-size: 18px; font-style: normal; color: #CC0000 !important; }
+	.sp-head{border: 1px #0 solid; font-weight: bold;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            -khtml-border-radius: 0px;
+            border-radius: 0px;
+            width: 95%;
+            background-color: #0;
+            font-family: "Helvetica Neue",Helvetica,Arial,;
+            box-shadow: 0 0 5px rgba(0,0,0,0.6);
+            -moz-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+	        -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+	        }
+	.sp-body{font-size: 12px; font-weight: normal; background: #0; border: 1px #ccc solid; 
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	border-radius: 0px;
+	width: 95%;
+	font-style: inherit;
+	padding: 10px}
 .nn_tooltips-link {border-bottom: 1px dashed #cccccc;} .nn_tooltips.popover {max-width: 400px;z-index: 200;}
 ul#jm_sl_navigation li a {background-color:#33353B;text-align:right;}ul#jm_sl_navigation { right:0px;top:10px;}ul#jm_sl_navigation li:hover { right: 0px;}ul#jm_sl_navigation li a { padding: 11px 10px 11px 0px;margin-right:-2px;}ul#jm_sl_navigation .vk a {background-position: 4px 50%;}ul#jm_sl_navigation .ok a {background-position: 4px 50%;}ul#jm_sl_navigation .moymir a {background-position: 4px 50%;}ul#jm_sl_navigation .facebook a {background-position: 4px 50%;}ul#jm_sl_navigation .twitter a {background-position: 5px 50%;}ul#jm_sl_navigation .google a {background-position: 5px 50%;}ul#jm_sl_navigation .myspace a {background-position: 4px 50%;}ul#jm_sl_navigation .youtube a {background-position: 4px 50%;}ul#jm_sl_navigation .linkedin a {background-position: 4px 50%;}ul#jm_sl_navigation li { right: -138px;position:relative;-webkit-transition: right 0.3s;-moz-transition: right 0.3s;-ms-transition: right 0.3s;-o-transition: right 0.3s;transition: right 0.3s;}
 	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token.htm":"836c816eb63e07077391e287d42a7a55","system.paths.htm":{"root":"","base":""}}</script>
 	<script src="media/jui/js/jquery.min.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 	<script src="media/jui/js/jquery-noconflict.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 	<script src="media/jui/js/jquery-migrate.min.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 	<script src="plugins/system/bdthemes_shortcodes/js/shortcode-ultimate.js" type="text/javascript"></script>
+	<script src="media/system/js/mootools-core.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
+	<script src="media/system/js/core.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
+	<script src="media/system/js/mootools-more.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
+	<script src="plugins/content/lvspoiler/assets/mootools/spoiler.js" type="text/javascript"></script>
 	<script src="media/system/js/caption.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 	<script src="plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js54e0608ff2e6908768135f656f7610c7.js" type="text/javascript"></script>
 	<script src="media/tooltips/js/script.min.js" type="text/javascript"></script>
@@ -40,14 +68,22 @@ ul#jm_sl_navigation li a {background-color:#33353B;text-align:right;}ul#jm_sl_n
 	<script src="plugins/system/t3/base-bs3/js/menu.js" type="text/javascript"></script>
 	<script src="plugins/system/t3/base-bs3/js/nav-collapse.js" type="text/javascript"></script>
 	<script type="text/javascript">
-jQuery(window).on('load',  function() {
+
+                        var pb_sp_conf = {
+                            revealtype: "click",
+                            mouseoverdelay: 200,
+                            collapseprev: 1,
+                            onemustopen: 0,
+                            animatedefault: 0,
+                            animatespeed: 400
+                        };jQuery(window).on('load',  function() {
 				new JCaption('img.caption');
 			});jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
 	</script>
 	<script type='text/javascript'>
                 /*<![CDATA[*/
                     var jax_live_site = 'index.htm';
-                    var jax_token_var='5792c85b6d1190953a40ff64e5478d55';
+                    var jax_token_var='836c816eb63e07077391e287d42a7a55';
                 /*]]>*/
                 </script><script type="text/javascript" src="plugins/system/jomsocial.system/pc_includes/ajax_1.5.pack.js"></script>
 	<script type="text/javascript" src="plugins/system/lazyloadforjoomla/assets/js/lazyloadforjoomla-jquery.js"></script>
@@ -88,7 +124,20 @@ jQuery(window).on('load',  function() {
 <![endif]-->
 
 <!-- You can add Google Analytics here or use T3 Injection feature -->
+<!-- Yandex.Metrika counter -->
+<!--ipt type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
+   ym(16412803, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</scri-->
+<noscript><div><img src="../httpsmc.yandex.ru/watch/16412803" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
@@ -145,14 +194,6 @@ jQuery(window).on('load',  function() {
 <a itemprop='url' class="" href="index.phpoptioncom_contentviewcategorylayoutblogid8itemid263.htm"   data-target="#">Стихи </a>
 
 </li>
-<li itemprop='name'  data-id="265" data-level="1">
-<a itemprop='url' class="" href="index.phpoptioncom_contentviewcategoryid2itemid265.htm"   data-target="#">Песочница </a>
-
-</li>
-<li itemprop='name'  data-id="233" data-level="1">
-<a itemprop='url' class="" href="index.phpoptioncom_searchviewsearchsearchword_25d0_25~1.htm"   data-target="#">Поиск </a>
-
-</li>
 <li itemprop='name' class="current active" data-id="261" data-level="1">
 <a itemprop='url' class="" href="index.phpoptioncom_contentviewarticleid82itemid261.htm"   data-target="#"><i class="icon-pencil"></i>Написать статью </a>
 
@@ -176,6 +217,19 @@ jQuery(window).on('load',  function() {
 
 		<!-- MAIN CONTENT -->
 		<div id="t3-content" class="t3-content col-xs-12 col-sm-8  col-md-9">
+						<div id="system-message-container">
+			<div id="system-message">
+							<div class="alert alert-error">
+										<a class="close" data-dismiss="alert">×</a>
+
+											<h4 class="alert-heading">Ошибка</h4>
+						<div>
+															<p>Пожалуйста, прежде пройдите авторизацию</p>
+													</div>
+									</div>
+					</div>
+	</div>
+
 						
 
 <div class="item-page clearfix">
@@ -208,20 +262,29 @@ jQuery(window).on('load',  function() {
 	
 	
 	<section class="article-content clearfix" itemprop="articleBody">
-		<p class="h4"><strong><span style="background-color: #ff0000; color: #ffffff;">К сожалению, регистрация закрыта! Работа проекта приостановлена на неопределенный срок!</span><br /><span style="text-decoration: line-through;"><br /></span></strong><span style="text-decoration: line-through;">Получите море бесплатных опций благодаря регистрации или входу через</span> <span class="nn_tooltips-link hover" data-toggle="popover" data-html="true" data-template="&lt;div class=&quot;popover nn_tooltips &quot;&gt;&lt;div class=&quot;arrow&quot;&gt;&lt;/div&gt;&lt;div class=&quot;popover-inner&quot;&gt;&lt;h3 class=&quot;popover-title&quot;&gt;&lt;/h3&gt;&lt;div class=&quot;popover-content&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" data-placement="top" data-content="Для этого нажмите &quot;большую красную кнопку&quot; в главном меню или иконку Facebook ниже" title="Элементарно!"><span style="text-decoration: line-through;">Facebook</span></span>:
+		<h4>К сожалению, регистрация и публикация на Красных Листьях закрыта!</h4>
+
+<h4>Работа проекта приостановлена на неопределенный срок, на данный момент доступна только архивная версия, которую вы просматриваете.</h4>
+<div class="spoiler" id="1_spoiler">
+                        <input type="hidden" class="opened" value="0">
+			<div class="sp-head folded" id="1-sp-head">
+			<div class="sp-head-click" id="1-sp-head-click"><a href="javascript:void(0)">Здесь был рекламный текст</a></div></div>
+			<div class="sp-body" id="1-sp-body"></span>
+<span id="mce_10_start" style="overflow: hidden; line-height: 0px;"></span><span id="_start"><span style="font-size: 12pt;"><span style="font-size: 12pt;">Получите</span> море бесплатных опций благодаря регистрации или входу через <span class="nn_tooltips-link hover" data-toggle="popover" data-html="true" data-template="&lt;div class=&quot;popover nn_tooltips &quot;&gt;&lt;div class=&quot;arrow&quot;&gt;&lt;/div&gt;&lt;div class=&quot;popover-inner&quot;&gt;&lt;h3 class=&quot;popover-title&quot;&gt;&lt;/h3&gt;&lt;div class=&quot;popover-content&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" data-placement="top" data-content="Для этого нажмите &quot;большую красную кнопку&quot; в главном меню или иконку Facebook ниже" title="Элементарно!">Facebook</span>:</span></span>
 </p>
 <ul class="h5">
-<li><span style="text-decoration: line-through;">Неограниченная публикация новых произведений</span>
+<li><span style="font-size: 12pt;">Неограниченная публикация новых произведений</span>
 </li>
-<li><span style="text-decoration: line-through;">Online-общение с другими участниками на сайте</span>
+<li><span style="font-size: 12pt;">Online-общение с другими участниками на сайте</span>
 </li>
-<li><span style="text-decoration: line-through;">Возможность делиться с Листьями своими фотографиями и артами</span>
+<li><span style="font-size: 12pt;">Возможность делиться с Листьями своими фотографиями и артами</span>
 </li>
-<li><span style="text-decoration: line-through;">Оставлять комментарии, получать оповещения о новых</span>
+<li><span style="font-size: 12pt;">Оставлять комментарии, получать оповещения о новых</span>
 </li>
-<li><span style="text-decoration: line-through;">Просматривать скрытые разделы, например</span> <span class="nn_tooltips-link hover" data-toggle="popover" data-html="true" data-template="&lt;div class=&quot;popover nn_tooltips &quot;&gt;&lt;div class=&quot;arrow&quot;&gt;&lt;/div&gt;&lt;div class=&quot;popover-inner&quot;&gt;&lt;h3 class=&quot;popover-title&quot;&gt;&lt;/h3&gt;&lt;div class=&quot;popover-content&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" data-placement="top" data-content="Не все произведения публикуются на главной. Для всего остального есть Sandbox!" title="Песочница (sandbox)"><span style="text-decoration: line-through;">Sandbox</span></span></li>
-</ul>
-<span class="h4"></span><!-- START: Modules Anywhere --><!--  Modules Anywhere Message: The module cannot be placed because it is not published or assigned to this page. --><!-- END: Modules Anywhere --><a href="social/register.htm"><br /></a>
+<li><span style="font-size: 12pt;">Просматривать скрытые разделы, например <span class="nn_tooltips-link hover" data-toggle="popover" data-html="true" data-template="&lt;div class=&quot;popover nn_tooltips &quot;&gt;&lt;div class=&quot;arrow&quot;&gt;&lt;/div&gt;&lt;div class=&quot;popover-inner&quot;&gt;&lt;h3 class=&quot;popover-title&quot;&gt;&lt;/h3&gt;&lt;div class=&quot;popover-content&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" data-placement="top" data-content="Не все произведения публикуются на главной. Для всего остального есть Sandbox!" title="Песочница (sandbox)">Sandbox</span></span></li>
+</ul><span class="h4"><br /></span>
+<div><span class="h4"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;"></div>
+			</div><br /></span>&nbsp;</span><!-- START: Modules Anywhere --><!--  Modules Anywhere Message: The module cannot be placed because it is not published or assigned to this page. --><!-- END: Modules Anywhere --></div>
 	</section>
 
   <!-- footer -->
