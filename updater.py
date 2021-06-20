@@ -3,12 +3,15 @@ updater.py
 
 Script copies ./source to ./site and processes pipeline
 """
+import base64
 import concurrent.futures
+import json
 import logging
 import os
 import webbrowser
 from distutils.dir_util import copy_tree
-from typing import Dict
+from pprint import pprint
+from typing import Dict, List, Tuple, Union
 
 from bs4 import BeautifulSoup, Tag
 from tqdm import tqdm
@@ -16,17 +19,29 @@ from tqdm import tqdm
 logging.basicConfig(level=logging.DEBUG)
 
 
-def main():
-    from_folder, to_folder = "source", "site"
+def main() -> None:
+    """
+    Entrypoint for updater.py
+
+    :return: None
+    """
+    from_folder, to_folder, etc_folder = "source", "site", "external"
     logging.info("Copying 'source' to 'site'..")
     copy_all_files(from_folder, to_folder)
-    logging.info("Applying pipeline to HTML in 'site'..")
-    apply_pipeline(to_folder)
+    logging.info("Applying pipeline to HTML to 'site'..")
+    apply_pipeline(to_folder, etc_folder)
     logging.info("Done! Opening the result..")
     webbrowser.open(f'file://{os.path.abspath(to_folder)}/default.htm')
 
 
 def copy_all_files(from_folder: str, to_folder: str) -> None:
+    """
+    Copies all source files to output folder.
+
+    :param from_folder: path to folder with saved pages from redleaves.ru (e.g. Offline Explorer)
+    :param to_folder: output folder
+    :return: None
+    """
     current_path = os.getcwd()
     if not all(root_folders in os.listdir(current_path) for root_folders in (from_folder, to_folder,)):
         logging.error(f"There is no important folders in current directory: {os.listdir(current_path)}")
@@ -34,32 +49,64 @@ def copy_all_files(from_folder: str, to_folder: str) -> None:
     copy_tree(from_folder, to_folder)
 
 
-def apply_pipeline(root_dir: str):
+def apply_pipeline(root_dir: str, etc_folder: str) -> None:
+    """
+    Process pipe stages for each HTML file in parallel.
+
+    :param root_dir: path to output folder
+    :param etc_folder: path to JSON's folder
+    :return: None
+    """
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+        authors_meta, commentaries = load_metadata(etc_folder)
         futures = []
         html_files = []
         for file in os.listdir(root_dir):
             if any(file.endswith(ext) for ext in ('.html', '.htm')):
                 html_files.append(os.path.abspath(f'{root_dir}/{file}'))
         for file in html_files:
-            futures.append(executor.submit(process_html, file_path=file))
+            futures.append(executor.submit(process_html, file_path=file, commentaries=commentaries))
         pbar = tqdm(total=len(html_files))
         pbar.set_description("Processing html pages")
-        for future in concurrent.futures.as_completed(futures):
+        for _ in concurrent.futures.as_completed(futures):
             pbar.update(1)
-            # print(future.result())
         pbar.close()
 
 
-def process_html(file_path: str):
+def load_metadata(etc_folder: str) -> Tuple[List[Dict[str, str]], List[Dict[str, Union[str, List[str]]]]]:
+    """
+    Loads metadata:
 
+    1. Authors birth approximately (we do not show the exact date of birth)
+    2. HyperComments commentaries extracted with our internal tool:
+      https://github.com/redleaves-ru/hypercomments-export
+
+    :param etc_folder: path to JSON's folder
+    :return: author's metadata and commentaries
+    """
+    with open(os.path.join(etc_folder, 'hypercomments.json'), 'r', encoding='UTF-8') as f:
+        comments = json.load(f)
+    with open(os.path.join(etc_folder, 'authors.json.base64'), 'rb') as f:
+        authors = json.loads(base64.decodebytes(f.read()))
+    return authors, comments
+
+
+def process_html(file_path: str, commentaries: List[Dict[str, str]]) -> None:
+    """
+    Process pipeline for provided HTML file
+
+    :param file_path: current HTML file
+    :param commentaries: loaded commentaries
+    :return: None
+    """
     pipe_stages = [
         change_slogan,
         add_categories_to_homepage,
         fix_images,
-
+        clean_commentaries_section,
+        fix_external_urls,
+        remove_messages
     ]
-
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
     soup = BeautifulSoup(html_content, "html.parser")
@@ -69,11 +116,27 @@ def process_html(file_path: str):
         f.write(str(soup))
 
 
-def change_slogan(soup: BeautifulSoup, file_path: str):
+# Pipes section
+
+
+def change_slogan(soup: BeautifulSoup, *args):
+    """
+    Pipe that adds changes slogan in header
+
+    :param soup: HTML body
+    :return: None
+    """
     replace_string(soup, '.site-slogan', 'Литературный проект, объединяющий молодых авторов. Архивная версия')
 
 
-def add_categories_to_homepage(soup: BeautifulSoup, file_path: str):
+def add_categories_to_homepage(soup: BeautifulSoup, file_path: str) -> None:
+    """
+    Pipe that adds categories links to main page.
+
+    :param soup: HTML body
+    :param file_path: path to current HTML file
+    :return: None
+    """
     if file_path.endswith("default.htm"):
         html_content = """
         <div><h3>Ещё больше произведений в разделе <a href="index.phpoptioncom_contentviewcategorylayoutblogid9itemid264.htm">Проза</a> и 
@@ -82,7 +145,13 @@ def add_categories_to_homepage(soup: BeautifulSoup, file_path: str):
         add_children(soup, '.t3-content', html_content, 'div', {})
 
 
-def fix_images(soup: BeautifulSoup, file_path: str):
+def fix_images(soup: BeautifulSoup, *args) -> None:
+    """
+    Pipe that fixes broken images.
+
+    :param soup: HTML body
+    :return: None
+    """
     images_src = [
         [
             '[data-src="images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg"]',
@@ -97,27 +166,115 @@ def fix_images(soup: BeautifulSoup, file_path: str):
         replace_with_element(soup, selector, f'<img src="{src}" width="496" alt="image for article">')
 
 
-def replace_with_element(soup: BeautifulSoup, css_selector: str, replace_html: str):
+def clean_commentaries_section(soup: BeautifulSoup, *args):
+    """
+    Pipe that removes "add commentary" section
+
+    :param soup: HTML body
+    :return: None
+    """
+    remove_element(soup, '.commentForm')
+    remove_element(soup, '.kmt-addyours')
+
+
+def fix_external_urls(soup: BeautifulSoup, *args):
+    """
+    Pipe that fixes some external urls, e.g. vk.com/redleaves
+
+    :param soup: HTML body
+    :return: None
+    """
+    replace_attributes(soup, 'href', "../vk.com/redleaves", "https://vk.com/redleaves")
+
+
+def remove_messages(soup: BeautifulSoup, *args):
+    """
+    Pipe that removes any Joomla! message from page
+
+    :param soup: HTML body
+    :return: None
+    """
+    remove_element(soup, '#system-message-container')
+
+
+# Helper section
+
+
+def replace_with_element(soup: BeautifulSoup, css_selector: str, replace_html: str) -> None:
+    """
+    Helper that replaces inner HTML of selected element
+
+    :param soup: HTML body
+    :param css_selector: CSS selector for html
+    :param replace_html: new inner HTML
+    :return: None
+    """
     for target in soup.select(css_selector):
         target: Tag
         target.replace_with(BeautifulSoup(replace_html, 'html.parser'))
 
 
-def replace_string(soup: BeautifulSoup, css_selector: str, replace_str: str):
+def replace_string(soup: BeautifulSoup, css_selector: str, replace_str: str) -> None:
+    """
+    Helper that replaces content of selected element
+
+    :param soup: HTML body
+    :param css_selector: CSS selector for html
+    :param replace_str: new text
+    :return: None
+    """
     for target in soup.select(css_selector):
         target: Tag
         target.string = replace_str
 
 
-def add_children(soup: BeautifulSoup, css_selector: str, child_html: str, child_tag: str, child_attrs: Dict[str, str]):
+def add_children(soup: BeautifulSoup, css_selector: str, child_html: str, wrap_tag: str, wrap_attrs: Dict[str, str]) -> None:
+    """
+    Helper that creates and ads children element to selected element
+
+    :param soup: HTML body
+    :param css_selector: CSS selector for html
+    :param child_html: children HTML
+    :param wrap_tag: tag that wraps children HTML
+    :param wrap_attrs: attributes for wrapper
+    :return: None
+    """
     for target in soup.select(css_selector):
-        child_tag = soup.new_tag(child_tag)
+        wrap_tag = soup.new_tag(wrap_tag)
         # child_tag.string = child_text
-        for key, value in child_attrs.items():
-            setattr(child_tag, key, value)
+        for key, value in wrap_attrs.items():
+            setattr(wrap_tag, key, value)
         target: Tag
-        child_tag.append(BeautifulSoup(child_html, 'html.parser'))
-        target.append(child_tag)
+        wrap_tag.append(BeautifulSoup(child_html, 'html.parser'))
+        target.append(wrap_tag)
+
+
+def remove_element(soup: BeautifulSoup, css_selector: str) -> None:
+    """
+    Helper that removes tag from the page
+
+    :param soup: HTML body
+    :param css_selector: CSS selector for html
+    :return: None
+    """
+    for target in soup.select(css_selector):
+        target: Tag
+        target.decompose()
+
+
+def replace_attributes(soup: BeautifulSoup, attribute: str, value: str, new_value: str) -> None:
+    """
+    Helper that replaces attributes on each element found by attribute
+
+    :param new_value:
+    :param value:
+    :param attribute:
+    :param soup: HTML body
+    :return: None
+    """
+    for target in soup.find_all(attrs={attribute: value}):
+        target: Tag
+        target.attrs[attribute] = new_value
 
 
 if __name__ == '__main__':

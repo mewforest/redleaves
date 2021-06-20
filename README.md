@@ -25,14 +25,12 @@ This is the official offline copy of [redleaves.ru](http://redleaves.ru)
 Red Leaves project is not maintained from 2016 year, the most active days was from 2012 to 2014, original site 
 is offline from summer 2021.
 
-
-
 Be note: registration, searching, logging, commenting etc DOES NOT work.
 
-Also, this copy does not include any backend data (hashed passwords, user logs, etc).
-
-Original backup with database and Joomla! files will NEVER be uploaded or selled.
+Also, this copy does not include any sensitive data (hashed passwords, user emails, etc). Backend backup with 
+database and Joomla! files will NEVER be uploaded or sold.
 
 ## Starting your own server
 
 ...
+

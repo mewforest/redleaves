@@ -51,12 +51,12 @@ jQuery(window).on('load',  function() {
 	<script type='text/javascript'>
                 /*<![CDATA[*/
                     var jax_live_site = 'index.htm';
-                    var jax_token_var='5efd2d66c2add0202ec107a40eb8a281';
+                    var jax_token_var='4677a247d757ea19fecf00f9508e8404';
                 /*]]>*/
                 </script><script type="text/javascript" src="plugins/system/jomsocial.system/pc_includes/ajax_1.5.pack.js"></script>
 	<script defer async src="media/foundry/3.1/scripts/foundry.min.js"></script>
 	<script defer async src="media/com_komento/scripts/komento-2.0.8.optimized.min.js"></script>
-	<script>Komento.token = "5efd2d66c2add0202ec107a40eb8a281";</script>
+	<script>Komento.token = "4677a247d757ea19fecf00f9508e8404";</script>
 	<script defer async src="media/com_komento/resources/f669ed7c12f1926d9fdc0033e781201f.js"></script>
 	<script type="text/javascript" src="plugins/system/lazyloadforjoomla/assets/js/lazyloadforjoomla-jquery.js"></script>
 <script type="text/javascript">jQuery(document).ready(function() {jQuery("img").lazyload();});</script>
@@ -166,6 +166,10 @@ jQuery(window).on('load',  function() {
 <a itemprop='url' class="" href="index.phpoptioncom_contentviewcategorylayoutblogid8itemid263.htm"   data-target="#">Стихи </a>
 
 </li>
+<li itemprop='name'  data-id="233" data-level="1">
+<a itemprop='url' class="" href="index.phpoptioncom_searchviewsearchsearchword_25d0_25~1.htm"   data-target="#">Поиск </a>
+
+</li>
 <li itemprop='name'  data-id="261" data-level="1">
 <a itemprop='url' class="" href="index.phpoptioncom_contentviewarticleid82itemid261.htm"   data-target="#"><i class="icon-pencil"></i>Написать статью </a>
 
@@ -225,8 +229,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:1207" />
-					Просмотров: 1207			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:1210" />
+					Просмотров: 1210			</dd>						</dl>
             
             
 
@@ -316,8 +320,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:1102" />
-					Просмотров: 1102			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:1105" />
+					Просмотров: 1105			</dd>						</dl>
             
             
 
@@ -395,8 +399,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:1012" />
-					Просмотров: 1012			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:1015" />
+					Просмотров: 1015			</dd>						</dl>
             
             
 
@@ -478,8 +482,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:948" />
-					Просмотров: 948			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:951" />
+					Просмотров: 951			</dd>						</dl>
             
             
 
@@ -561,8 +565,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:906" />
-					Просмотров: 906			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:909" />
+					Просмотров: 909			</dd>						</dl>
             
             
 
@@ -644,8 +648,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:878" />
-					Просмотров: 878			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:885" />
+					Просмотров: 885			</dd>						</dl>
             
             
 
@@ -723,8 +727,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:870" />
-					Просмотров: 870			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:873" />
+					Просмотров: 873			</dd>						</dl>
             
             
 
@@ -806,8 +810,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:864" />
-					Просмотров: 864			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:867" />
+					Просмотров: 867			</dd>						</dl>
             
             
 
@@ -885,8 +889,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:829" />
-					Просмотров: 829			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:833" />
+					Просмотров: 833			</dd>						</dl>
             
             
 
@@ -967,8 +971,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:757" />
-					Просмотров: 757			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:760" />
+					Просмотров: 760			</dd>						</dl>
             
             
 
@@ -1085,7 +1089,7 @@ jQuery(window).on('load',  function() {
 
 <div class="custom"  >
 	<p><a href="default.htm">Красные Листья</a> - необычный литературный проект, объединяющий молодых авторов. Любой может <a href="profile/social/register">присоединиться</a>&nbsp;к нам!</p>
-<p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="index.phpoptioncom_contentviewarticleid61_3apoliticca~1.htm">правилами сайта</a>. Связь -&nbsp;<a href="mailto:mew.forest@gmail.com?subject=Запрос%20в%20поддержку!%20-%20проект%20Красные%20Листья" target="_blank">mew.forest@gmail.com</a></p></div>
+<p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="index.phpoptioncom_contentviewarticleid61_3apoliticca~1.htm">правилами сайта</a>.&nbsp;</p></div>
 <ul id="jm_sl_navigation">
 	<li class="vk"><a rel="nofollow" href="../vk.com/redleaves" target="_blank">Читай нас ВКонтакте</a></li>		            		    </ul><p style='display:none'>Разработано <a href='../joomlamaster.org.ua/moduli.html' title='Бесплатные модули для CMS Joomla!' target='_blank'>Joomlamaster.org.ua</a> совместно с <a href='../joomstudio.com.ua/default.htm' title='Разработка и продвижение веб сайтов' target='_blank'>Joomstudio.com.ua</a></p>
           <!-- <small>
