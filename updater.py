@@ -106,7 +106,7 @@ def process_html(file_path: str, metadata) -> None:
     pipe_stages = [
         change_slogan,
         add_categories_to_homepage,
-        # fix_images,
+        fix_images,
         clean_commentaries_section,
         # fix_external_urls,
         remove_messages
@@ -149,25 +149,25 @@ def add_categories_to_homepage(soup: BeautifulSoup, file_path: str) -> None:
         add_children(soup, '.t3-content', html_content, 'div', {})
 
 
-# def fix_images(soup: BeautifulSoup, *args) -> None:
-#     """
-#     Pipe that fixes broken images.
-#
-#     :param soup: HTML body
-#     :return: None
-#     """
-#     images_src = [
-#         [
-#             '[data-src="images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg"]',
-#             'images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000~1.jpg'
-#         ],
-#         [
-#             '[data-src="../fc00.deviantart.net/fs20/f/2007/279/5/d/blue_eyes_by_manicfairytale.jpg"]',
-#             'images/d13oplp-65d9d702-0fc1-4285-8266-d402be1ed612.jpgtoken_1.jpg'
-#         ]
-#     ]
-#     for selector, src in images_src:
-#         replace_with_element(soup, selector, f'<img src="{src}" width="496" alt="image for article">')
+def fix_images(soup: BeautifulSoup, *args) -> None:
+    """
+    Pipe that fixes broken images.
+
+    :param soup: HTML body
+    :return: None
+    """
+    images_src = [
+        [
+            '[data-src="images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg"]',
+            'images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000~1.jpg'
+        ],
+        [
+            '[data-src="../fc00.deviantart.net/fs20/f/2007/279/5/d/blue_eyes_by_manicfairytale.jpg"]',
+            'images/d13oplp-65d9d702-0fc1-4285-8266-d402be1ed612.jpgtoken_1.jpg'
+        ]
+    ]
+    for selector, src in images_src:
+        replace_with_element(soup, selector, f'<img src="{src}" width="496" alt="image for article">')
 
 
 def clean_commentaries_section(soup: BeautifulSoup, *args):
