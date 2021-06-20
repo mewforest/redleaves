@@ -319,7 +319,7 @@ joms.map = {
 
         var script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = '../maps.googleapis.com/maps/api/js@libraries=places&sensor=false&callback=joms.map.loadScriptCallback';
+        script.src = '//maps.googleapis.com/maps/api/js?libraries=places&sensor=false&callback=joms.map.loadScriptCallback';
         document.body.appendChild(script);
 
     },
@@ -329,7 +329,7 @@ joms.map = {
         r = false;
         var script = document.createElement("script");
         script.type = "text/javascript";
-        script.src = "../https@unpkg.com/leaflet_401.3.4/dist/leaflet.js";
+        script.src = "https://unpkg.com/leaflet@1.3.4/dist/leaflet.js";
 
         document.body.appendChild(script);
         
@@ -343,7 +343,7 @@ joms.map = {
 
         //script = document.createElement("script");
         //script.type = "text/javascript";
-        //script.src = "../https@unpkg.com/leaflet.markercluster_401.4.1/dist/leaflet.markercluster-src.js";
+        //script.src = "https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js";
 
        //document.body.appendChild(script);
         var script2 = document.createElement("script");
@@ -359,21 +359,21 @@ joms.map = {
                 .attr({
                     type: "text/css",
                     rel: "stylesheet",
-                            href: "../https@unpkg.com/leaflet_401.3.4/dist/leaflet.css"
+                            href: "https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
                 });
          jQuery("<link>")
                 .appendTo("head")
                 .attr({
                     type: "text/css",
                     rel: "stylesheet",
-                            href: "../https@unpkg.com/leaflet.markercluster_401.4.1/dist/MarkerCluster.css"
+                            href: "https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"
                 });
          jQuery("<link>")
                 .appendTo("head")
                 .attr({
                     type: "text/css",
                     rel: "stylesheet",
-                            href: "../https@unpkg.com/leaflet.markercluster_401.4.1/dist/MarkerCluster.Default.css"
+                            href: "https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"
                 }); 
         
 

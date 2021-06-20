@@ -86,7 +86,7 @@
 						}
 
 						// click on caret, no action on link
-						$item.find('a _3E .caret.caret').on('click tap', function(e) {
+						$item.find('a > .caret').on('click tap', function(e) {
 							item.clickable = false;
 						});
 

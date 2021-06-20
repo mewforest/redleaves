@@ -10,6 +10,8 @@ import logging
 import os
 import webbrowser
 from distutils.dir_util import copy_tree
+from glob import iglob
+from itertools import chain
 from pprint import pprint
 from typing import Dict, List, Tuple, Union
 
@@ -31,7 +33,7 @@ def main() -> None:
     logging.info("Applying pipeline to HTML to 'site'..")
     apply_pipeline(to_folder, etc_folder)
     logging.info("Done! Opening the result..")
-    webbrowser.open(f'file://{os.path.abspath(to_folder)}/default.htm')
+    webbrowser.open(f'file://{os.path.abspath(to_folder)}/index.htm')
 
 
 def copy_all_files(from_folder: str, to_folder: str) -> None:
@@ -57,20 +59,22 @@ def apply_pipeline(root_dir: str, etc_folder: str) -> None:
     :param etc_folder: path to JSON's folder
     :return: None
     """
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
-        authors_meta, commentaries = load_metadata(etc_folder)
-        futures = []
-        html_files = []
-        for file in os.listdir(root_dir):
+    metadata = load_metadata(etc_folder)
+    futures = []
+    html_files = []
+    for subdir, dirs, files in os.walk(root_dir):
+        for file in files:
             if any(file.endswith(ext) for ext in ('.html', '.htm')):
-                html_files.append(os.path.abspath(f'{root_dir}/{file}'))
-        for file in html_files:
-            futures.append(executor.submit(process_html, file_path=file, commentaries=commentaries))
+                full_file_path = os.path.join(subdir, file)
+                html_files.append(os.path.abspath(full_file_path))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+        for html_file in html_files:
+            futures.append(executor.submit(process_html, file_path=html_file, metadata=metadata))
         pbar = tqdm(total=len(html_files))
         pbar.set_description("Processing html pages")
         for _ in concurrent.futures.as_completed(futures):
             pbar.update(1)
-        pbar.close()
+    pbar.close()
 
 
 def load_metadata(etc_folder: str) -> Tuple[List[Dict[str, str]], List[Dict[str, Union[str, List[str]]]]]:
@@ -91,20 +95,20 @@ def load_metadata(etc_folder: str) -> Tuple[List[Dict[str, str]], List[Dict[str,
     return authors, comments
 
 
-def process_html(file_path: str, commentaries: List[Dict[str, str]]) -> None:
+def process_html(file_path: str, metadata) -> None:
     """
     Process pipeline for provided HTML file
 
+    :param metadata:
     :param file_path: current HTML file
-    :param commentaries: loaded commentaries
     :return: None
     """
     pipe_stages = [
         change_slogan,
         add_categories_to_homepage,
-        fix_images,
+        # fix_images,
         clean_commentaries_section,
-        fix_external_urls,
+        # fix_external_urls,
         remove_messages
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
@@ -145,25 +149,25 @@ def add_categories_to_homepage(soup: BeautifulSoup, file_path: str) -> None:
         add_children(soup, '.t3-content', html_content, 'div', {})
 
 
-def fix_images(soup: BeautifulSoup, *args) -> None:
-    """
-    Pipe that fixes broken images.
-
-    :param soup: HTML body
-    :return: None
-    """
-    images_src = [
-        [
-            '[data-src="images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg"]',
-            'images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000~1.jpg'
-        ],
-        [
-            '[data-src="../fc00.deviantart.net/fs20/f/2007/279/5/d/blue_eyes_by_manicfairytale.jpg"]',
-            'images/d13oplp-65d9d702-0fc1-4285-8266-d402be1ed612.jpgtoken_1.jpg'
-        ]
-    ]
-    for selector, src in images_src:
-        replace_with_element(soup, selector, f'<img src="{src}" width="496" alt="image for article">')
+# def fix_images(soup: BeautifulSoup, *args) -> None:
+#     """
+#     Pipe that fixes broken images.
+#
+#     :param soup: HTML body
+#     :return: None
+#     """
+#     images_src = [
+#         [
+#             '[data-src="images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg"]',
+#             'images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000~1.jpg'
+#         ],
+#         [
+#             '[data-src="../fc00.deviantart.net/fs20/f/2007/279/5/d/blue_eyes_by_manicfairytale.jpg"]',
+#             'images/d13oplp-65d9d702-0fc1-4285-8266-d402be1ed612.jpgtoken_1.jpg'
+#         ]
+#     ]
+#     for selector, src in images_src:
+#         replace_with_element(soup, selector, f'<img src="{src}" width="496" alt="image for article">')
 
 
 def clean_commentaries_section(soup: BeautifulSoup, *args):
@@ -177,14 +181,14 @@ def clean_commentaries_section(soup: BeautifulSoup, *args):
     remove_element(soup, '.kmt-addyours')
 
 
-def fix_external_urls(soup: BeautifulSoup, *args):
-    """
-    Pipe that fixes some external urls, e.g. vk.com/redleaves
-
-    :param soup: HTML body
-    :return: None
-    """
-    replace_attributes(soup, 'href', "../vk.com/redleaves", "https://vk.com/redleaves")
+# def fix_external_urls(soup: BeautifulSoup, *args):
+#     """
+#     Pipe that fixes some external urls, e.g. vk.com/redleaves
+#
+#     :param soup: HTML body
+#     :return: None
+#     """
+#     replace_attributes(soup, 'href', "../vk.com/redleaves", "https://vk.com/redleaves")
 
 
 def remove_messages(soup: BeautifulSoup, *args):

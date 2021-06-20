@@ -1,0 +1,2472 @@
+Uri: http://redleaves.ru/
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\index.htm
+Content Type: text/html
+
+Uri: http://redleaves.ru/?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\index.htm.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/favicon.ico
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\favicon.ico
+Content Type: image/x-icon
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/local/css/themes/red/bootstrap.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\local\css\themes\red\bootstrap.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/css/shortcode-ultimate.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\css\shortcode-ultimate.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/css/font-awesome.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\css\font-awesome.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/components/com_komento/assets/css/common.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\css\common.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/css/style.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\css\style.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/media/foundry/3.1/styles/dialog/default.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\styles\dialog\default.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/media/foundry/3.1/styles/fancybox/default.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\styles\fancybox\default.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/css/style.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\css\style.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/components/com_komento/assets/css/syntaxhighlighter/zenburn.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\css\syntaxhighlighter\zenburn.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/templates/system/css/system.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\system\css\system.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/local/css/themes/red/legacy-grid.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\local\css\themes\red\legacy-grid.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/fonts/font-awesome/css/font-awesome.min.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\fonts\font-awesome\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/local/css/themes/red/template.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\local\css\themes\red\template.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/local/css/themes/red/megamenu.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\local\css\themes\red\megamenu.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/fonts/font-awesome/css/font-awesome.min.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\fonts\font-awesome\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/style.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\style.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/проза
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/создать
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\создать.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/68-mew-forest-be-aware-of-dracula
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\68-mew-forest-be-aware-of-dracula.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/68-mew-forest-be-aware-of-dracula?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\68-mew-forest-be-aware-of-dracula-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/active
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\active.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/romantic
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/light
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\light.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/lol
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\lol.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/7-the-one
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\7-the-one.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/7-the-one?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\7-the-one-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/dark
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\dark.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/25-do-i-think-her-guilty
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\25-do-i-think-her-guilty.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/25-do-i-think-her-guilty?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\25-do-i-think-her-guilty-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/47-beauty-eyes
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\47-beauty-eyes.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/47-beauty-eyes?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\47-beauty-eyes-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/67-fade
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\67-fade.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/67-fade?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\67-fade-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/relax
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\relax.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/78-продавец-ёлок-истории
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\78-продавец-ёлок-истории.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/78-продавец-ёлок-истории?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\78-продавец-ёлок-истории-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/66-dont-be-a-silent
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\66-dont-be-a-silent.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/66-dont-be-a-silent?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\66-dont-be-a-silent-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/77-up-and-down
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\77-up-and-down.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/77-up-and-down?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\77-up-and-down-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/83-земля-и-луна
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\83-земля-и-луна.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/83-земля-и-луна?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\83-земля-и-луна-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/87-fenibutia
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\87-fenibutia.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/87-fenibutia?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\87-fenibutia-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/register
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\register.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/10-system/61-politic
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\10-system\61-politic.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/r/not-mobile.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\r\not-mobile.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/r/mobile.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\r\mobile.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/media/jui/js/jquery.min.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/jui/js/jquery-noconflict.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\jquery-noconflict.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/jui/js/jquery-migrate.min.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/js/shortcode-ultimate.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\js\shortcode-ultimate.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/foundry/3.1/config/ae1b014a33a8731200677b9d6ba741d4.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\config\ae1b014a33a8731200677b9d6ba741d4.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/com_komento/config/4cb183688509b13c860214e4cf3ce94e.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\4cb183688509b13c860214e4cf3ce94e.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/system/js/caption.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\caption.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\bootstrap\js\bootstrap.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/js/jquery.tap.min.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\js\jquery.tap.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/js/script.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\js\script.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/js/menu.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\js\menu.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/js/nav-collapse.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\js\nav-collapse.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/jomsocial.system/pc_includes/ajax_1.5.pack.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\jomsocial.system\pc_includes\ajax_1.5.pack.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/foundry/3.1/scripts/foundry.min.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\scripts\foundry.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/com_komento/scripts/komento-2.0.8.optimized.min.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\scripts\komento-2.0.8.optimized.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/com_komento/resources/f669ed7c12f1926d9fdc0033e781201f.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\resources\f669ed7c12f1926d9fdc0033e781201f.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/lazyloadforjoomla/assets/js/lazyloadforjoomla-jquery.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\lazyloadforjoomla\assets\js\lazyloadforjoomla-jquery.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/lazyloadforjoomla/assets/images/blank.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\lazyloadforjoomla\assets\images\blank.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/images/dangerous-dracula.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\dangerous-dracula.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/the-one.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\the-one.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/do-i-think-her-guilty.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\do-i-think-her-guilty.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/fade.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\fade.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/story.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\story.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/do-not-be-a-silent.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\do-not-be-a-silent.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/up-and-down.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\up-and-down.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/tony/97465406_plusBh1rgU9NG3H3fC9JhhFVKTDrA7sq4D2oWLA_0187f.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\tony\97465406_plusBh1rgU9NG3H3fC9JhhFVKTDrA7sq4D2oWLA_0187f.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.eot
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\bootstrap\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.eot?
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\bootstrap\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\bootstrap\fonts\glyphicons-halflings-regular.woff2
+Content Type: 
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\bootstrap\fonts\glyphicons-halflings-regular.woff
+Content Type: application/x-font-woff
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.ttf
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\bootstrap\fonts\glyphicons-halflings-regular.ttf
+Content Type: application/x-font-ttf
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.svg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\bootstrap\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/fonts/fontawesome-webfont.eot?v=4.5.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/fonts/fontawesome-webfont.eot?
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/fonts/fontawesome-webfont.woff2?v=4.5.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\fonts\fontawesome-webfont.woff2
+Content Type: 
+
+Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/fonts/fontawesome-webfont.woff?v=4.5.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\fonts\fontawesome-webfont.woff
+Content Type: application/x-font-woff
+
+Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/fonts/fontawesome-webfont.ttf?v=4.5.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\fonts\fontawesome-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/fonts/fontawesome-webfont.svg?v=4.5.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/ui-button.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\ui-button.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/loader.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\loader.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/components/com_komento/assets/vendors/ratings/stars.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\vendors\ratings\stars.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/taptoggle.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\taptoggle.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/videos/youtube.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\videos\youtube.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/videos/vimeo.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\videos\vimeo.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/videos/dailymotion.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\videos\dailymotion.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/videos/google.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\videos\google.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/videos/liveleak.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\videos\liveleak.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/videos/metacafe.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\videos\metacafe.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/videos/nicovideo.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\videos\nicovideo.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/assets/images/videos/yahoo.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\assets\images\videos\yahoo.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/email.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\email.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/unemail.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\unemail.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/rss.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\rss.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/control-sprite.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\control-sprite.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/quote.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\quote.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/time.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\time.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/loader.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\loader.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/stream.reply.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\stream.reply.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/stream.pin.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\stream.pin.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/stream.popular.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\stream.popular.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/location.pin.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\location.pin.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/word.count.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\word.count.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/stars.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\stars.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/mime.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\mime.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/menu.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\menu.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/submenu.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\submenu.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/bold.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\bold.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/italic.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\italic.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/underline.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\underline.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/link.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\link.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/picture.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\picture.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/video.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\video.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/list-bullet.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\list-bullet.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/list-numeric.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\list-numeric.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/list-item.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\list-item.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/quotes.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\quotes.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/code.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\code.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/emoticon-smile.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\emoticon-smile.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/emoticon-happy.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\emoticon-happy.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/emoticon-surprised.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\emoticon-surprised.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/emoticon-tongue.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\emoticon-tongue.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/emoticon-unhappy.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\emoticon-unhappy.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/emoticon-wink.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\emoticon-wink.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/clean.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\clean.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/preview.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\preview.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/markitup/handle.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\markitup\handle.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/verified.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\verified.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/last.login.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\last.login.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/stream.chat.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\stream.chat.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/stream.heart.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\stream.heart.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/ico-register.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\ico-register.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/ico-forgot.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\ico-forgot.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/ico-hits.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\ico-hits.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/ico-readmore.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\ico-readmore.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/ico-comment.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\ico-comment.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/ico-locked-big.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\ico-locked-big.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/kuro/images/icon-error.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\kuro\images\icon-error.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/media/foundry/3.1/styles/dialog/images/333-50.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\styles\dialog\images\333-50.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/media/foundry/3.1/styles/dialog/images/cross-8.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\styles\dialog\images\cross-8.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/media/foundry/3.1/styles/dialog/images/ajax-loader.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\styles\dialog\images\ajax-loader.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/media/foundry/3.1/styles/fancybox/fancybox_sprite.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\styles\fancybox\fancybox_sprite.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/media/foundry/3.1/styles/fancybox/fancybox_loading.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\styles\fancybox\fancybox_loading.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/media/foundry/3.1/styles/fancybox/blank.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\foundry\3.1\styles\fancybox\blank.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/time.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\time.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/stream.reply.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\stream.reply.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/stream.pin.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\stream.pin.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/stream.popular.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\stream.popular.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/email.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\email.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/unemail.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\unemail.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/rss.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\rss.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/loadmore.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\loadmore.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/control-sprite.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\control-sprite.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/share.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\share.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/reply.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\reply.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_komento/themes/freso/images/location.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_komento\themes\freso\images\location.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/media/system/css/system.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\css\system.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/fonts/font-awesome/font/fontawesome-webfont.eot?v=3.2.1
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\fonts\font-awesome\font\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/fonts/font-awesome/font/fontawesome-webfont.eot?
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\fonts\font-awesome\font\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/fonts/font-awesome/font/fontawesome-webfont.woff?v=3.2.1
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\fonts\font-awesome\font\fontawesome-webfont.woff
+Content Type: application/x-font-woff
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/fonts/font-awesome/font/fontawesome-webfont.ttf?v=3.2.1
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\fonts\font-awesome\font\fontawesome-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/fonts/font-awesome/font/fontawesome-webfont.svg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\fonts\font-awesome\font\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/fonts/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\fonts\font-awesome\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/fonts/font-awesome/fonts/fontawesome-webfont.eot?
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\fonts\font-awesome\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\fonts\font-awesome\fonts\fontawesome-webfont.woff2
+Content Type: 
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/fonts/font-awesome/fonts/fontawesome-webfont.woff?v=4.3.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\fonts\font-awesome\fonts\fontawesome-webfont.woff
+Content Type: application/x-font-woff
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/fonts/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\fonts\font-awesome\fonts\fontawesome-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/fonts/font-awesome/fonts/fontawesome-webfont.svg?v=4.3.0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\fonts\font-awesome\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/vkcom.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\vkcom.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/ok.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\ok.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/moymir.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\moymir.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/facebook.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\facebook.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/twitter.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\twitter.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/google.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\google.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/myspace.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\myspace.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/youtube.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\youtube.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/linedin.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\linedin.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/проза?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/проза?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/проза/5-two-lives-one-extra
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\5-two-lives-one-extra.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/6-gold-fall
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\6-gold-fall.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/13-f_ck-this-illusion
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\13-f_ck-this-illusion.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/15-inconsciente
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\15-inconsciente.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза?limit=5&start=5
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза?limit=5&start=10
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-2.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза?limit=5&start=15
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-3.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза?limit=5&start=20
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-4.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза?limit=5&start=25
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-5.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/com_komento/config/95c74511dad91a3c0d1338b4a5c9e348.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\95c74511dad91a3c0d1338b4a5c9e348.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/system/js/mootools-core.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\mootools-core.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/system/js/core.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\core.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/стихи?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/стихи?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/стихи/23-where-so-many-feelings
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\23-where-so-many-feelings.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/24-now-time-for-breathe
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\24-now-time-for-breathe.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/53-night-event
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\53-night-event.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/52-not-everything-is-perfect
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\52-not-everything-is-perfect.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/4-i-do-not-like-spring
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\4-i-do-not-like-spring.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/18-the-end
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\18-the-end.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи?limit=5&start=5
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи?limit=5&start=10
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-2.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи?limit=5&start=15
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-3.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи?limit=5&start=20
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-4.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи?limit=5&start=25
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-5.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи?limit=5&start=30
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-6.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/com_komento/config/8633d182e94d10bfa3a8e063c98a82c2.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\8633d182e94d10bfa3a8e063c98a82c2.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/images/where-so-many-feelings.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\where-so-many-feelings.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/now-time-for-breathe.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\now-time-for-breathe.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/plugins/content/LVSpoiler/assets/mootools/spoiler.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\content\LVSpoiler\assets\mootools\spoiler.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/media/tooltips/css/style.min.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\tooltips\css\style.min.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/media/system/js/mootools-more.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\mootools-more.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/content/LVSpoiler/assets/mootools/spoiler.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\content\LVSpoiler\assets\mootools\spoiler.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/tooltips/js/script.min.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\tooltips\js\script.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/content/authorinfobox/authorinfobox.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\content\authorinfobox\authorinfobox.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/profile/social/737-super-user/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/28-only-you
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\28-only-you.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/33-day-when-springarrives
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\33-day-when-springarrives.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/35-mirage
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\35-mirage.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/3-song-of-wind
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\3-song-of-wind.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/2-music
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\2-music.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/com_komento/config/713a0865a55413fb5df59b476c515bd0.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\713a0865a55413fb5df59b476c515bd0.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/images/avatar/thumb_a5031b5010b6fa8743ce081a.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_a5031b5010b6fa8743ce081a.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/templates/t3_bs3_blank/css/themes/red/windows.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\templates\t3_bs3_blank\css\themes\red\windows.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/component/tags/tag/active?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\active.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/component/tags/tag/active?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\active.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/media/jui/css/chosen.css?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\css\chosen.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/стихи/16-october-lost-my-mind
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\16-october-lost-my-mind.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/22-weather-storms
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\22-weather-storms.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/29-brave-new-world
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\29-brave-new-world.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/30-werewolf
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\30-werewolf.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/32-two-of-the-waves
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\32-two-of-the-waves.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/36-fell
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\36-fell.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/44-choise
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\44-choise.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/45-they-do-not-understand-they-re-different
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\45-they-do-not-understand-they-re-different.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/jui/js/chosen.jquery.min.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\chosen.jquery.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/component/tags/tag/romantic?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/component/tags/tag/romantic?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/стихи/10-two-misantropes
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\10-two-misantropes.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/11-dont-hurt-me-no-more
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\11-dont-hurt-me-no-more.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/12-dont-leave-me
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\12-dont-leave-me.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/14-give-us-a-little-love
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\14-give-us-a-little-love.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/17-ps-i-love-you
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\17-ps-i-love-you.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/19-depressive-cool-poem
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\19-depressive-cool-poem.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/21-my-pretty-friend
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\21-my-pretty-friend.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/26-after-a-while
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\26-after-a-while.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/27-i-will-always-love-you-my-fallen-angel
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\27-i-will-always-love-you-my-fallen-angel.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/romantic?limit=20&start=20
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/light?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\light.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/component/tags/tag/light?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\light.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/проза/20-confession-and-farewell
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\20-confession-and-farewell.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/31-in-moments
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\31-in-moments.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/42-repeat
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\42-repeat.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/46-a-cat
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\46-a-cat.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/light?limit=20&start=20
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\light-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/lol?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\lol.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/component/tags/tag/lol?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\lol.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/стихи/39-idiot
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\39-idiot.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/54-no-rules
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\54-no-rules.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/740-aquamarine/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/8-62461
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\8-62461.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/9-98745
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\9-98745.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/thumb_4b4354ad8542aaefe7282a49.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_4b4354ad8542aaefe7282a49.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/component/tags/tag/dark?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\dark.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/component/tags/tag/dark?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\dark.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/проза/56-back-to-leave-leave-to-return
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\56-back-to-leave-leave-to-return.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/34-blood-on-our-hearts
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\34-blood-on-our-hearts.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/проза/37-dairy_jester
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\37-dairy_jester.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/43-go-to-step
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\43-go-to-step.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/741-fragile-cor/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/thumb_a3b6e0ac91420000fc5619df.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_a3b6e0ac91420000fc5619df.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/745-nero-gatto/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/38-no-name
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\38-no-name.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/com_komento/config/bd0e8770b90203db6013c3cdd4d5244b.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\bd0e8770b90203db6013c3cdd4d5244b.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/images/avatar/thumb_9e437c0269908eae2c32c90e.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_9e437c0269908eae2c32c90e.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/754-theresiamd/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\754-theresiamd\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/thumb_52187474c34fbb93d5c75e0c.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_52187474c34fbb93d5c75e0c.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/thumb_0135b7fc8bc2f47f8b9c1b25.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_0135b7fc8bc2f47f8b9c1b25.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/component/tags/tag/relax?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\relax.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/component/tags/tag/relax?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\relax.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/стихи/40-november
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\40-november.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/стихи/41-of-our-decisions
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\41-of-our-decisions.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/743-izmail/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/739-amai-riro/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\739-amai-riro\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/thumb_efff28c4402179b62193be87.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_efff28c4402179b62193be87.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/746-time-lord-moderator/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\746-time-lord-moderator\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/thumb_a66c56687fdde7ad0f7b121a.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_a66c56687fdde7ad0f7b121a.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/747-toni/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\747-toni\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/thumb_6e350279993a74a589a5a23e.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_6e350279993a74a589a5a23e.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/components/com_community/assets/vendors/magnific-popup/magnific-popup.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\vendors\magnific-popup\magnific-popup.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/components/com_community/assets/release/css/override.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\release\css\override.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/css/old.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\css\old.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/css/style.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\css\style.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/components/com_community/assets/pickadate/themes/classic.combined.css
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\pickadate\themes\classic.combined.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/components/com_community/assets/vendors/toolkit.min.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\vendors\toolkit.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/components/com_community/assets/source/js/utils/observer.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\source\js\utils\observer.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/components/com_community/assets/release/js/loader.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\release\js\loader.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/14-promo/58-newest
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\14-promo\58-newest.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/system/images/notice-info.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\images\notice-info.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/media/system/images/notice-alert.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\images\notice-alert.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/media/system/images/notice-note.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\images\notice-note.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/images/two-lives-one-extra.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\two-lives-one-extra.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/gold-fall.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\gold-fall.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/f_ck-this-illusion.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\f_ck-this-illusion.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/inconsciente.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\inconsciente.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/проза?limit=5&format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-1.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/проза?limit=5&format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-1.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/проза?limit=5&start=0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-6.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/brave-new-world.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\brave-new-world.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/blood-on-our-hearts.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\blood-on-our-hearts.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/only-you-cat.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\only-you-cat.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/98745.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\98745.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/62461.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\62461.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/i-will-always-love-you-my-fallen-angel.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\i-will-always-love-you-my-fallen-angel.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/no-rules.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\no-rules.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/werewolf.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\werewolf.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/two-of-the-waves.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\two-of-the-waves.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/confession-and-farewell.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\confession-and-farewell.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/day-when-springarrives.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\day-when-springarrives.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/dairy_jester.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\dairy_jester.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/fell.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\fell.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/after-a-while.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\after-a-while.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/hank_stemper.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\hank_stemper.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/mirage.jpeg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\mirage.jpeg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/night-event.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\night-event.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/not-everything-is-perfect.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\not-everything-is-perfect.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/738-alifeia/profile
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\738-alifeia\profile.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/i-do-not-like-spring.jpeg.jpeg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\i-do-not-like-spring.jpeg.jpeg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/thumb_1a939093dbd4eb7d989ff44a.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_1a939093dbd4eb7d989ff44a.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/the-end.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\the-end.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/стихи?limit=5&format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-1.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/стихи?limit=5&format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-1.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/стихи?limit=5&start=0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-7.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/repeat.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\repeat.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/стихи/49-pleases
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\49-pleases.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/my-pretty-friend.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\my-pretty-friend.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/november.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\november.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/choise.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\choise.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/in-moments.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\in-moments.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/dont-hurt-me-no-more.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\dont-hurt-me-no-more.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/song-of-wind.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\song-of-wind.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/depressive-cool-poem.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\depressive-cool-poem.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/two-misanthrope.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\two-misanthrope.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/pleases.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\pleases.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/of-our-decisions.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\of-our-decisions.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/стихи/48-peterburg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\48-peterburg.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/old/they-do-not-understand-they're-different.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\they-do-not-understand-they're-different.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/a-cat.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\a-cat.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/october-lost-my-mind.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\october-lost-my-mind.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/give-us-a-little-love.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\give-us-a-little-love.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/dont-leave-me.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\dont-leave-me.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/idiot.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\idiot.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/weather-storms.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\weather-storms.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/peterburg.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\peterburg.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/music.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\music.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/go-to-step.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\go-to-step.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/ps-i-love-you.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\ps-i-love-you.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/old/no-name.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\no-name.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/plugins/content/LVSpoiler/assets/overlay.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\content\LVSpoiler\assets\overlay.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/plugins/content/LVSpoiler/assets/down.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\content\LVSpoiler\assets\down.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/plugins/content/LVSpoiler/assets/up.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\content\LVSpoiler\assets\up.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/plugins/content/LVSpoiler/assets/loading.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\content\LVSpoiler\assets\loading.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/components/com_community/assets/default-cover-male.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\default-cover-male.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/photos/photo?albumid=3
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\photos\photo.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/737-super-user/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/737-super-user/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/737-super-user/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/737-super-user/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/737-super-user/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/737-super-user/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/14-promo/88-beta
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\14-promo\88-beta.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/журнал/стихи/78-продавец-ёлок-истории
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\журнал\стихи\78-продавец-ёлок-истории.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/search/field?FIELD_GENDER=Male&type=select
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\search\field.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/search/field?FIELD_CITY=Москва
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\search\field-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/search/advancesearch?field0=FIELD_COUNTRY&condition0=equal&value0=COM_COMMUNITY_LANG_NAME_RUSSIANFEDERATION&fieldType0=FIELD_COUNTRY&operator=and&key-list=0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\search\advancesearch.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224102
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/components/com_community/assets/badge_1.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\badge_1.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/media/jui/css/chosen-sprite.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\css\chosen-sprite.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/component/tags/tag/romantic?limit=20&format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic-1.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/component/tags/tag/romantic?limit=20&format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic-1.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/component/tags/tag/romantic?limit=20&start=0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic-2.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/tags/tag/light?limit=20&format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\light-1.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/component/tags/tag/light?limit=20&format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\light-1.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/component/tags/tag/light?limit=20&start=0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\light-2.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/components/com_community/assets/default-cover-female.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\default-cover-female.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/740-aquamarine/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/740-aquamarine/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/740-aquamarine/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/740-aquamarine/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/740-aquamarine/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/740-aquamarine/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/search/field?FIELD_GENDER=Female&type=select
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\search\field-2.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624224150
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/741-fragile-cor/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/741-fragile-cor/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/741-fragile-cor/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/741-fragile-cor/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/741-fragile-cor/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/741-fragile-cor/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624224161
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/745-nero-gatto/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/745-nero-gatto/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/745-nero-gatto/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/745-nero-gatto/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/745-nero-gatto/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/745-nero-gatto/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624224162
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/754-theresiamd/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\754-theresiamd\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/754-theresiamd/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\754-theresiamd\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/754-theresiamd/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\754-theresiamd\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/754-theresiamd/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\754-theresiamd\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/754-theresiamd/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\754-theresiamd\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/754-theresiamd/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\754-theresiamd\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624224165
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/component/users/?view=login&Itemid=101
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\users\index.htm
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/users/?view=reset&Itemid=101
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\users\index-1.htm
+Content Type: text/html
+
+Uri: http://redleaves.ru/component/users/?view=remind&Itemid=101
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\users\index-2.htm
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/system/js/keepalive.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\keepalive.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/system/js/punycode.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\punycode.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/system/js/validate.js?18bf3c7ba66490936625ed8dbb4b85ec
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\validate.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/profile/social/743-izmail/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/743-izmail/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/743-izmail/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/743-izmail/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/743-izmail/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/743-izmail/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624224172
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/739-amai-riro/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\739-amai-riro\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/739-amai-riro/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\739-amai-riro\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/739-amai-riro/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\739-amai-riro\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/739-amai-riro/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\739-amai-riro\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/739-amai-riro/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\739-amai-riro\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/739-amai-riro/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\739-amai-riro\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624224174
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/746-time-lord-moderator/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\746-time-lord-moderator\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/746-time-lord-moderator/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\746-time-lord-moderator\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/746-time-lord-moderator/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\746-time-lord-moderator\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/746-time-lord-moderator/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\746-time-lord-moderator\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/746-time-lord-moderator/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\746-time-lord-moderator\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/746-time-lord-moderator/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\746-time-lord-moderator\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624224176
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/747-toni/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\747-toni\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/747-toni/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\747-toni\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/747-toni/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\747-toni\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/747-toni/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\747-toni\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/747-toni/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\747-toni\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/747-toni/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\747-toni\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624224178
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/components/com_community/assets/rsvp.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\rsvp.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/assets/emoticons/jomsoical-emoji.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\emoticons\jomsoical-emoji.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/font/jomsocial.eot
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\font\jomsocial.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/font/jomsocial.eot?
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\font\jomsocial-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/font/jomsocial.woff
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\font\jomsocial.woff
+Content Type: application/x-font-woff
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/font/jomsocial.ttf
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\font\jomsocial.ttf
+Content Type: application/x-font-ttf
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/font/jomsocial.svg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\font\jomsocial.svg
+Content Type: image/svg+xml
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/mini-loader.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\mini-loader.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/sprites-icons.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\sprites-icons.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/bookmarks.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\bookmarks.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/select-arrow.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\select-arrow.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/twitter_button.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\twitter_button.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/linkedin_button.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\linkedin_button.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/facebook_button.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\facebook_button.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/google_button.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\google_button.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/emo.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\emo.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/assets/reactions/reactions.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\reactions\reactions.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/components/com_community/templates/jomsocial/assets/images/bigplay.svg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\templates\jomsocial\assets\images\bigplay.svg
+Content Type: image/svg+xml
+
+Uri: http://redleaves.ru/14-promo/58-newest?tmpl=component&print=1&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\14-promo\58-newest-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/com_komento/config/6c45b1b4a30887efcc59602df1d3de2b.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\6c45b1b4a30887efcc59602df1d3de2b.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/profile/social/738-alifeia/friends
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\738-alifeia\friends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/738-alifeia/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\738-alifeia\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/738-alifeia/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\738-alifeia\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/738-alifeia/polls/mypolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\738-alifeia\polls\mypolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/738-alifeia/followers
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\738-alifeia\followers.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/738-alifeia/followers/following
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\738-alifeia\followers\following.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624224191
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/photos/album?albumid=3
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\photos\album.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/737-super-user/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/737-super-user/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224204
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/photos/page
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\photos\page.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/photos
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\photos.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224206
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/pages
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\pages.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224207
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/polls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\polls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/polls/pagepolls
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\polls\pagepolls.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224208
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224210
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224211
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/14-promo
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\14-promo.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/14-promo/88-beta?tmpl=component&print=1&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\14-promo\88-beta-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/thumb_afc6f7103165b706e1cd0126.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_afc6f7103165b706e1cd0126.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/components/com_community/assets/default-male-avatar-thumb.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\default-male-avatar-thumb.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/register/activation
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\register\activation.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/740-aquamarine/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/740-aquamarine/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624224226
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624224227
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624224228
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624224229
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624224231
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624224232
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/components/com_community/assets/user-Female-thumb.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\user-Female-thumb.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/profile/social/741-fragile-cor/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/741-fragile-cor/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624224235
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624224236
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624224238
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624224239
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624224240
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624224242
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/745-nero-gatto/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/745-nero-gatto/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624224243
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624224245
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624224246
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624224247
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624224249
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624224250
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/754-theresiamd/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\754-theresiamd\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/754-theresiamd/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\754-theresiamd\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624224251
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624224253
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624224254
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624224256
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624224258
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624224260
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/743-izmail/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/743-izmail/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624224266
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624224268
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624224269
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624224271
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624224272
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624224273
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/739-amai-riro/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\739-amai-riro\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/739-amai-riro/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\739-amai-riro\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624224277
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624224278
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624224280
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624224281
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624224283
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624224284
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/746-time-lord-moderator/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\746-time-lord-moderator\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/746-time-lord-moderator/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\746-time-lord-moderator\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624224286
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624224288
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624224289
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624224291
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624224292
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624224293
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/747-toni/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\747-toni\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/747-toni/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\747-toni\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624224296
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624224297
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624224298
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624224300
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624224301
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624224303
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/738-alifeia/friends/online
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\738-alifeia\friends\online.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/738-alifeia/friends/mutualfriends?filter=mutual
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\738-alifeia\friends\mutualfriends.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624224315
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624224317
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624224318
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624224320
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624224321
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624224323
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/thumb_8b86d33267d2787de13eec4dcc9e941a.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_8b86d33267d2787de13eec4dcc9e941a.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/8b86d33267d2787de13eec4dcc9e941a.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\8b86d33267d2787de13eec4dcc9e941a.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224325
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/search/browse
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\search\browse.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/components/com_community/assets/default-general-avatar-thumb.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\default-general-avatar-thumb.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/thumb_fb4813ac52dd9c0f1ac690e6.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_fb4813ac52dd9c0f1ac690e6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/thumb_1767085619d484232c60626d.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\thumb_1767085619d484232c60626d.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/images/cover/profile/771/thumb_17b6e2c81dbc92e4f0fc2bdaf7bfe348.jpg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\cover\profile\771\thumb_17b6e2c81dbc92e4f0fc2bdaf7bfe348.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/components/com_community/assets/ajax-loader.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\ajax-loader.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/images/avatar/1767085619d484232c60626d_stream_.gif
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1767085619d484232c60626d_stream_.gif
+Content Type: image/gif
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224330
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224332
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-9.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/components/com_community/assets/photo_thumb.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\components\com_community\assets\photo_thumb.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/14-promo?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\14-promo.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/14-promo?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\14-promo.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/media/com_komento/config/4e8fa65209f6ad38e40283fef1ac57c6.js
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\4e8fa65209f6ad38e40283fef1ac57c6.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624224347
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624224348
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624224354
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624224355
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624224358
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624224359
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624224362
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624224364
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624224366
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624224368
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624224371
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624224372
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624224376
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624224378
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624224381
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624224383
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624224386
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624224388
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/737-super-user/photos/album?albumid=3
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\photos\album.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624224392
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-10.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/profile/social/search/browse?limit=12&start=12
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\search\browse-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/profile/social/search/browse?limit=12&start=0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\search\browse-2.html
+Content Type: text/html
+

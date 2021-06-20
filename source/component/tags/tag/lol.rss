@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/bdthemes_shortcodes/css/shortcode-ultimate.css" type="text/css"?>
+<?xml-stylesheet href="/plugins/system/bdthemes_shortcodes/css/font-awesome.css" type="text/css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Красные Листья - Красные Листья</title>
+		<description><![CDATA[Красные Листья - необычный литературный проект, который объединяет молодых авторов.]]></description>
+		<link>http://redleaves.ru/component/tags/tag/7</link>
+		<lastBuildDate>Sun, 20 Jun 2021 22:22:25 +0100</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://redleaves.ru/component/tags/tag/lol?format=feed&amp;type=rss"/>
+		<language>ru-ru</language>
+		<item>
+			<title>Hank Stemper: Only You</title>
+			<link>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/28-only-you</link>
+			<guid isPermaLink="true">http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/28-only-you</guid>
+			<description><![CDATA[<p><strong>Хэнк Стэмпер: Only You</strong></p>
+<p><img style="vertical-align: top;" src="http://redleaves.ru/plugins/system/lazyloadforjoomla/assets/images/blank.gif" data-src="http://redleaves.ru/images/only-you-cat.jpg" alt="only-you-cat" width="413" height="310" /><noscript><img style="vertical-align: top;" src="http://redleaves.ru/images/only-you-cat.jpg" alt="only-you-cat" width="413" height="310" /></noscript></p>
+<p><strong>Жанр: Проза, Записи</strong></p>
+<p><strong>О произведении: Новое произведение Хэнка Стмепера. </strong><strong>Оно не большое, но классное)</strong></p>
+]]></description>
+			<category>Hank Stemper: Only You</category>
+			<pubDate>Thu, 13 Dec 2012 14:48:01 +0000</pubDate>
+		</item>
+		<item>
+			<title>Mew Forest: Берегитесь, Дракула!</title>
+			<link>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/68-mew-forest-be-aware-of-dracula</link>
+			<guid isPermaLink="true">http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/68-mew-forest-be-aware-of-dracula</guid>
+			<description><![CDATA[<p><strong>Mew Forest: Берегитесь, Дракула!</strong></p>
+<p><img src="http://redleaves.ru/plugins/system/lazyloadforjoomla/assets/images/blank.gif" data-src="http://redleaves.ru/images/dangerous-dracula.jpg" alt="dangerous-dracula" width="550" height="310" /><noscript><img src="http://redleaves.ru/images/dangerous-dracula.jpg" alt="dangerous-dracula" width="550" height="310" /></noscript></p>
+<p><strong>Жанр: Другое, комедия, фэнтези, лирика</strong></p>
+<p><strong>О произведении:</strong>&nbsp;Невозможно написать то, что никогда не было до этого не написано. Куда не посмотри, любой сюжет уже кем-то запечатлён на бумаге или в кинематографе. Можно сказать, безвыходная ситуация. Но... Я, как автор постоянных литературных провокаций (по крайней мере, хотелось бы считать себя таковым) и в этот раз решил сделать вызов, стараясь написать нечто новое и неожиданное, вложив в рассказ не только необычное сочетание жанров, стилей и сюжета, но и часть своей жизни..)</p>
+]]></description>
+			<category>Mew Forest: Берегитесь, Дракула!</category>
+			<pubDate>Sat, 15 Feb 2014 09:06:38 +0000</pubDate>
+		</item>
+		<item>
+			<title>Mr.Jester: Идиот</title>
+			<link>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/39-idiot</link>
+			<guid isPermaLink="true">http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/39-idiot</guid>
+			<description><![CDATA[<p><strong>Mr.Jester: Идиот</strong></p>
+<p><strong><img style="vertical-align: top; border: 0;" src="http://redleaves.ru/plugins/system/lazyloadforjoomla/assets/images/blank.gif" data-src="http://redleaves.ru/images/old/idiot.jpg" alt="" width="400" height="273" /><noscript><img style="vertical-align: top; border: 0;" src="http://redleaves.ru/images/old/idiot.jpg" alt="" width="400" height="273" /></noscript></strong></p>
+<p><strong>Жанр: комедия (стихи)</strong></p>
+<p><strong>О произведении: </strong><strong>Новое комедийное произведение от mr.Jester-а</strong></p>
+]]></description>
+			<category>Mr.Jester: Идиот</category>
+			<pubDate>Tue, 29 May 2012 08:40:31 +0100</pubDate>
+		</item>
+		<item>
+			<title>Tony Stark: Без правил, Part I</title>
+			<link>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/54-no-rules</link>
+			<guid isPermaLink="true">http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/54-no-rules</guid>
+			<description><![CDATA[<p><strong>Тони Старк: Без правил, Part I</strong></p>
+<p><strong><img style="vertical-align: top;" src="http://redleaves.ru/plugins/system/lazyloadforjoomla/assets/images/blank.gif" data-src="http://redleaves.ru/images/no-rules.jpg" alt="no-rules" width="551" height="310" /><noscript><img style="vertical-align: top;" src="http://redleaves.ru/images/no-rules.jpg" alt="no-rules" width="551" height="310" /></noscript></strong></p>
+<p><strong>Жанр: детектив, триллер, трэш, хоррор <span style="font-family: arial, helvetica, sans-serif;">(</span></strong><span class="nn_tooltips-link hover" data-toggle="popover" data-html="true" data-template="&lt;div class=&quot;popover nn_tooltips &quot;&gt;&lt;div class=&quot;arrow&quot;&gt;&lt;/div&gt;&lt;div class=&quot;popover-inner&quot;&gt;&lt;h3 class=&quot;popover-title&quot;&gt;&lt;/h3&gt;&lt;div class=&quot;popover-content&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" data-placement="top" data-content="&lt;span style=&quot;font-family: arial, helvetica, sans-serif;&quot;&gt;В данном произведении присутствуют сцены жестокости.&lt;/span&gt;" title="&lt;span style=&quot;font-family: arial, helvetica, sans-serif;&quot;&gt;Причина ограничения&lt;/span&gt;">16+</span><span style="font-family: arial, helvetica, sans-serif;"><strong>)</strong></span></p>
+<p><strong>О произведении: </strong>Тони Старк, любитель трэша и хоррора, публикует первую часть рассказа Без правил который по сути является сиквелом к серии фильмов "Пила".</p>
+]]></description>
+			<category>Tony Stark: Без правил, Part I</category>
+			<pubDate>Sat, 08 Sep 2012 11:01:37 +0100</pubDate>
+		</item>
+	</channel>
+</rss>

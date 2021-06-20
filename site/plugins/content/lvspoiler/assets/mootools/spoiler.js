@@ -1,7 +1,7 @@
 /* Spoiler by http://irridium.spb.ru/articles/show/116 */
 
 myLoader = new Image();
-myLoader.src = "plugins/content/LVSpoiler/LVSpoiler/loading.gif";// кэшируем картинку с лоадером
+myLoader.src = "/plugins/content/LVSpoiler/LVSpoiler/loading.gif";// кэшируем картинку с лоадером
 //console.log(myLoader.src);
 window.addEvent('domready', function() {
 
