@@ -10,9 +10,6 @@ import logging
 import os
 import webbrowser
 from distutils.dir_util import copy_tree
-from glob import iglob
-from itertools import chain
-from pprint import pprint
 from typing import Dict, List, Tuple, Union
 
 from bs4 import BeautifulSoup, Tag
@@ -32,8 +29,22 @@ def main() -> None:
     copy_all_files(from_folder, to_folder)
     logging.info("Applying pipeline to HTML to 'site'..")
     apply_pipeline(to_folder, etc_folder)
+    fix_styles(to_folder)
     logging.info("Done! Opening the result..")
-    webbrowser.open(f'file://{os.path.abspath(to_folder)}/index.htm')
+    final_url = f'file://{os.path.abspath(to_folder)}/index.htm'
+    webbrowser.open(final_url)
+
+
+def fix_styles(output_folder: str):
+    path_to_jomsocial_styles = f'{output_folder}/components/com_community/templates/jomsocial/assets/css/style.css'
+    with open(path_to_jomsocial_styles, 'r', encoding='UTF-8') as f:
+        css_content = f.read()
+    css_content = css_content.replace(
+        '.joms-focus__cover:before, .joms-hcard__cover:before {content:"";display:block;height:0;padding-top:37.5%; }',
+        '.joms-focus__cover:before, .joms-hcard__cover:before {content:"";display:block;height:0;padding-top:0; }'
+    )
+    with open(path_to_jomsocial_styles, 'w', encoding='UTF-8') as f:
+        f.write(css_content)
 
 
 def copy_all_files(from_folder: str, to_folder: str) -> None:
@@ -109,7 +120,8 @@ def process_html(file_path: str, metadata) -> None:
         fix_images,
         clean_commentaries_section,
         # fix_external_urls,
-        remove_messages
+        remove_messages,
+        article_urls
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -177,16 +189,6 @@ def clean_commentaries_section(soup: BeautifulSoup, *args):
     remove_element(soup, '.kmt-addyours')
 
 
-# def fix_external_urls(soup: BeautifulSoup, *args):
-#     """
-#     Pipe that fixes some external urls, e.g. vk.com/redleaves
-#
-#     :param soup: HTML body
-#     :return: None
-#     """
-#     replace_attributes(soup, 'href', "../vk.com/redleaves", "https://vk.com/redleaves")
-
-
 def remove_messages(soup: BeautifulSoup, *args):
     """
     Pipe that removes any Joomla! message from page
@@ -195,6 +197,22 @@ def remove_messages(soup: BeautifulSoup, *args):
     :return: None
     """
     remove_element(soup, '#system-message-container')
+
+
+def article_urls(soup: BeautifulSoup, *args):
+    """
+    Pipe that makes images clickable
+
+    :param soup: HTML body
+    :return: None
+    """
+    for article in soup.select('article'):
+        article: Tag
+        read_more = article.select_one('.readmore a')
+        if read_more is not None:
+            img = article.select_one('img')
+            clickable_img_raw = f'<a href="{read_more.attrs["href"]}">{img}</a>'
+            replace_with_element(soup, f"[src=\"{img.attrs['src']}\"]", clickable_img_raw)
 
 
 # Helper section
@@ -228,7 +246,8 @@ def replace_string(soup: BeautifulSoup, css_selector: str, replace_str: str) -> 
         target.string = replace_str
 
 
-def add_children(soup: BeautifulSoup, css_selector: str, child_html: str, wrap_tag: str, wrap_attrs: Dict[str, str]) -> None:
+def add_children(soup: BeautifulSoup, css_selector: str, child_html: str, wrap_tag: str,
+                 wrap_attrs: Dict[str, str]) -> None:
     """
     Helper that creates and ads children element to selected element
 
@@ -275,6 +294,19 @@ def replace_attributes(soup: BeautifulSoup, attribute: str, value: str, new_valu
     for target in soup.find_all(attrs={attribute: value}):
         target: Tag
         target.attrs[attribute] = new_value
+
+
+def insert_style(soup: BeautifulSoup, css_style: str) -> None:
+    """
+    Helper that adds CSS style to the page
+
+    :param soup: HTML body
+    :param css_style: CSS style
+    :return: None
+    """
+    style_tag = soup.new_tag('style')
+    style_tag.attrs['type'] = "text/javascript"
+    soup.select_one('head').append(style_tag)
 
 
 if __name__ == '__main__':
