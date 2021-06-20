@@ -158,13 +158,9 @@ def fix_images(soup: BeautifulSoup, *args) -> None:
     """
     images_src = [
         [
-            '[data-src="images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg"]',
-            'images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000~1.jpg'
+            '[alt="97465406_plusBh1rgU9NG3H3fC9JhhFVKTDrA7sq4D2oWLA_0187f.jpg"]',
+            'https://raw.githubusercontent.com/redleaves-ru/redleaves-ru.github.io/main/site/images/tony/97465406_plusbh1rgu9ng3h3fc9jhhfvktdra7sq4d2owla_0187f.jpg'
         ],
-        [
-            '[data-src="../fc00.deviantart.net/fs20/f/2007/279/5/d/blue_eyes_by_manicfairytale.jpg"]',
-            'images/d13oplp-65d9d702-0fc1-4285-8266-d402be1ed612.jpgtoken_1.jpg'
-        ]
     ]
     for selector, src in images_src:
         replace_with_element(soup, selector, f'<img src="{src}" width="496" alt="image for article">')
