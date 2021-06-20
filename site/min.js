@@ -51,12 +51,12 @@ jQuery(window).on('load',  function() {
 	<script type='text/javascript'>
                 /*<![CDATA[*/
                     var jax_live_site = 'index.htm';
-                    var jax_token_var='fc8a4c481bd5f12506f05f68305a5742';
+                    var jax_token_var='5efd2d66c2add0202ec107a40eb8a281';
                 /*]]>*/
                 </script><script type="text/javascript" src="plugins/system/jomsocial.system/pc_includes/ajax_1.5.pack.js"></script>
 	<script defer async src="media/foundry/3.1/scripts/foundry.min.js"></script>
 	<script defer async src="media/com_komento/scripts/komento-2.0.8.optimized.min.js"></script>
-	<script>Komento.token = "fc8a4c481bd5f12506f05f68305a5742";</script>
+	<script>Komento.token = "5efd2d66c2add0202ec107a40eb8a281";</script>
 	<script defer async src="media/com_komento/resources/f669ed7c12f1926d9fdc0033e781201f.js"></script>
 	<script type="text/javascript" src="plugins/system/lazyloadforjoomla/assets/js/lazyloadforjoomla-jquery.js"></script>
 <script type="text/javascript">jQuery(document).ready(function() {jQuery("img").lazyload();});</script>
@@ -225,8 +225,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:1193" />
-					Просмотров: 1193			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:1207" />
+					Просмотров: 1207			</dd>						</dl>
             
             
 
@@ -316,8 +316,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:1090" />
-					Просмотров: 1090			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:1102" />
+					Просмотров: 1102			</dd>						</dl>
             
             
 
@@ -395,8 +395,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:1000" />
-					Просмотров: 1000			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:1012" />
+					Просмотров: 1012			</dd>						</dl>
             
             
 
@@ -478,8 +478,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:936" />
-					Просмотров: 936			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:948" />
+					Просмотров: 948			</dd>						</dl>
             
             
 
@@ -561,8 +561,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:894" />
-					Просмотров: 894			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:906" />
+					Просмотров: 906			</dd>						</dl>
             
             
 
@@ -644,8 +644,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:866" />
-					Просмотров: 866			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:878" />
+					Просмотров: 878			</dd>						</dl>
             
             
 
@@ -723,8 +723,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:858" />
-					Просмотров: 858			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:870" />
+					Просмотров: 870			</dd>						</dl>
             
             
 
@@ -806,8 +806,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:852" />
-					Просмотров: 852			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:864" />
+					Просмотров: 864			</dd>						</dl>
             
             
 
@@ -885,8 +885,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:817" />
-					Просмотров: 817			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:829" />
+					Просмотров: 829			</dd>						</dl>
             
             
 
@@ -967,8 +967,8 @@ jQuery(window).on('load',  function() {
 			
 										<dd class="hits">
 					<i class="fa fa-eye"></i>
-					<meta itemprop="interactionCount" content="UserPageVisits:745" />
-					Просмотров: 745			</dd>						</dl>
+					<meta itemprop="interactionCount" content="UserPageVisits:757" />
+					Просмотров: 757			</dd>						</dl>
             
             
 
