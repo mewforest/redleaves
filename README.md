@@ -17,8 +17,10 @@ This is the official offline copy of [redleaves.ru](http://redleaves.ru)
 
 ## Improvements
 
-- fixed: broken images
-- ...
+- fixed broken images
+- many UI fixes
+- added all old comments from HyperComments 🤯
+- no any ads or bullshit spam in comments
 
 ## History
 
