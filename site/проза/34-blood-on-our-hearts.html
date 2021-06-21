@@ -104,7 +104,110 @@ jQuery(window).on('load',  function() {
 </script>
 <noscript><div><img alt="" src="https://mc.yandex.ru/watch/16412803" style="position:absolute; left:-9999px;"/></div></noscript>
 <!-- /Yandex.Metrika counter -->
-</head>
+<style type="text/css">
+
+.hc-comment {
+  display: flex;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.hc-content {
+  font-size: 12p3;
+  padding: 0 1rem;
+}
+
+.hc-header {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #909090;
+}
+
+.hc-author {
+  margin: 0;
+  font-size: 0.9125rem;
+  font-weight: 700;
+  float: left;
+  color: #222;
+  cursor: pointer;
+}
+
+.hc-subheader {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hc-date {
+  margin: 0;
+  margin-left: 1rem;
+  color: #909090;
+  font-size: 0.6875rem;
+  margin-left: 0.3125rem;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.hc-quote {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  font-style: italic;
+  color: #909090;
+  margin-bottom: 0.625rem;
+  background-color: #fff;
+  padding: 0.625rem;
+  border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #222;
+  margin-bottom: 0.625rem;
+  word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+</style></head>
 <body>
 <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
 <!-- HEADER -->
@@ -404,9 +507,20 @@ Komento.require().script('komento.commenttools').done(function($) {
 </div>
 <div class="commentList kmt-list-wrap commentList-34">
 <ul class="kmt-list reset-child">
-<li class="kmt-empty-comment">
-			Комментарии не найдены		</li>
-</ul>
+
+<li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Mew Forest: Кровь На Наших Сердцах - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Diana Khikmyatulina</h3>
+<div class="hc-date">2013-03-31 00:23:39</div>
+</div>
+<p class="hc-text">Мне понравилось, НО несмотря на это у меня осталось ощущение какой то недосказанности. Например: я бы больше уделила внимания причине по которой скинулась девушка ( так как, ты хотел отразить острые проблемы подросткового периода). Вообще, "тема с крышами" для меня особо актуальна и связана с неприятными воспоминаниями. Еще бы я уделила внимание отношениям Дмитрия и девушки. Здесь хорошо показана его готовность пойти на все ради нее, но не помешало бы и посмотреть на ее чувства по отношению к нему:) <br/>Я конечно все тут раскритиковала, но история мне понравилась. Могу тебя даже поздравить с тем, что с каждым новым произведением ты удивляешь меня как коллега коллегу;) Новая идея, отдельная философия, тонкий психологизм... При этом, в каждом твоем рассказе чувствуется именно твоя особая фишка и атмосфера. Браво! Жду дальнейших произведений!</p>
+</div>
+</div>
+</li></ul>
 </div>
 </div>
 <div class="stickList kmt-fame-list-wrap hidden kmt-tabs">

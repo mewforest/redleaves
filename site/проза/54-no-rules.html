@@ -109,7 +109,110 @@ jQuery(window).on('load',  function() {
 </script>
 <noscript><div><img alt="" src="https://mc.yandex.ru/watch/16412803" style="position:absolute; left:-9999px;"/></div></noscript>
 <!-- /Yandex.Metrika counter -->
-</head>
+<style type="text/css">
+
+.hc-comment {
+  display: flex;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.hc-content {
+  font-size: 12p3;
+  padding: 0 1rem;
+}
+
+.hc-header {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #909090;
+}
+
+.hc-author {
+  margin: 0;
+  font-size: 0.9125rem;
+  font-weight: 700;
+  float: left;
+  color: #222;
+  cursor: pointer;
+}
+
+.hc-subheader {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hc-date {
+  margin: 0;
+  margin-left: 1rem;
+  color: #909090;
+  font-size: 0.6875rem;
+  margin-left: 0.3125rem;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.hc-quote {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  font-style: italic;
+  color: #909090;
+  margin-bottom: 0.625rem;
+  background-color: #fff;
+  padding: 0.625rem;
+  border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #222;
+  margin-bottom: 0.625rem;
+  word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+</style></head>
 <body>
 <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
 <!-- HEADER -->
@@ -297,9 +400,20 @@ Komento.require().script('komento.commenttools').done(function($) {
 </div>
 <div class="commentList kmt-list-wrap commentList-54">
 <ul class="kmt-list reset-child">
-<li class="kmt-empty-comment">
-			Комментарии не найдены		</li>
-</ul>
+
+<li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Тони Старк: Без правил, Part I - КРАСНЫЕ ЛИСТЬЯ - ART JOURNAL™</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Дарья Зиновьева</h3>
+<div class="hc-date">2012-09-08 20:50:53</div>
+</div>
+<p class="hc-text">Блииин, мне 16 нет.. Ну все, не могу читать!</p>
+</div>
+</div>
+</li></ul>
 </div>
 </div>
 <div class="stickList kmt-fame-list-wrap hidden kmt-tabs">

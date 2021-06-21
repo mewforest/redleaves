@@ -8,6 +8,7 @@ import concurrent.futures
 import json
 import logging
 import os
+import re
 import webbrowser
 from distutils.dir_util import copy_tree
 from typing import Dict, List, Tuple, Union
@@ -106,7 +107,7 @@ def load_metadata(etc_folder: str) -> Tuple[List[Dict[str, str]], List[Dict[str,
     return authors, comments
 
 
-def process_html(file_path: str, metadata) -> None:
+def process_html(file_path: str, metadata: Tuple[List[Dict[str, str]], List[Dict[str, Union[str, List[str]]]]]) -> None:
     """
     Process pipeline for provided HTML file
 
@@ -121,7 +122,8 @@ def process_html(file_path: str, metadata) -> None:
         clean_commentaries_section,
         # fix_external_urls,
         remove_messages,
-        article_urls
+        make_images_clickable,
+        lambda sp, fp: add_hypercomments(sp, fp, comments=metadata[1])
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -199,7 +201,7 @@ def remove_messages(soup: BeautifulSoup, *args):
     remove_element(soup, '#system-message-container')
 
 
-def article_urls(soup: BeautifulSoup, *args):
+def make_images_clickable(soup: BeautifulSoup, *args):
     """
     Pipe that makes images clickable
 
@@ -213,6 +215,150 @@ def article_urls(soup: BeautifulSoup, *args):
             img = article.select_one('img')
             clickable_img_raw = f'<a href="{read_more.attrs["href"]}">{img}</a>'
             replace_with_element(soup, f"[src=\"{img.attrs['src']}\"]", clickable_img_raw)
+
+
+def add_hypercomments(soup: BeautifulSoup, file_name, comments):
+    """
+    Pipe that makes ...
+
+    :param comments:
+    :param file_name:
+    :param soup: HTML body
+    :return: None
+    """
+
+    def generate_comment_html(c: Dict[str, str]) -> str:
+        return f"""
+<div class="hc-comment">
+  <img src="{c['avatar']}" class="hc-avatar">
+  <div class="hc-content">
+    <div class="hc-header">{c['title']}</div>
+    <div class="hc-subheader">
+      <h3 class="hc-author">{c['name']}</h3>
+      <div class="hc-date">{c['date'].replace("T", " ")}</div>
+    </div>
+    <p class="hc-quote">{c['parent_text'] or '%REMOVE-EMPTY%'}</p>
+    <p class="hc-text">{c['text']}</p>
+  </div>
+</div>
+        """.replace('<p class="hc-quote">%REMOVE-EMPTY%</p>', '')
+
+    comments_block = soup.select_one('.kmt-list')
+    has_hc_comments = False
+    if comments_block is not None:
+        for comment in comments:
+            comment_uri = re.match(r'https?://redleaves\.ru/.*/\d+([^#?]+)[^#]*#hcm=\d+', comment['url'])
+            # print(comment_uri.group(1), '->', file_name, comment_uri.group(1) in file_name)
+            if comment_uri is not None and comment_uri.group(1) in file_name:
+                has_hc_comments = True
+                # logging.info(f'Added HyperComment\'s commentary: {comment.text}')
+                add_children(soup, '.kmt-list', generate_comment_html(comment), 'li', {})
+    if has_hc_comments:
+        remove_element(soup, ".kmt-empty-comment")
+        insert_style(soup, """
+
+.hc-comment {
+  display: flex;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.hc-content {
+  font-size: 12p3;
+  padding: 0 1rem;
+}
+
+.hc-header {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #909090;
+}
+
+.hc-author {
+  margin: 0;
+  font-size: 0.9125rem;
+  font-weight: 700;
+  float: left;
+  color: #222;
+  cursor: pointer;
+}
+
+.hc-subheader {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hc-date {
+  margin: 0;
+  margin-left: 1rem;
+  color: #909090;
+  font-size: 0.6875rem;
+  margin-left: 0.3125rem;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.hc-quote {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  font-style: italic;
+  color: #909090;
+  margin-bottom: 0.625rem;
+  background-color: #fff;
+  padding: 0.625rem;
+  border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #222;
+  margin-bottom: 0.625rem;
+  word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+""")
 
 
 # Helper section
@@ -304,8 +450,7 @@ def insert_style(soup: BeautifulSoup, css_style: str) -> None:
     :param css_style: CSS style
     :return: None
     """
-    style_tag = soup.new_tag('style')
-    style_tag.attrs['type'] = "text/javascript"
+    style_tag = BeautifulSoup(f'<style type="text/css">{css_style}</style>', features='html.parser')
     soup.select_one('head').append(style_tag)
 
 
