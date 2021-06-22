@@ -362,6 +362,8 @@ def add_authors_age(soup: BeautifulSoup, file_path: str, authors_list: Typings.A
 def spoiler_fix(soup: BeautifulSoup, *args) -> None:
     replace_attributes(soup, 'href', '../plugins/content/LVSpoiler/assets/mootools/spoiler.css',
                        '../plugins/content/lvspoiler/assets/mootools/spoiler.css')
+    replace_attributes(soup, 'src', '../plugins/content/LVSpoiler/assets/mootools/spoiler.js',
+                       '../plugins/content/lvspoiler/assets/mootools/spoiler.js')
 
 # Helper section
 
