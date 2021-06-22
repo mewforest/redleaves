@@ -12,7 +12,6 @@ import re
 import webbrowser
 from datetime import datetime
 from distutils.dir_util import copy_tree
-from pprint import pprint
 from typing import Dict, List, Union
 
 from bs4 import BeautifulSoup, Tag
@@ -151,8 +150,9 @@ def process_html(file_path: str, metadata: Metadata) -> None:
         # fix_external_urls,
         remove_messages,
         make_images_clickable,
+        lambda sp, fp: add_hypercomments(sp, fp, metadata.comments, metadata.comments_css),
         improve_footer,
-        lambda sp, fp: add_hypercomments(sp, fp, metadata.comments, metadata.comments_css)
+        upgrade_museshots,
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -187,7 +187,7 @@ def add_categories_to_homepage(soup: BeautifulSoup, file_path: str) -> None:
     if file_path.endswith("index.htm"):
         html_content = """
         <div><h3>Ещё больше произведений в разделе <a href="proza.html">Проза</a> и 
-        <a href="stikhi.htm">Стихи</a></h3></div>
+        <a href="stikhi.html">Стихи</a></h3></div>
         """
         add_children(soup, '.t3-content', html_content, 'div', {})
 
@@ -272,10 +272,7 @@ def add_hypercomments(soup: BeautifulSoup, file_path: str, comments: Typings.Hyp
 </div>
         """.replace('<p class="hc-quote">%REMOVE-EMPTY%</p>', '')
 
-    file_name_uri = ""
-    file_name_re = re.match(r'\d+(.*).html', file_path[file_path.rindex(os.path.sep) + 1:])
-    if file_name_re is not None:
-        file_name_uri = file_name_re.group(1)
+    file_name_uri = extract_article_uri(file_path)
     comments_block = soup.select_one('.kmt-list')
     has_hc_comments = False
     if comments_block is not None:
@@ -292,7 +289,7 @@ def add_hypercomments(soup: BeautifulSoup, file_path: str, comments: Typings.Hyp
 
 def improve_footer(soup: BeautifulSoup, *args):
     """
-    Pipe .....
+    Pipe adds timestamp and url to github to footer
 
     :param soup: HTML body
     :return: None
@@ -303,6 +300,36 @@ def improve_footer(soup: BeautifulSoup, *args):
     Обновлено: {datetime.now().isoformat().replace('T', ' ')[:-7]}.</p>
     """
     add_children(soup, '.copyright .custom', footer_html, 'div', {})
+
+
+def upgrade_museshots(soup: BeautifulSoup, file_path: str):
+    """
+    Pipe replaces Flash-powered museshots to Spotify
+
+    :param soup: HTML body
+    :return: None
+    """
+    file_name_uri = extract_article_uri(file_path)
+    if len(file_name_uri) == 0:
+        return
+    spotify_iframes = {
+        '-f_ck-this-illusion': '<iframe src="https://open.spotify.com/embed/track/5w1ingzqrsJka9nlnEFB64" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
+        '-i-do-not-like-spring': '<iframe src="https://open.spotify.com/embed/track/0ZsBRWpZTrOJ1ndfxbCBix" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
+        '-inconsciente': '<iframe src="https://open.spotify.com/embed/track/43Mhu1qi3qI2G2544mgelo" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
+        '-the-end': '<iframe src="https://open.spotify.com/embed/track/5GZEeowhvSieFDiR8fQ2im" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
+        '-my-pretty-friend': '<iframe src="https://open.spotify.com/embed/track/4tuUSTE6leiwH8uRucP7MJ" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
+        '-song-of-wind': '<iframe src="https://open.spotify.com/embed/track/4GRYpTVgmSmtZRNrf95N1G" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
+    }
+    remove_element(soup, 'object')
+    iframe_spotify = spotify_iframes.get(file_name_uri)
+    if iframe_spotify is not None:
+        insert_before_element_by_text(soup, '#museshot', iframe_spotify)
+        insert_style(soup, """
+        span[data-original-title="Музыка произведения"] {
+            border-bottom: none;
+            color: #9e9e9e;
+        }
+        """)
 
 
 # Helper section
@@ -396,6 +423,36 @@ def insert_style(soup: BeautifulSoup, css_style: str) -> None:
     """
     style_tag = BeautifulSoup(f'<style type="text/css">{css_style}</style>', features='html.parser')
     soup.select_one('head').append(style_tag)
+
+
+def insert_before_element_by_text(soup: BeautifulSoup, text_element: str, insert_html: str) -> None:
+    """
+    Helper that adds HTML element before specified element (by text)
+
+    :param soup: HTML body
+    :param text_element: element's text
+    :param insert_html: insert HTML to paste before element
+    :return: None
+    """
+    for target in soup.find_all(text=text_element):
+        target: Tag
+        target.string.insert_before(BeautifulSoup(insert_html, 'html.parser'))
+
+
+# Additional
+
+def extract_article_uri(file_path: str) -> str:
+    """
+    Extracts article uri from path, if it exists.
+
+    :param file_path:
+    :return:
+    """
+    file_name_uri = ""
+    file_name_re = re.match(r'\d+(.*).html', file_path[file_path.rindex(os.path.sep) + 1:])
+    if file_name_re is not None:
+        file_name_uri = file_name_re.group(1)
+    return file_name_uri
 
 
 if __name__ == '__main__':
