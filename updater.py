@@ -152,7 +152,8 @@ def process_html(file_path: str, metadata: Metadata) -> None:
         lambda sp, fp: add_hypercomments(sp, fp, metadata.comments, metadata.comments_css),
         improve_footer,
         upgrade_museshots,
-        lambda sp, fp: add_authors_age(sp, fp, metadata.authors)
+        lambda sp, fp: add_authors_age(sp, fp, metadata.authors),
+        spoiler_fix,
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -357,6 +358,10 @@ def add_authors_age(soup: BeautifulSoup, file_path: str, authors_list: Typings.A
     """
     add_children(soup, '.article-aside', info_html, 'p', {})
 
+
+def spoiler_fix(soup: BeautifulSoup, *args) -> None:
+    replace_attributes(soup, 'href', '../plugins/content/LVSpoiler/assets/mootools/spoiler.css',
+                       '../plugins/content/lvspoiler/assets/mootools/spoiler.css')
 
 # Helper section
 
