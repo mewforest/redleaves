@@ -7,7 +7,7 @@
 	<subtitle type="text">Красные Листья - необычный литературный проект, который объединяет молодых авторов.</subtitle>
 	<link rel="alternate" type="text/html" href="http://redleaves.ru"/>
 	<id>http://redleaves.ru/component/tags/tag/dark</id>
-	<updated>2021-06-20T23:21:09+01:00</updated>
+	<updated>2021-06-21T16:55:15+01:00</updated>
 	<author>
 		<name>Красные Листья</name>
 	</author>
@@ -15,10 +15,10 @@
 	<link rel="self" type="application/atom+xml" href="http://redleaves.ru/component/tags/tag/dark?format=feed&amp;type=atom"/>
 	<entry>
 		<title>Amai Riro: Две жизни - одна лишняя</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/5-two-lives-one-extra"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/5-two-lives-one-extra"/>
 		<published>2013-08-25T13:58:35+01:00</published>
 		<updated>2013-08-25T13:58:35+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/5-two-lives-one-extra</id>
+		<id>http://redleaves.ru/proza/5-two-lives-one-extra</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -36,10 +36,10 @@
 	</entry>
 	<entry>
 		<title>Aquamarine: 1</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/7-the-one"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/7-the-one"/>
 		<published>2012-10-23T09:09:23+01:00</published>
 		<updated>2012-10-23T09:09:23+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/7-the-one</id>
+		<id>http://redleaves.ru/proza/7-the-one</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -57,10 +57,10 @@
 	</entry>
 	<entry>
 		<title>Aquamarine: 62461</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/8-62461"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/8-62461"/>
 		<published>2012-10-31T15:14:03+00:00</published>
 		<updated>2012-10-31T15:14:03+00:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/8-62461</id>
+		<id>http://redleaves.ru/proza/8-62461</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -78,10 +78,10 @@
 	</entry>
 	<entry>
 		<title>Aquamarine: 98745</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/9-98745"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/9-98745"/>
 		<published>2012-11-09T15:22:11+00:00</published>
 		<updated>2012-11-09T15:22:11+00:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/9-98745</id>
+		<id>http://redleaves.ru/proza/9-98745</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -99,10 +99,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: Inconsciente</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/15-inconsciente"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/15-inconsciente"/>
 		<published>2013-04-02T13:02:47+01:00</published>
 		<updated>2013-04-02T13:02:47+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/15-inconsciente</id>
+		<id>http://redleaves.ru/proza/15-inconsciente</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -120,10 +120,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: The End</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/18-the-end"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/18-the-end"/>
 		<published>2012-10-11T15:23:18+01:00</published>
 		<updated>2012-10-11T15:23:18+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/18-the-end</id>
+		<id>http://redleaves.ru/stikhi/18-the-end</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -141,10 +141,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: Считал ли я ее виновной ?</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/25-do-i-think-her-guilty"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/25-do-i-think-her-guilty"/>
 		<published>2013-08-28T06:24:53+01:00</published>
 		<updated>2013-08-28T06:24:53+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/25-do-i-think-her-guilty</id>
+		<id>http://redleaves.ru/proza/25-do-i-think-her-guilty</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -162,10 +162,10 @@
 	</entry>
 	<entry>
 		<title>Hank Stemper: Fenibutia</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/87-fenibutia"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/87-fenibutia"/>
 		<published>2014-09-24T18:57:39+01:00</published>
 		<updated>2014-09-24T18:57:39+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/87-fenibutia</id>
+		<id>http://redleaves.ru/proza/87-fenibutia</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -181,10 +181,10 @@
 	</entry>
 	<entry>
 		<title>Hank Stemper: Вернутьcя, чтобы уйти...</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/56-back-to-leave-leave-to-return"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/56-back-to-leave-leave-to-return"/>
 		<published>2012-05-19T16:45:56+01:00</published>
 		<updated>2012-05-19T16:45:56+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/56-back-to-leave-leave-to-return</id>
+		<id>http://redleaves.ru/proza/56-back-to-leave-leave-to-return</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -202,10 +202,10 @@
 	</entry>
 	<entry>
 		<title>Hank Stemper: Дивный Новый Мир</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/29-brave-new-world"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/29-brave-new-world"/>
 		<published>2013-03-30T15:43:07+00:00</published>
 		<updated>2013-03-30T15:43:07+00:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/29-brave-new-world</id>
+		<id>http://redleaves.ru/proza/29-brave-new-world</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>

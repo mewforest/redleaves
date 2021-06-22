@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/bdthemes_shortcodes/css/shortcode-ultimate.css" type="text/css"?>
+<?xml-stylesheet href="/plugins/system/bdthemes_shortcodes/css/font-awesome.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="ru-ru">
+	<title type="text">Стихи - Красные Листья</title>
+	<subtitle type="text">Красные Листья - необычный литературный проект, который объединяет молодых авторов.</subtitle>
+	<link rel="alternate" type="text/html" href="http://redleaves.ru"/>
+	<id>http://redleaves.ru/stikhi</id>
+	<updated>2021-06-21T16:54:40+01:00</updated>
+	<author>
+		<name>Красные Листья</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://redleaves.ru/stikhi?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Time Lord: Земля и Луна</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/83-%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F-%D0%B8-%D0%BB%D1%83%D0%BD%D0%B0"/>
+		<published>2014-03-12T12:48:21+00:00</published>
+		<updated>2014-03-12T12:48:21+00:00</updated>
+		<id>http://redleaves.ru/stikhi/83-%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F-%D0%B8-%D0%BB%D1%83%D0%BD%D0%B0</id>
+		<author>
+			<name>Time Lord</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Time Lord:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Земля и Луна&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://redleaves.ru/images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg&quot; alt=&quot;281608 kosmos -zemlya -luna -planety -tuchi 3200x2000 www.GdeFon.ru 07c60&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Лирика&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Time Lord:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Земля и Луна&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://redleaves.ru/images/281608_kosmos_-zemlya_-luna_-planety_-tuchi_3200x2000_www.GdeFon.ru_07c60.jpg&quot; alt=&quot;281608 kosmos -zemlya -luna -planety -tuchi 3200x2000 www.GdeFon.ru 07c60&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Лирика&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Продавец ёлок: Истории</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/78-%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D0%B5%D1%86-%D1%91%D0%BB%D0%BE%D0%BA-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8"/>
+		<published>2014-02-19T12:58:30+00:00</published>
+		<updated>2014-02-19T12:58:30+00:00</updated>
+		<id>http://redleaves.ru/stikhi/78-%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D0%B5%D1%86-%D1%91%D0%BB%D0%BE%D0%BA-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8</id>
+		<author>
+			<name>Кит</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Продавец ёлок: Истории&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://redleaves.ru/images/story.jpg&quot; alt=&quot;story&quot; width=&quot;496&quot; height=&quot;310&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: поэзия&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: небольшие наброски от вашего Продавца.&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Продавец ёлок: Истории&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://redleaves.ru/images/story.jpg&quot; alt=&quot;story&quot; width=&quot;496&quot; height=&quot;310&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: поэзия&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: небольшие наброски от вашего Продавца.&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Amai Riro: Не Молчи</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/66-dont-be-a-silent"/>
+		<published>2014-02-12T14:57:13+00:00</published>
+		<updated>2014-02-12T14:57:13+00:00</updated>
+		<id>http://redleaves.ru/stikhi/66-dont-be-a-silent</id>
+		<author>
+			<name>Amai Riro</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Amai Riro: Не молчи&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://redleaves.ru/images/do-not-be-a-silent.jpg&quot; alt=&quot;do-not-be-a-silent&quot; width=&quot;496&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: стихотворение&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении:&amp;nbsp;Солнце спрячется за окном, забирая с собою лучи...&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Amai Riro: Не молчи&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://redleaves.ru/images/do-not-be-a-silent.jpg&quot; alt=&quot;do-not-be-a-silent&quot; width=&quot;496&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: стихотворение&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении:&amp;nbsp;Солнце спрячется за окном, забирая с собою лучи...&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Fragile Cor: Откуда столько чувств?</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/23-where-so-many-feelings"/>
+		<published>2013-08-25T10:41:23+01:00</published>
+		<updated>2013-08-25T10:41:23+01:00</updated>
+		<id>http://redleaves.ru/stikhi/23-where-so-many-feelings</id>
+		<author>
+			<name>Fragile Cor</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: Откуда столько чувств?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/where-so-many-feelings.jpg&quot; alt=&quot;where-so-many-feelings&quot; width=&quot;483&quot; height=&quot;302&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Откуда столько чувств? &lt;/strong&gt;&lt;strong&gt;На слово каждое - эмоция...&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: Откуда столько чувств?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/where-so-many-feelings.jpg&quot; alt=&quot;where-so-many-feelings&quot; width=&quot;483&quot; height=&quot;302&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Откуда столько чувств? &lt;/strong&gt;&lt;strong&gt;На слово каждое - эмоция...&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Fragile Cor: Сейчас. Настало время мне...</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/24-now-time-for-breathe"/>
+		<published>2013-06-24T02:57:01+01:00</published>
+		<updated>2013-06-24T02:57:01+01:00</updated>
+		<id>http://redleaves.ru/stikhi/24-now-time-for-breathe</id>
+		<author>
+			<name>Fragile Cor</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: Сейчас. Настало время мне просто начать дышать.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/now-time-for-breathe.jpg&quot; alt=&quot;now-time-for-breathe&quot; width=&quot;448&quot; height=&quot;310&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Сейчас. Настало время мне просто начать дышать. Раз. И я снова уже в порядке...&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: Сейчас. Настало время мне просто начать дышать.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/now-time-for-breathe.jpg&quot; alt=&quot;now-time-for-breathe&quot; width=&quot;448&quot; height=&quot;310&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Сейчас. Настало время мне просто начать дышать. Раз. И я снова уже в порядке...&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Time Lord: Ночной случай</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/53-night-event"/>
+		<published>2013-06-16T16:59:09+01:00</published>
+		<updated>2013-06-16T16:59:09+01:00</updated>
+		<id>http://redleaves.ru/stikhi/53-night-event</id>
+		<author>
+			<name>Time Lord</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Time Lord: Ночной случай&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/night-event.jpg&quot; alt=&quot;night-event&quot; width=&quot;401&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: о любви (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Неразделенная любовь порой призывает вдохновение. Не судите строго, если плохо написал.&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Time Lord: Ночной случай&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/night-event.jpg&quot; alt=&quot;night-event&quot; width=&quot;401&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: о любви (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Неразделенная любовь порой призывает вдохновение. Не судите строго, если плохо написал.&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Time Lord: Не все прекрасно в этом мире</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/52-not-everything-is-perfect"/>
+		<published>2013-04-23T10:14:49+01:00</published>
+		<updated>2013-04-23T10:14:49+01:00</updated>
+		<id>http://redleaves.ru/stikhi/52-not-everything-is-perfect</id>
+		<author>
+			<name>Time Lord</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Time Lord: Не все прекрасно в этом мире&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; alt=&quot;not-everything-is-perfect&quot; src=&quot;http://redleaves.ru/images/not-everything-is-perfect.jpg&quot; height=&quot;300&quot; width=&quot;313&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: о любви (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Поприветсвуем нового автора Time Lord-a с небольшим творческим дебютом.&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Time Lord: Не все прекрасно в этом мире&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; alt=&quot;not-everything-is-perfect&quot; src=&quot;http://redleaves.ru/images/not-everything-is-perfect.jpg&quot; height=&quot;300&quot; width=&quot;313&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: о любви (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Поприветсвуем нового автора Time Lord-a с небольшим творческим дебютом.&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Alifeia: Я не люблю весну</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/4-i-do-not-like-spring"/>
+		<published>2013-04-06T14:43:00+01:00</published>
+		<updated>2013-04-06T14:43:00+01:00</updated>
+		<id>http://redleaves.ru/stikhi/4-i-do-not-like-spring</id>
+		<author>
+			<name>Alifeia</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Alifeia: Я не люблю весну&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/i-do-not-like-spring.jpeg.jpeg&quot; alt=&quot;i-do-not-like-spring.jpeg&quot; width=&quot;225&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: необычный ритм в сочетании с лёгким слогом Алифеи предаёт некую изысканность этому стихотворению.&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Alifeia: Я не люблю весну&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/i-do-not-like-spring.jpeg.jpeg&quot; alt=&quot;i-do-not-like-spring.jpeg&quot; width=&quot;225&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: необычный ритм в сочетании с лёгким слогом Алифеи предаёт некую изысканность этому стихотворению.&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Fragile Cor: The End</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/18-the-end"/>
+		<published>2012-10-11T15:23:18+01:00</published>
+		<updated>2012-10-11T15:23:18+01:00</updated>
+		<id>http://redleaves.ru/stikhi/18-the-end</id>
+		<author>
+			<name>Fragile Cor</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: The End (Конец)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/the-end.png&quot; alt=&quot;the-end&quot; width=&quot;414&quot; height=&quot;315&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &quot;Как же мы любим то, что нас убивает.&quot; Fragile Cor&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: The End (Конец)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/the-end.png&quot; alt=&quot;the-end&quot; width=&quot;414&quot; height=&quot;315&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &quot;Как же мы любим то, что нас убивает.&quot; Fragile Cor&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Mr.Jester: Повторение</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/42-repeat"/>
+		<published>2012-10-07T14:26:19+01:00</published>
+		<updated>2012-10-07T14:26:19+01:00</updated>
+		<id>http://redleaves.ru/stikhi/42-repeat</id>
+		<author>
+			<name>Mr.Jester</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Mr.Jester: Повторение&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/repeat.jpg&quot; alt=&quot;repeat&quot; width=&quot;420&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: По одному слову в строчке, как у Маяковского, интересное написание&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Mr.Jester: Повторение&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/repeat.jpg&quot; alt=&quot;repeat&quot; width=&quot;420&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: По одному слову в строчке, как у Маяковского, интересное написание&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Fragile Cor: Мой милый друг!</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/21-my-pretty-friend"/>
+		<published>2012-10-06T12:54:54+01:00</published>
+		<updated>2012-10-06T12:54:54+01:00</updated>
+		<id>http://redleaves.ru/stikhi/21-my-pretty-friend</id>
+		<author>
+			<name>Fragile Cor</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: Мой милый друг!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/my-pretty-friend.jpg&quot; alt=&quot;my-pretty-friend&quot; width=&quot;225&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: о любви (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;strong&gt;Эмоциональное&lt;/strong&gt; и, при этом, и&lt;strong&gt;зящное&lt;/strong&gt; написание строк от Fragile Cor&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Fragile Cor: Мой милый друг!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/my-pretty-friend.jpg&quot; alt=&quot;my-pretty-friend&quot; width=&quot;225&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: о любви (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: &lt;strong&gt;Эмоциональное&lt;/strong&gt; и, при этом, и&lt;strong&gt;зящное&lt;/strong&gt; написание строк от Fragile Cor&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+	<entry>
+		<title>Mr.Jester: Ноябрь</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/40-november"/>
+		<published>2012-09-16T05:13:29+01:00</published>
+		<updated>2012-09-16T05:13:29+01:00</updated>
+		<id>http://redleaves.ru/stikhi/40-november</id>
+		<author>
+			<name>Mr.Jester</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Mr.Jester: Ноябрь&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/november.jpg&quot; alt=&quot;november&quot; width=&quot;480&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Очень странно и подозрительно от таких однозначных мнений...&lt;/strong&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Mr.Jester: Ноябрь&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/november.jpg&quot; alt=&quot;november&quot; width=&quot;480&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении: Очень странно и подозрительно от таких однозначных мнений...&lt;/strong&gt;&lt;/p&gt;
+</content>
+		<category term="Стихи" />
+	</entry>
+</feed>

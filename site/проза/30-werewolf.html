@@ -209,7 +209,674 @@ jQuery(window).on('load',  function() {
 .hc-subheader {
     margin-bottom: 10px
 }
-</style></head>
+</style><style type="text/css">
+
+.hc-comment {
+  display: flex;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.hc-content {
+  font-size: 12p3;
+  padding: 0 1rem;
+}
+
+.hc-header {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #909090;
+}
+
+.hc-author {
+  margin: 0;
+  font-size: 0.9125rem;
+  font-weight: 700;
+  float: left;
+  color: #222;
+  cursor: pointer;
+}
+
+.hc-subheader {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hc-date {
+  margin: 0;
+  margin-left: 1rem;
+  color: #909090;
+  font-size: 0.6875rem;
+  margin-left: 0.3125rem;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.hc-quote {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  font-style: italic;
+  color: #909090;
+  margin-bottom: 0.625rem;
+  background-color: #fff;
+  padding: 0.625rem;
+  border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #222;
+  margin-bottom: 0.625rem;
+  word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}</style></head>
 <body>
 <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
 <!-- HEADER -->
@@ -334,7 +1001,6 @@ Komento.ready(function($) {
 <div class="theme-freso" id="section-kmt">
 <!-- START: Pro Version Only -->
 <!-- END: Pro Version Only -->
-
 <script type="text/javascript">
 Komento.require().script('komento.famelist').done(function($) {
 	if($('.fameList').exists()) {
@@ -379,8 +1045,55 @@ Komento.require().script('komento.commenttools').done(function($) {
 </div>
 <div class="commentList kmt-list-wrap commentList-30">
 <ul class="kmt-list reset-child">
-
 <li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Hank Stemper: Оборотень - КРАСНЫЕ ЛИСТЬЯ - ART JOURNAL™</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Сергей Струков</h3>
+<div class="hc-date">2012-09-04 21:57:18</div>
+</div>
+<p class="hc-text">Мне очень понравился рассказ)<br/>Обычно представляешь оборотня, как какого-то абстрактного монстра, а здесь видны его чувства, которые, к сожалению не могут пересилить волчие инстинкты.<br/>Кстати не плохо было бы сделать вторую часть, ведь ещё есть нереализованная платформа, которую можно очень ловко воплотить в продолжении. В любом случае это на усмотрение автора, но если Hank Stemper сделает вторую часть, я буду аплодировать стоя ;)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Hank Stemper: Оборотень - КРАСНЫЕ ЛИСТЬЯ - ART JOURNAL™</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Сергей Струков</h3>
+<div class="hc-date">2012-09-04 21:57:18</div>
+</div>
+<p class="hc-text">Мне очень понравился рассказ)<br/>Обычно представляешь оборотня, как какого-то абстрактного монстра, а здесь видны его чувства, которые, к сожалению не могут пересилить волчие инстинкты.<br/>Кстати не плохо было бы сделать вторую часть, ведь ещё есть нереализованная платформа, которую можно очень ловко воплотить в продолжении. В любом случае это на усмотрение автора, но если Hank Stemper сделает вторую часть, я буду аплодировать стоя ;)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Hank Stemper: Оборотень - КРАСНЫЕ ЛИСТЬЯ - ART JOURNAL™</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Сергей Струков</h3>
+<div class="hc-date">2012-09-04 21:57:18</div>
+</div>
+<p class="hc-text">Мне очень понравился рассказ)<br/>Обычно представляешь оборотня, как какого-то абстрактного монстра, а здесь видны его чувства, которые, к сожалению не могут пересилить волчие инстинкты.<br/>Кстати не плохо было бы сделать вторую часть, ведь ещё есть нереализованная платформа, которую можно очень ловко воплотить в продолжении. В любом случае это на усмотрение автора, но если Hank Stemper сделает вторую часть, я буду аплодировать стоя ;)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Hank Stemper: Оборотень - КРАСНЫЕ ЛИСТЬЯ - ART JOURNAL™</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Сергей Струков</h3>
+<div class="hc-date">2012-09-04 21:57:18</div>
+</div>
+<p class="hc-text">Мне очень понравился рассказ)<br/>Обычно представляешь оборотня, как какого-то абстрактного монстра, а здесь видны его чувства, которые, к сожалению не могут пересилить волчие инстинкты.<br/>Кстати не плохо было бы сделать вторую часть, ведь ещё есть нереализованная платформа, которую можно очень ловко воплотить в продолжении. В любом случае это на усмотрение автора, но если Hank Stemper сделает вторую часть, я буду аплодировать стоя ;)</p>
+</div>
+</div>
+</li><li>
 <div class="hc-comment">
 <img class="hc-avatar" src="data:image/jpeg;base64,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"/>
 <div class="hc-content">
@@ -473,9 +1186,19 @@ Komento.require().script('komento.commenttools').done(function($) {
 <div class="col-md-12 copyright">
 <div class="custom">
 <p><a href="../index.htm">Красные Листья</a> - необычный литературный проект, объединяющий молодых авторов. Любой может <a href="../profile/social/register.html">присоединиться</a> к нам!</p>
-<p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="../10-system/61-politic.html">правилами сайта</a>. </p></div>
+<p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="../10-system/61-politic.html">правилами сайта</a>. </p><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md">
+    что это значит?</a>)</p>
+<pre>Дата копии: 2021-06-22 12:48:40.363298</pre>
+</div><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md">что это значит?</a>)
+    Дата копии: 2021-06-22 12:51:39</p>
+</div><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md" target="_blank">что это значит?</a>).
+    Обновлено: 2021-06-22 12:55:29.</p>
+</div></div>
 <ul id="jm_sl_navigation">
-<li class="vk"><a href="http://vk.com/redleaves" rel="nofollow" target="_blank">Читай нас ВКонтакте</a></li> </ul><p style="display:none">Разработано <a href="http://joomlamaster.org.ua/moduli.html" target="_blank" title="Бесплатные модули для CMS Joomla!">Joomlamaster.org.ua</a> совместно с <a href="http://joomstudio.com.ua/" target="_blank" title="Разработка и продвижение веб сайтов">Joomstudio.com.ua</a></p>
+<li class="vk"><a href="http://vk.com/redleaves" rel="nofollow" target="_blank">Читай нас ВКонтакте</a></li> </ul>
 <!-- <small>
             <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a> is a front-end framework of Twitter, Inc. Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>.
           </small>

@@ -213,7 +213,674 @@ jQuery(window).on('load',  function() {
 .hc-subheader {
     margin-bottom: 10px
 }
-</style></head>
+</style><style type="text/css">
+
+.hc-comment {
+  display: flex;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.hc-content {
+  font-size: 12p3;
+  padding: 0 1rem;
+}
+
+.hc-header {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #909090;
+}
+
+.hc-author {
+  margin: 0;
+  font-size: 0.9125rem;
+  font-weight: 700;
+  float: left;
+  color: #222;
+  cursor: pointer;
+}
+
+.hc-subheader {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hc-date {
+  margin: 0;
+  margin-left: 1rem;
+  color: #909090;
+  font-size: 0.6875rem;
+  margin-left: 0.3125rem;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.hc-quote {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  font-style: italic;
+  color: #909090;
+  margin-bottom: 0.625rem;
+  background-color: #fff;
+  padding: 0.625rem;
+  border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #222;
+  margin-bottom: 0.625rem;
+  word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}</style></head>
 <body>
 <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
 <!-- HEADER -->
@@ -343,7 +1010,6 @@ Komento.ready(function($) {
 <div class="theme-freso" id="section-kmt">
 <!-- START: Pro Version Only -->
 <!-- END: Pro Version Only -->
-
 <script type="text/javascript">
 Komento.require().script('komento.famelist').done(function($) {
 	if($('.fameList').exists()) {
@@ -388,8 +1054,207 @@ Komento.require().script('komento.commenttools').done(function($) {
 </div>
 <div class="commentList kmt-list-wrap commentList-21">
 <ul class="kmt-list reset-child">
-
 <li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Диана Хикмятулина</h3>
+<div class="hc-date">2012-10-08 15:29:34</div>
+</div>
+<p class="hc-quote"><b>Сергей Струков: </b>Прекрасное стихотворение, лёгкий и красивый слог..)</p>
+<p class="hc-text">merci) настроение!</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Диана Хикмятулина</h3>
+<div class="hc-date">2012-10-08 15:29:08</div>
+</div>
+<p class="hc-quote"><b>nero gatto: </b>очень хорошее стихотворение! мне очень понравилось!</p>
+<p class="hc-text">спасибо )</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Сергей Струков</h3>
+<div class="hc-date">2012-10-07 21:38:02</div>
+</div>
+<p class="hc-text">Прекрасное стихотворение, лёгкий и красивый слог..)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,R0lGODlhMgAyAMQAAPP1+dzh7eXp8tHY58jR4s3V5O7x9vn6/Oru9NTa6Pz9/uns8/b4+vX2+v7+//b3+trg7MvT5MfQ4vj5+9fd6t7k7uPn8MbO4czT5PHz+NXc6dbc6dLZ6MbP4f///8TN4CH5BAAAAAAALAAAAAAyADIAAAX/YCeOZGmeaKqubJt+cCzPdG3feK7vfF8PFcMk4ivaCIGMZ+kJGJ8xDYBJHUCNmAd164FcexWuGPHVLcToR/kmQLvV61nETffGY206unGPKfViDn0wDIBogx8HhmIdg4qLWxeDE5BbjX1alUyIU5pLiH+aCohnnhODBY+eG32lnh5wcRCvSwt9A7RNfRK5HIO5RH2znraIrwSIH6GLgskBmgbJHxeaCdIfBpCj1x+QVtzLdNwwnYDjiYuX15AY3LyLGtcEmvHJGpoC0nmQfMkKnsHidLCQC0FAKBgQ5KKSwZeRDeUWUjngZIcEC/8k0lnQzsaAbBoXNaAwgwKlkKIqA3wIAQA7"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">nero gatto</h3>
+<div class="hc-date">2012-10-07 17:00:21</div>
+</div>
+<p class="hc-text">очень хорошее стихотворение! мне очень понравилось!</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Диана Хикмятулина</h3>
+<div class="hc-date">2012-10-08 15:29:34</div>
+</div>
+<p class="hc-quote"><b>Сергей Струков: </b>Прекрасное стихотворение, лёгкий и красивый слог..)</p>
+<p class="hc-text">merci) настроение!</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Диана Хикмятулина</h3>
+<div class="hc-date">2012-10-08 15:29:08</div>
+</div>
+<p class="hc-quote"><b>nero gatto: </b>очень хорошее стихотворение! мне очень понравилось!</p>
+<p class="hc-text">спасибо )</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Сергей Струков</h3>
+<div class="hc-date">2012-10-07 21:38:02</div>
+</div>
+<p class="hc-text">Прекрасное стихотворение, лёгкий и красивый слог..)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,R0lGODlhMgAyAMQAAPP1+dzh7eXp8tHY58jR4s3V5O7x9vn6/Oru9NTa6Pz9/uns8/b4+vX2+v7+//b3+trg7MvT5MfQ4vj5+9fd6t7k7uPn8MbO4czT5PHz+NXc6dbc6dLZ6MbP4f///8TN4CH5BAAAAAAALAAAAAAyADIAAAX/YCeOZGmeaKqubJt+cCzPdG3feK7vfF8PFcMk4ivaCIGMZ+kJGJ8xDYBJHUCNmAd164FcexWuGPHVLcToR/kmQLvV61nETffGY206unGPKfViDn0wDIBogx8HhmIdg4qLWxeDE5BbjX1alUyIU5pLiH+aCohnnhODBY+eG32lnh5wcRCvSwt9A7RNfRK5HIO5RH2znraIrwSIH6GLgskBmgbJHxeaCdIfBpCj1x+QVtzLdNwwnYDjiYuX15AY3LyLGtcEmvHJGpoC0nmQfMkKnsHidLCQC0FAKBgQ5KKSwZeRDeUWUjngZIcEC/8k0lnQzsaAbBoXNaAwgwKlkKIqA3wIAQA7"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">nero gatto</h3>
+<div class="hc-date">2012-10-07 17:00:21</div>
+</div>
+<p class="hc-text">очень хорошее стихотворение! мне очень понравилось!</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Диана Хикмятулина</h3>
+<div class="hc-date">2012-10-08 15:29:34</div>
+</div>
+<p class="hc-quote"><b>Сергей Струков: </b>Прекрасное стихотворение, лёгкий и красивый слог..)</p>
+<p class="hc-text">merci) настроение!</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Диана Хикмятулина</h3>
+<div class="hc-date">2012-10-08 15:29:08</div>
+</div>
+<p class="hc-quote"><b>nero gatto: </b>очень хорошее стихотворение! мне очень понравилось!</p>
+<p class="hc-text">спасибо )</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Сергей Струков</h3>
+<div class="hc-date">2012-10-07 21:38:02</div>
+</div>
+<p class="hc-text">Прекрасное стихотворение, лёгкий и красивый слог..)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,R0lGODlhMgAyAMQAAPP1+dzh7eXp8tHY58jR4s3V5O7x9vn6/Oru9NTa6Pz9/uns8/b4+vX2+v7+//b3+trg7MvT5MfQ4vj5+9fd6t7k7uPn8MbO4czT5PHz+NXc6dbc6dLZ6MbP4f///8TN4CH5BAAAAAAALAAAAAAyADIAAAX/YCeOZGmeaKqubJt+cCzPdG3feK7vfF8PFcMk4ivaCIGMZ+kJGJ8xDYBJHUCNmAd164FcexWuGPHVLcToR/kmQLvV61nETffGY206unGPKfViDn0wDIBogx8HhmIdg4qLWxeDE5BbjX1alUyIU5pLiH+aCohnnhODBY+eG32lnh5wcRCvSwt9A7RNfRK5HIO5RH2znraIrwSIH6GLgskBmgbJHxeaCdIfBpCj1x+QVtzLdNwwnYDjiYuX15AY3LyLGtcEmvHJGpoC0nmQfMkKnsHidLCQC0FAKBgQ5KKSwZeRDeUWUjngZIcEC/8k0lnQzsaAbBoXNaAwgwKlkKIqA3wIAQA7"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">nero gatto</h3>
+<div class="hc-date">2012-10-07 17:00:21</div>
+</div>
+<p class="hc-text">очень хорошее стихотворение! мне очень понравилось!</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Диана Хикмятулина</h3>
+<div class="hc-date">2012-10-08 15:29:34</div>
+</div>
+<p class="hc-quote"><b>Сергей Струков: </b>Прекрасное стихотворение, лёгкий и красивый слог..)</p>
+<p class="hc-text">merci) настроение!</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Диана Хикмятулина</h3>
+<div class="hc-date">2012-10-08 15:29:08</div>
+</div>
+<p class="hc-quote"><b>nero gatto: </b>очень хорошее стихотворение! мне очень понравилось!</p>
+<p class="hc-text">спасибо )</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Сергей Струков</h3>
+<div class="hc-date">2012-10-07 21:38:02</div>
+</div>
+<p class="hc-text">Прекрасное стихотворение, лёгкий и красивый слог..)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,R0lGODlhMgAyAMQAAPP1+dzh7eXp8tHY58jR4s3V5O7x9vn6/Oru9NTa6Pz9/uns8/b4+vX2+v7+//b3+trg7MvT5MfQ4vj5+9fd6t7k7uPn8MbO4czT5PHz+NXc6dbc6dLZ6MbP4f///8TN4CH5BAAAAAAALAAAAAAyADIAAAX/YCeOZGmeaKqubJt+cCzPdG3feK7vfF8PFcMk4ivaCIGMZ+kJGJ8xDYBJHUCNmAd164FcexWuGPHVLcToR/kmQLvV61nETffGY206unGPKfViDn0wDIBogx8HhmIdg4qLWxeDE5BbjX1alUyIU5pLiH+aCohnnhODBY+eG32lnh5wcRCvSwt9A7RNfRK5HIO5RH2znraIrwSIH6GLgskBmgbJHxeaCdIfBpCj1x+QVtzLdNwwnYDjiYuX15AY3LyLGtcEmvHJGpoC0nmQfMkKnsHidLCQC0FAKBgQ5KKSwZeRDeUWUjngZIcEC/8k0lnQzsaAbBoXNaAwgwKlkKIqA3wIAQA7"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Мой милый друг! - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">nero gatto</h3>
+<div class="hc-date">2012-10-07 17:00:21</div>
+</div>
+<p class="hc-text">очень хорошее стихотворение! мне очень понравилось!</p>
+</div>
+</div>
+</li><li>
 <div class="hc-comment">
 <img class="hc-avatar" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABaAFoDASIAAhEBAxEB/8QAHQAAAgMBAAMBAAAAAAAAAAAABgcEBQgDAAIJAf/EAD4QAAIBAwMCBQMCAwUFCQAAAAECAwQFEQYSIQAxBxMiQVEIFGFxkRUjQgkWMlKBFyQzobElNDVTY4KS0fD/xAAaAQACAwEBAAAAAAAAAAAAAAADBQECBgQA/8QALxEAAgECBAMIAQUBAQAAAAAAAQIDABEEEiExQXGBBRMiUWGRofAjFEKx4fEy0f/aAAwDAQACEQMRAD8Apobdqupp6KlqaW4W2sQQw1FHUUjxurlRhTkEe+M546GK+yVvh/aNXUdbeJaOrr5qqslopYQSzyINwBI7kAcjPT5rPEfxTq6eN7pWLqKkqoyft5VRY3UYGfkd8DP5/PQ/qufUer9KXC2S2O3x1FdTtGkcOx2pvVlSpA3E8Hsex7DrLQtIZQrWCki+216zUciO4ANtRuBSl8BYJqPwjsbUtTTyq81RIyfbSmSJjI2BuHByB+eiSOsu9sp2kp9RTrIq+qGBZANhAGBu4+CPwM9XPhVfdd+HPh9brBitp4qFZIfJhCttzIx3cZOMkEE8DnPRFU681dUxRxypHPLja7zwxyMrE5IyVxz/AJjx8dXnb80jFQRc8fWqTTxB2JF9Tt/tAcGqdRVUZgmvl0lp413I8o8xCO5455P+X8H26/aKggp7xLebfVXOurquhMdyaupwVmlExZCgOfSI/SewBHRRVeI+q3M8PnzqYBn/ALpEmNnKkMFG4Dn9sdD7a21Aj1LyCrTeqiWQ064xxtHGORnOcY/fqUIUHKLX++VDGJS1lGh9KgNTLqNnWto6ZoTLgMlAAp9sfoOc469P9n+j5pWH91rPOykb99sLMTzgKpGcHj9+rNrtWywwLK4nMYMhMeQSVB9hgdiecH3PPUia/wBRLSQyU17rYxAFRSkuCyEHBXPIIy3HIx2J7dEBdRZTaqCWNQBe3xUWhpNG6Tp6hzpe10FXVbcOKAo68DHuCc+3fOPx1b0utUUrEsMNKsWA0jU0zNHwMcBsdj2/HPXa3eJupdFRzR0d0rq2EAOPv6VKhjxngEEg4I5X9erZ/G3V9wnaaoqKOUqo8xamhiIQnGVVmQHJyB/+5Eyzk2OvU/8AlQ6wyHxnX7617DWdlrLLUWy5Xa0ywTRtBUw1NvqXbBPbk9x3yM46Ug8F/B6UB2vVVGzclFqKwBT8DC4/bouoLi8tzpvOuUKPUuzvJFRRjgnaTu/pGOMY65vf5YnZDUwEqSP/AA+Jv+ZTJ/Xoyd5ENCRejRvhol0Yr951p2xeI3hW8DNfNKLBUsPTJSCSXdz6cHII9uotdJ4Hivpa2kjorf5qB3ljjnEinnDj1YJzj857A9KC2aO1dFZftHhq988u+DfKIo4sMTllPIU4PGcDqLcLHcFqaqWtlp5GkDNDGs5WQKcAn8tlieM89LMqWADbetVkxGVRdB7WpkXU6PoK6MW/UFO6GLftktsrFiScB+c7vbvjqO+utPWdkhektlXAUHmwxxtErkEj1biWYYYcH3/Tpbx6Lra4P5bVNQu08Qy7+xA+M7e4z+vHUet01cNOXSDz7ZOJAu+KGohyGxkbm7DGAe/sM9VWJScue/WlxlO6i3zT+t3i5oEUxZtPw1floYY6eKX0FMYCkMOB3zk8nqDV+IWh6qRqej0WIpHdVigqIg/mNuzjKkbc44ODnpMUk1Ppu03O/XeEQUkSMyeWCqSKPgkcKD7/AP30I/TppzU/jfq6s1DJaamCS7SPTWeqmJ8s0ikq05xwVLoV3Y4K4B6aYfACYG77VosDg58ZB3zuFHDQa+d/L3rQ6XjSUMsc1HYaalkE6rNAWWVEIXnHp9Y5OMHH6deSar0XpiB43sVqqt4JZ5oGjdkPB5OcH3AGNvVXrj6f/EXwsSC5JdqG72qpkSmmpElKSUrPlVYMw5QsRuHSumoritaiVcFP5iAoUNYGDMMksPwScHP+g69iMD+nfIHJvrvSnGq+DlCX0Oo0FOubxV0FslkbRlLUwyn1SNOwk75AJznaTgnGc9ctRal8L47bT3Ckprik1ZMryzRMykkEbmXzARIVbcAfbA6UVVpaoq5xNJT0rP6Hilp2UGNcbsZBOBnjPvk9EH8OieKorJrhOlx8lnjoxTsY5mBwY42XgH84AOCBz0JYcumauVMXIwK6H205Ue2qHwxtqTSXO1VtPOzJL/OOQ2RkY28Yxjn5/wBerD7XwbHa/V0A/wDK+0ibZ+MmAk4+cnpSQaWnu0dOGqSI5GMUkBnIeJcj2ZgDkZA/T9c2B8PLupxSpEtMOIlnmJkCf0hsZGcYzjjPVwCNQ5o8OJltdQB99CK1TevD+0Cq8y4atejUs0jk7DtJI7bgRwR7579K7WOldD3C7VCw6pir6iKmMjI2wlGDFskEbdxIwOD0jIdV1d3SP7+eoq3YkorVbyRR98g4+fzjvyfmNN9nRRz1atDFJJ/u7pHuIdDyFJ7jD5/Hc9JRBlFzwqs+LjZfCg9zTngqdA0dOta9yrGqKeTbCltZdzrgY80jAznJzj09h1BrrvQrGay1y3nz2MjCSWqSRNqj3ycjsOB7k46zpNqOp04wShjo6HDhmpypfnJLccnHA/POfnoltepJaqNzIstPQID5c6QJFtYnMgVSvYBSAe3OeukYJrAgaVy9+xtZABTMuWjtTeLFkrYZY7lNaJVVpIoYt7MBz6vbcWGeOcdOj6NLY2j/AACrrdU1/wDFhaa+tttNU0URSoSESbmj3AAHZJJJyvAHfkHrBFf9Qs33l/oBea6C2UtvkrDHR1BjWVl5WNscsDkIQTx+/Wufp8/jeifoa05fDeYbdBFaJtQz1QYoWkmkkl8vJH9TOBjHOQB362a9kz9mxr3jhi37Rw6+da3spJEBR3IUcDt0os1nbbtrqWnotNakr9Q2C3xpTzwyRCSdqlWZjUfctgPgsF2gbfT0EXrwtiuNdbbZOsUcr1GGnqQGlk35GC6oQOFJYnPJx3I6xB4JeNniHofW1dfK6tueoNP3Cpd7lEtX/OEpZstAScI4UHIxtwAOMAjY9NrClvlFS6mseqa6pStjWejhSfy5l3+oNICcjn0kAnpV2tgMdhJVkksEbQe23OlnacizTZz/AM7cPtzROPpptNPSl7hqenoLtK3lrSvU4VlGcccHP+EYwB+3V9Y/plqB9hH/ABWjlpQeamJmdgoJII5wQO2eMY7EnoKxfa62wzzK14BfzUeOH1ZDY9TliSN2TgAYBGe/Qq2tNdWR1p7VSV9MEkZg0LZjVcBW3hsccHt+fnpIjSv4SR70rUwZvHFpzp7U/wBOQqKGegnuVOJJj6pTA7SEsRgc8YwOCPz1yf6cxTu0S7GEZ2hmjYk445PmD/p0EaA8W77Vm6RakrpaOpkqPu6ZYmcjPAwZM+nnsBkDIGAeAMy+MOsFldWqa4MGIOdrf8z3/XqDBITuehH901XCYeRcyLfkTSWtt4a70lSaJ38yCRCMyFQSwJ37T3LfrkYz1Loo5BFVTUclRPvqjmaqYyxyYADADA3MAMc/PyeqKyW29aiH3FUi0lvrjuqhJE/nI4G4gDPpQDk4GfUOermZotO2inip4aoU4jFQyzY3KqelpZC3CDc2MgY7dsdOhCAuUa+fnSYCwy3vUy6+TcKuJlkoo1CL5a/b7mHcPGT3U4wcjvzx79T47qtDHWQ08UNXJJHNHhVGUTDcN7gd+RgYYfHQvSiS7V8Ex2yilBbzqZAPUuSpQck4AA+fnjqyr6qnorXNW19FDUN5DMAwaICNiWG4qNy+oEj4K5/BNDES6ZjbUVCLZ1DbVlOk0N/eHWb6dgmemnnq2p6snBMcciiXBJ7FdpOfcHg562D4ueOr6K+kTwg0XT0QuH3lvp5ko4t6mpjUstMrOOEAbDkn/IuAc46w1raWvrPF2kTSqVVM91mjhiaVQZGkcEZyuAR62CkYJA5AI6av1e+J91054gae0bS1D0UmmdJW203Cjon3JU1aosu18emQIGjwccY+eet5NIocuRaxt/nIfNq1dmYhb7i5+86FNV64k0TaqWw0lxSruwpWStlhgxDSI5LeSpC7nkOSCxJ4zk/GrvCSmgtvgNoesrlAnFGI0nicqNrkttfAxkBhjkHBHsOsVab0pBf6K0afe5UbXK63SL7tY5d1RtbuGC5CxouTjuXc8cdbZu0Qitv8HpZJBQ0zhIoxIkcDgKBjao4wAQOR3BJx1n+3cTI+SJufLgP7pTjmWJAi7nl986LoKxJZoaWi8uKAqfNnSZiUGCFJPHdgR6SckDJ6vrDU2Szo0Wp7jJeTPSgw01qSSOOWUgsFYuc7RtHI7nvgdLeeOltMVAtBcY5ZJYovPaGmYpAxxvjVmOSV3A5JAz2GOeq24TzLItb54r6F6sU8Mm9WlnfG9CIwSyRle7HjI989ZMrc2VaTK0iuci3t1pjWXXFNYKwwUFPNWU6oWkgEZdFwSE9KtklfZQcE5Jz1dyaqlqZGmFTUgSEvhqLnnnnnpNU1BMtfJLT7lkj2SSrWruOSTjGMeruSDyMY/HV6tZI4DOkrseS3lsMn59v+nQwQPSoSaZdFPxQTarHNXTv5K1UkZDJHNUztKD3wPLydx9P+IY4C/OOiWGiip1aCCYWx66JY6rasyiWJeQkhUk7ck+k8EnnJ65Gu+6vhqp/LjrHqjUPDaI/KpIGyQFVDnZHngZJ7+/boTvFfUQ3WNGiPmMjoFmm2+YQcMOD844/PXbnIY5asHs3hPUVor6YvCrSXivq65W+6QtJRUUEdfPRIWT7mQvtTe4wSF2/PfHT48RPo/wDD67/cVFBb7nZqqWP/AI1quEuSwBxmNywx27AdYy8PvE7UHhDrFNR2CWOqWljaKuhlR2ilgLf8DdgbTkKR7jGRkZ62P4XfWVoHxWuMdtF5g07qPhTZ7rKIXZv/AEpD6JR+hz+OmmEZHIU2uKbYYwmHuiPEONq+f/hL4Oa68WdfWDUtu03XLY9P6hW21sk1uSV7fOxZWdYmIMkIJUyDGYyQ3Az0rvqKtFDdPq/1IlLSXC83m4XJKGGnEBo5pKsJHF6ICOFZh6QcZHfg56+y2r4q56Z1sllStkleR5lp28sSuy7CzOuDuxgHPOB3GOq/T/08aKs3ihX+LF2tUFTr2tpoIpblVsHWjEcKxYgGAEyF5fG49sgcdaw9pqT+SIWBuo43047/AHanIwosJRJqRY1jTwp/sk620fYal1J4hSW7VsD/AHENJarfHJS0rEco7MQZDzgldo+OOlLqmlqNFa+u+mLvI81ws0stJVyKx2MEUFXjJPCtuDc+3frfH1CfWbovwTsdSXr4Ky77dtNb45lE07nIUKucgZ/qIwBk9fNf+89Rr7VFy1VdCj3O8VrVlTE03p3tjAXHsBwB8AZ6zmPV2/JLox4elK8c0UlmjFyONGNsM8u9yfN2MHkiXasj8gsik7sHkYPYjv1bTWXMM1Qsu10d3qixwfUeWQDHYnbwMEj2x0PW+9VkLViBZXuUa+QIY1BRSSSr7vcAHucA5/PXfzp0kSWooVq2mCpK8RaVe+7GCBg59vz+nSLIqggDrSEjpRFZ5qPTCmL7UUbNIyk1EhkMbZ/lky8lCC2SRjtgn46i4xSgPJM5kbliKaMZPv8A4pM/vz1H+3lo6eeeGgQkozDkbUUnbje7ALg5Huc/nrrBcq6aGORdMVLKyhgY6mYqQR7evt0JlPnVe7ZmJU/IqFXXqeCmipYY5Z6eJSnpiZopSMEZUDP5/bHfq8sek6jU2oaGkt1E9OJ5Fp6WleEIs8rMAGjZhyCw5JPAwSeiLVkEcGr7JBFGscK2qOURooChz5hLAfJPOfnoQpamWi8SbMaeV4DEbg0ZiYrsImGCMdiOocd3zvRGQBgp40M+K/iZcfD0XG0WE2jU8cNSJGhq5ZCKnywy/dLT8BoldXUZbLAKSAGx09P7P5PD6zeEVb4mayakqdez1VTNUVVbTL/2dCW9EcEYGEXZhjsGcMQOB1mXw2pIKtL1UzwxzVApnAmkUM/JOeTzzuOf1Pz04JaOCanroZII3iPkoY2QFdodABj4A4A+OtDiMTBhiIUiFhbW+p62NNZMSMN4Y1F9NTrvWwdc/Wf4daA0n99aqiPU1VKdlFa7E4mepmYFlGR6Y1JBJdyMc9zx1ie5fXF4qeKGrKKm1FZKTSFjlqAEhiqHYBFb+YC4HLgYG3GfV1FudHTw0VYY4I4yLcGG1AMHyZhn9eT+56hXqCKGk1SI40QQ09B5YVQNm4YbHxn3x36CnaTxvnhUKfWzfyKC+LeZDFJt7fxQrrPwX/2zfVtZ7buaktsNRTW9hWIZXdGRpp6l5FIyACxXLZ/lgcAdU2gNIrc5KV6KUVBhneJKiAj/AHhd5G7JyAxXkKOeffpkaOqZqPxDpzTyvAWpKcExsVyGj2MOPlfSfkcdL2xzyUSwUlPI1PSvJUloImKox2E8qODyAf1A6riMa+LHeyAZtST51Hen9Mqj9unxRrQ2RbROaaSmaYMXWVWlbcqqB/jccBclcFsduFPB6sqLSKqk8VYlXUz0sjeZT1JAjXAZ/wCn45Xk847dEuko0raq3tUKs7TN5khlG4u/bc2e5xxk9caV2h1AhjYpvo5w2043Dz34Pz2H7DrgGtr1zCMFRmP21VldSUU8cNXMIrXsptiTPM7MoVuHlIJBADcALhQQOSeoMdo3RqTqyqYkAlvvgM/6Y4681a7R2GZ0Yq7UcallOCRiTgn/ANq//EfHXeOolVFAlcADAAY9DAMhIJ2rlclWNf/Z"/>
 <div class="hc-content">
@@ -520,9 +1385,19 @@ Komento.require().script('komento.commenttools').done(function($) {
 <div class="col-md-12 copyright">
 <div class="custom">
 <p><a href="../index.htm">Красные Листья</a> - необычный литературный проект, объединяющий молодых авторов. Любой может <a href="../profile/social/register.html">присоединиться</a> к нам!</p>
-<p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="../10-system/61-politic.html">правилами сайта</a>. </p></div>
+<p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="../10-system/61-politic.html">правилами сайта</a>. </p><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md">
+    что это значит?</a>)</p>
+<pre>Дата копии: 2021-06-22 12:48:42.438798</pre>
+</div><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md">что это значит?</a>)
+    Дата копии: 2021-06-22 12:51:41</p>
+</div><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md" target="_blank">что это значит?</a>).
+    Обновлено: 2021-06-22 12:55:31.</p>
+</div></div>
 <ul id="jm_sl_navigation">
-<li class="vk"><a href="http://vk.com/redleaves" rel="nofollow" target="_blank">Читай нас ВКонтакте</a></li> </ul><p style="display:none">Разработано <a href="http://joomlamaster.org.ua/moduli.html" target="_blank" title="Бесплатные модули для CMS Joomla!">Joomlamaster.org.ua</a> совместно с <a href="http://joomstudio.com.ua/" target="_blank" title="Разработка и продвижение веб сайтов">Joomstudio.com.ua</a></p>
+<li class="vk"><a href="http://vk.com/redleaves" rel="nofollow" target="_blank">Читай нас ВКонтакте</a></li> </ul>
 <!-- <small>
             <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a> is a front-end framework of Twitter, Inc. Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>.
           </small>

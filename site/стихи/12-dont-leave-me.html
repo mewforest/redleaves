@@ -245,7 +245,674 @@ jQuery(window).on('load',  function() {
 .hc-subheader {
     margin-bottom: 10px
 }
-</style></head>
+</style><style type="text/css">
+
+.hc-comment {
+  display: flex;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.hc-content {
+  font-size: 12p3;
+  padding: 0 1rem;
+}
+
+.hc-header {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #909090;
+}
+
+.hc-author {
+  margin: 0;
+  font-size: 0.9125rem;
+  font-weight: 700;
+  float: left;
+  color: #222;
+  cursor: pointer;
+}
+
+.hc-subheader {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hc-date {
+  margin: 0;
+  margin-left: 1rem;
+  color: #909090;
+  font-size: 0.6875rem;
+  margin-left: 0.3125rem;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.hc-quote {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  font-style: italic;
+  color: #909090;
+  margin-bottom: 0.625rem;
+  background-color: #fff;
+  padding: 0.625rem;
+  border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #222;
+  margin-bottom: 0.625rem;
+  word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}</style></head>
 <body>
 <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
 <!-- HEADER -->
@@ -374,7 +1041,6 @@ Komento.ready(function($) {
 <div class="theme-freso" id="section-kmt">
 <!-- START: Pro Version Only -->
 <!-- END: Pro Version Only -->
-
 <script type="text/javascript">
 Komento.require().script('komento.famelist').done(function($) {
 	if($('.fameList').exists()) {
@@ -419,8 +1085,55 @@ Komento.require().script('komento.commenttools').done(function($) {
 </div>
 <div class="commentList kmt-list-wrap commentList-12">
 <ul class="kmt-list reset-child">
-
 <li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Don't leave me - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Mew Forest RedLeaves</h3>
+<div class="hc-date">2012-05-30 16:03:32</div>
+</div>
+<p class="hc-text">Очень проникновенное стихотворение!)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Don't leave me - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Mew Forest RedLeaves</h3>
+<div class="hc-date">2012-05-30 16:03:32</div>
+</div>
+<p class="hc-text">Очень проникновенное стихотворение!)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Don't leave me - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Mew Forest RedLeaves</h3>
+<div class="hc-date">2012-05-30 16:03:32</div>
+</div>
+<p class="hc-text">Очень проникновенное стихотворение!)</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Fragile Cor: Don't leave me - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Mew Forest RedLeaves</h3>
+<div class="hc-date">2012-05-30 16:03:32</div>
+</div>
+<p class="hc-text">Очень проникновенное стихотворение!)</p>
+</div>
+</div>
+</li><li>
 <div class="hc-comment">
 <img class="hc-avatar" src="data:image/jpeg;base64,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"/>
 <div class="hc-content">
@@ -513,9 +1226,19 @@ Komento.require().script('komento.commenttools').done(function($) {
 <div class="col-md-12 copyright">
 <div class="custom">
 <p><a href="../index.htm">Красные Листья</a> - необычный литературный проект, объединяющий молодых авторов. Любой может <a href="../profile/social/register.html">присоединиться</a> к нам!</p>
-<p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="../10-system/61-politic.html">правилами сайта</a>. </p></div>
+<p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="../10-system/61-politic.html">правилами сайта</a>. </p><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md">
+    что это значит?</a>)</p>
+<pre>Дата копии: 2021-06-22 12:48:41.997799</pre>
+</div><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md">что это значит?</a>)
+    Дата копии: 2021-06-22 12:51:41</p>
+</div><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md" target="_blank">что это значит?</a>).
+    Обновлено: 2021-06-22 12:55:31.</p>
+</div></div>
 <ul id="jm_sl_navigation">
-<li class="vk"><a href="http://vk.com/redleaves" rel="nofollow" target="_blank">Читай нас ВКонтакте</a></li> </ul><p style="display:none">Разработано <a href="http://joomlamaster.org.ua/moduli.html" target="_blank" title="Бесплатные модули для CMS Joomla!">Joomlamaster.org.ua</a> совместно с <a href="http://joomstudio.com.ua/" target="_blank" title="Разработка и продвижение веб сайтов">Joomstudio.com.ua</a></p>
+<li class="vk"><a href="http://vk.com/redleaves" rel="nofollow" target="_blank">Читай нас ВКонтакте</a></li> </ul>
 <!-- <small>
             <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a> is a front-end framework of Twitter, Inc. Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>.
           </small>

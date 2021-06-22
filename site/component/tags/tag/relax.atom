@@ -7,7 +7,7 @@
 	<subtitle type="text">Красные Листья - необычный литературный проект, который объединяет молодых авторов.</subtitle>
 	<link rel="alternate" type="text/html" href="http://redleaves.ru"/>
 	<id>http://redleaves.ru/component/tags/tag/relax</id>
-	<updated>2021-06-20T23:21:25+01:00</updated>
+	<updated>2021-06-21T16:55:06+01:00</updated>
 	<author>
 		<name>Красные Листья</name>
 	</author>
@@ -15,10 +15,10 @@
 	<link rel="self" type="application/atom+xml" href="http://redleaves.ru/component/tags/tag/relax?format=feed&amp;type=atom"/>
 	<entry>
 		<title>Amai Riro: Золотая осень</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/6-gold-fall"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/6-gold-fall"/>
 		<published>2013-07-11T15:08:12+01:00</published>
 		<updated>2013-07-11T15:08:12+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/6-gold-fall</id>
+		<id>http://redleaves.ru/proza/6-gold-fall</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -36,10 +36,10 @@
 	</entry>
 	<entry>
 		<title>Amai Riro: Не Молчи</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/66-dont-be-a-silent"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/66-dont-be-a-silent"/>
 		<published>2014-02-12T14:57:13+00:00</published>
 		<updated>2014-02-12T14:57:13+00:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/66-dont-be-a-silent</id>
+		<id>http://redleaves.ru/stikhi/66-dont-be-a-silent</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -57,10 +57,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: Исповедь и напутствие</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/20-confession-and-farewell"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/20-confession-and-farewell"/>
 		<published>2012-08-25T15:11:24+01:00</published>
 		<updated>2012-08-25T15:11:24+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/20-confession-and-farewell</id>
+		<id>http://redleaves.ru/proza/20-confession-and-farewell</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -78,10 +78,10 @@
 	</entry>
 	<entry>
 		<title>Mew Forest: В минуты...</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/31-in-moments"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/31-in-moments"/>
 		<published>2012-09-10T16:52:08+01:00</published>
 		<updated>2012-09-10T16:52:08+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/31-in-moments</id>
+		<id>http://redleaves.ru/stikhi/31-in-moments</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -98,11 +98,32 @@
 		<category term="Mew Forest: В минуты..." />
 	</entry>
 	<entry>
+		<title>Mew Forest: Не нужно стремиться в рай, не найдя его здесь</title>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/94-mew-forest-ne-nuzhno-stremitsya-v-raj-ne-najdya-ego-zdes"/>
+		<published>2015-09-30T07:58:01+01:00</published>
+		<updated>2015-09-30T07:58:01+01:00</updated>
+		<id>http://redleaves.ru/proza/94-mew-forest-ne-nuzhno-stremitsya-v-raj-ne-najdya-ego-zdes</id>
+		<author>
+			<name>Mew Forest</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;Mew Forest:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Не нужно стремиться в рай, не найдя его здесь&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://redleaves.ru/images/tumblr_mewforest.png&quot; alt=&quot;tumblr mewforest&quot; width=&quot;177&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Другое, размышления&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении:&lt;/strong&gt;&amp;nbsp;Автор рассуждает о проблеме соляпсизма и реальности всего окружающего через призму обыденной студенческой жизни. Произведение написано в 2015 году.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Mew Forest:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Не нужно стремиться в рай, не найдя его здесь&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://redleaves.ru/images/tumblr_mewforest.png&quot; alt=&quot;tumblr mewforest&quot; width=&quot;177&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жанр: Другое, размышления&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О произведении:&lt;/strong&gt;&amp;nbsp;Автор рассуждает о проблеме соляпсизма и реальности всего окружающего через призму обыденной студенческой жизни. Произведение написано в 2015 году.&lt;/p&gt;
+</content>
+		<category term="Mew Forest: Не нужно стремиться в рай, не найдя его здесь" />
+	</entry>
+	<entry>
 		<title>Mr. Jester: Дневник 190/896</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/37-dairy_jester"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/37-dairy_jester"/>
 		<published>2012-08-08T13:27:06+01:00</published>
 		<updated>2012-08-08T13:27:06+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/37-dairy_jester</id>
+		<id>http://redleaves.ru/proza/37-dairy_jester</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -120,10 +141,10 @@
 	</entry>
 	<entry>
 		<title>Mr.Jester: Без Названия</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/38-no-name"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/38-no-name"/>
 		<published>2012-05-19T10:59:54+01:00</published>
 		<updated>2012-05-19T10:59:54+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/38-no-name</id>
+		<id>http://redleaves.ru/stikhi/38-no-name</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -141,10 +162,10 @@
 	</entry>
 	<entry>
 		<title>Mr.Jester: Ноябрь</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/40-november"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/40-november"/>
 		<published>2012-09-16T05:13:29+01:00</published>
 		<updated>2012-09-16T05:13:29+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/40-november</id>
+		<id>http://redleaves.ru/stikhi/40-november</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -162,10 +183,10 @@
 	</entry>
 	<entry>
 		<title>Mr.Jester: От принятых нами решений</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/41-of-our-decisions"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/41-of-our-decisions"/>
 		<published>2012-08-24T09:24:30+01:00</published>
 		<updated>2012-08-24T09:24:30+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/41-of-our-decisions</id>
+		<id>http://redleaves.ru/stikhi/41-of-our-decisions</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -183,10 +204,10 @@
 	</entry>
 	<entry>
 		<title>Mr.Jester: Повторение</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/42-repeat"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/42-repeat"/>
 		<published>2012-10-07T14:26:19+01:00</published>
 		<updated>2012-10-07T14:26:19+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/42-repeat</id>
+		<id>http://redleaves.ru/stikhi/42-repeat</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -201,26 +222,5 @@
 &lt;p&gt;&lt;strong&gt;О произведении: По одному слову в строчке, как у Маяковского, интересное написание&lt;/strong&gt;&lt;/p&gt;
 </content>
 		<category term="Mr.Jester: Повторение" />
-	</entry>
-	<entry>
-		<title>Mr.Jester: Я иду отчеканенным шагом</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/43-go-to-step"/>
-		<published>2012-05-25T12:57:19+01:00</published>
-		<updated>2012-05-25T12:57:19+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/43-go-to-step</id>
-		<author>
-			<name>Mew Forest</name>
-		</author>
-		<summary type="html">&lt;p&gt;&lt;strong&gt;Mr. Jester: Я иду отчеканенным шагом &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top; border: 0;&quot; src=&quot;http://redleaves.ru/images/old/go-to-step.jpg&quot; alt=&quot;&quot; width=&quot;450&quot; height=&quot;301&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;О произведении: &quot;&lt;/strong&gt;&lt;strong&gt;Я не я - это нрав мой таков.&quot;&lt;/strong&gt;&lt;/p&gt;
-</summary>
-		<content type="html">&lt;p&gt;&lt;strong&gt;Mr. Jester: Я иду отчеканенным шагом &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;img style=&quot;vertical-align: top; border: 0;&quot; src=&quot;http://redleaves.ru/images/old/go-to-step.jpg&quot; alt=&quot;&quot; width=&quot;450&quot; height=&quot;301&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Жанр: размышление (стихи)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;О произведении: &quot;&lt;/strong&gt;&lt;strong&gt;Я не я - это нрав мой таков.&quot;&lt;/strong&gt;&lt;/p&gt;
-</content>
-		<category term="Mr.Jester: Я иду отчеканенным шагом" />
 	</entry>
 </feed>

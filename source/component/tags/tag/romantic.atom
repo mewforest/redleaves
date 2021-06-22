@@ -7,7 +7,7 @@
 	<subtitle type="text">Красные Листья - необычный литературный проект, который объединяет молодых авторов.</subtitle>
 	<link rel="alternate" type="text/html" href="http://redleaves.ru"/>
 	<id>http://redleaves.ru/component/tags/tag/romantic</id>
-	<updated>2021-06-20T23:20:42+01:00</updated>
+	<updated>2021-06-21T16:55:46+01:00</updated>
 	<author>
 		<name>Красные Листья</name>
 	</author>
@@ -15,10 +15,10 @@
 	<link rel="self" type="application/atom+xml" href="http://redleaves.ru/component/tags/tag/romantic?format=feed&amp;type=atom"/>
 	<entry>
 		<title>Alifeia: Музыка</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/2-music"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/2-music"/>
 		<published>2012-05-26T13:43:45+01:00</published>
 		<updated>2012-05-26T13:43:45+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/2-music</id>
+		<id>http://redleaves.ru/stikhi/2-music</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -36,10 +36,10 @@
 	</entry>
 	<entry>
 		<title>Alifeia: Песня Ветра</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/3-song-of-wind"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/3-song-of-wind"/>
 		<published>2012-08-30T08:25:13+01:00</published>
 		<updated>2012-08-30T08:25:13+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/3-song-of-wind</id>
+		<id>http://redleaves.ru/stikhi/3-song-of-wind</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -57,10 +57,10 @@
 	</entry>
 	<entry>
 		<title>Alifeia: Я не люблю весну</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/4-i-do-not-like-spring"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/4-i-do-not-like-spring"/>
 		<published>2013-04-06T14:43:00+01:00</published>
 		<updated>2013-04-06T14:43:00+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/4-i-do-not-like-spring</id>
+		<id>http://redleaves.ru/stikhi/4-i-do-not-like-spring</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -78,10 +78,10 @@
 	</entry>
 	<entry>
 		<title>Amai Riro: Золотая осень</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/6-gold-fall"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/proza/6-gold-fall"/>
 		<published>2013-07-11T15:08:12+01:00</published>
 		<updated>2013-07-11T15:08:12+01:00</updated>
-		<id>http://redleaves.ru/%D0%BF%D1%80%D0%BE%D0%B7%D0%B0/6-gold-fall</id>
+		<id>http://redleaves.ru/proza/6-gold-fall</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -99,10 +99,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: 2 мизантропа</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/10-two-misantropes"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/10-two-misantropes"/>
 		<published>2012-08-28T07:24:44+01:00</published>
 		<updated>2012-08-28T07:24:44+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/10-two-misantropes</id>
+		<id>http://redleaves.ru/stikhi/10-two-misantropes</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -120,10 +120,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: Don't Hurt Me, No More</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/11-dont-hurt-me-no-more"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/11-dont-hurt-me-no-more"/>
 		<published>2012-08-30T16:03:09+01:00</published>
 		<updated>2012-08-30T16:03:09+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/11-dont-hurt-me-no-more</id>
+		<id>http://redleaves.ru/stikhi/11-dont-hurt-me-no-more</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -141,10 +141,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: Don't leave me</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/12-dont-leave-me"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/12-dont-leave-me"/>
 		<published>2012-05-29T08:51:44+01:00</published>
 		<updated>2012-05-29T08:51:44+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/12-dont-leave-me</id>
+		<id>http://redleaves.ru/stikhi/12-dont-leave-me</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -162,10 +162,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: Give Us A Little Love</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/14-give-us-a-little-love"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/14-give-us-a-little-love"/>
 		<published>2012-06-01T13:00:47+01:00</published>
 		<updated>2012-06-01T13:00:47+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/14-give-us-a-little-love</id>
+		<id>http://redleaves.ru/stikhi/14-give-us-a-little-love</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -183,10 +183,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: October, lost my mind</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/16-october-lost-my-mind"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/16-october-lost-my-mind"/>
 		<published>2012-06-01T13:22:12+01:00</published>
 		<updated>2012-06-01T13:22:12+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/16-october-lost-my-mind</id>
+		<id>http://redleaves.ru/stikhi/16-october-lost-my-mind</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>
@@ -204,10 +204,10 @@
 	</entry>
 	<entry>
 		<title>Fragile Cor: P.S. Я тебя люблю</title>
-		<link rel="alternate" type="text/html" href="http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/17-ps-i-love-you"/>
+		<link rel="alternate" type="text/html" href="http://redleaves.ru/stikhi/17-ps-i-love-you"/>
 		<published>2012-05-25T10:50:41+01:00</published>
 		<updated>2012-05-25T10:50:41+01:00</updated>
-		<id>http://redleaves.ru/%D1%81%D1%82%D0%B8%D1%85%D0%B8/17-ps-i-love-you</id>
+		<id>http://redleaves.ru/stikhi/17-ps-i-love-you</id>
 		<author>
 			<name>Mew Forest</name>
 		</author>

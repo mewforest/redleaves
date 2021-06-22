@@ -13,7 +13,10 @@ This is the official offline copy of [redleaves.ru](http://redleaves.ru)
 > Красные Листья - необычный литературный проект, объединяющий молодых авторов.
 
 🇺🇸:
-> Red Leaves is an unusual literary project that brings together young authors. 
+> Red Leaves is an unusual literary project that brings together young authors.
+> Original language of the project is Russian.
+
+### [Russian version](https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md)
 
 ## Improvements
 

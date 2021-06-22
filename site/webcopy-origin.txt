@@ -78,24 +78,8 @@ Uri: http://redleaves.ru/modules/mod_social_slider/assets/style.css
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\style.css
 Content Type: text/css
 
-Uri: http://redleaves.ru/проза
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/создать
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\создать.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/68-mew-forest-be-aware-of-dracula
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\68-mew-forest-be-aware-of-dracula.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/68-mew-forest-be-aware-of-dracula?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\68-mew-forest-be-aware-of-dracula-1.html
 Content Type: text/html
 
 Uri: http://redleaves.ru/component/tags/tag/active
@@ -114,40 +98,12 @@ Uri: http://redleaves.ru/component/tags/tag/lol
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\lol.html
 Content Type: text/html
 
-Uri: http://redleaves.ru/проза/7-the-one
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\7-the-one.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/7-the-one?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\7-the-one-1.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/component/tags/tag/dark
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\dark.html
 Content Type: text/html
 
-Uri: http://redleaves.ru/проза/25-do-i-think-her-guilty
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\25-do-i-think-her-guilty.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/25-do-i-think-her-guilty?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\25-do-i-think-her-guilty-1.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/47-beauty-eyes
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\47-beauty-eyes.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/47-beauty-eyes?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\47-beauty-eyes-1.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/проза/67-fade
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\67-fade.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/67-fade?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\67-fade-1.html
 Content Type: text/html
 
 Uri: http://redleaves.ru/component/tags/tag/relax
@@ -158,40 +114,12 @@ Uri: http://redleaves.ru/стихи/78-продавец-ёлок-истории
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\78-продавец-ёлок-истории.html
 Content Type: text/html
 
-Uri: http://redleaves.ru/стихи/78-продавец-ёлок-истории?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\78-продавец-ёлок-истории-1.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/66-dont-be-a-silent
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\66-dont-be-a-silent.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/66-dont-be-a-silent?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\66-dont-be-a-silent-1.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/проза/77-up-and-down
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\77-up-and-down.html
 Content Type: text/html
 
-Uri: http://redleaves.ru/проза/77-up-and-down?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\77-up-and-down-1.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/стихи/83-земля-и-луна
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\83-земля-и-луна.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/83-земля-и-луна?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\83-земля-и-луна-1.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/87-fenibutia
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\87-fenibutia.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/87-fenibutia?tmpl=component&print=1&layout=default&page=
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\87-fenibutia-1.html
 Content Type: text/html
 
 Uri: http://redleaves.ru/profile/social/register
@@ -210,18 +138,6 @@ Uri: http://redleaves.ru/r/mobile.css
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\r\mobile.css
 Content Type: text/css
 
-Uri: http://redleaves.ru/media/jui/js/jquery.min.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\jquery.min.js
-Content Type: application/javascript
-
-Uri: http://redleaves.ru/media/jui/js/jquery-noconflict.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\jquery-noconflict.js
-Content Type: application/javascript
-
-Uri: http://redleaves.ru/media/jui/js/jquery-migrate.min.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\jquery-migrate.min.js
-Content Type: application/javascript
-
 Uri: http://redleaves.ru/plugins/system/bdthemes_shortcodes/js/shortcode-ultimate.js
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\bdthemes_shortcodes\js\shortcode-ultimate.js
 Content Type: application/javascript
@@ -232,14 +148,6 @@ Content Type: application/javascript
 
 Uri: http://redleaves.ru/media/com_komento/config/4cb183688509b13c860214e4cf3ce94e.js
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\4cb183688509b13c860214e4cf3ce94e.js
-Content Type: application/javascript
-
-Uri: http://redleaves.ru/media/system/js/caption.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\caption.js
-Content Type: application/javascript
-
-Uri: http://redleaves.ru/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\bootstrap\js\bootstrap.js
 Content Type: application/javascript
 
 Uri: http://redleaves.ru/plugins/system/t3/base-bs3/js/jquery.tap.min.js
@@ -750,117 +658,9 @@ Uri: http://redleaves.ru/modules/mod_social_slider/assets/icons/linedin.png
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\modules\mod_social_slider\assets\icons\linedin.png
 Content Type: image/png
 
-Uri: http://redleaves.ru/проза?format=feed&type=rss
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза.rss
-Content Type: application/rss+xml
-
-Uri: http://redleaves.ru/проза?format=feed&type=atom
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза.atom
-Content Type: application/atom+xml
-
-Uri: http://redleaves.ru/проза/5-two-lives-one-extra
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\5-two-lives-one-extra.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/6-gold-fall
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\6-gold-fall.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/13-f_ck-this-illusion
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\13-f_ck-this-illusion.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/15-inconsciente
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\15-inconsciente.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза?limit=5&start=5
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-1.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза?limit=5&start=10
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-2.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза?limit=5&start=15
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-3.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза?limit=5&start=20
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-4.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза?limit=5&start=25
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-5.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/media/com_komento/config/95c74511dad91a3c0d1338b4a5c9e348.js
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\95c74511dad91a3c0d1338b4a5c9e348.js
 Content Type: application/javascript
-
-Uri: http://redleaves.ru/media/system/js/mootools-core.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\mootools-core.js
-Content Type: application/javascript
-
-Uri: http://redleaves.ru/media/system/js/core.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\core.js
-Content Type: application/javascript
-
-Uri: http://redleaves.ru/стихи?format=feed&type=rss
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи.rss
-Content Type: application/rss+xml
-
-Uri: http://redleaves.ru/стихи?format=feed&type=atom
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи.atom
-Content Type: application/atom+xml
-
-Uri: http://redleaves.ru/стихи/23-where-so-many-feelings
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\23-where-so-many-feelings.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/24-now-time-for-breathe
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\24-now-time-for-breathe.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/53-night-event
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\53-night-event.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/52-not-everything-is-perfect
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\52-not-everything-is-perfect.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/4-i-do-not-like-spring
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\4-i-do-not-like-spring.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/18-the-end
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\18-the-end.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи?limit=5&start=5
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-1.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи?limit=5&start=10
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-2.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи?limit=5&start=15
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-3.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи?limit=5&start=20
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-4.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи?limit=5&start=25
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-5.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи?limit=5&start=30
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-6.html
-Content Type: text/html
 
 Uri: http://redleaves.ru/media/com_komento/config/8633d182e94d10bfa3a8e063c98a82c2.js
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\com_komento\config\8633d182e94d10bfa3a8e063c98a82c2.js
@@ -882,10 +682,6 @@ Uri: http://redleaves.ru/media/tooltips/css/style.min.css
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\tooltips\css\style.min.css
 Content Type: text/css
 
-Uri: http://redleaves.ru/media/system/js/mootools-more.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\mootools-more.js
-Content Type: application/javascript
-
 Uri: http://redleaves.ru/plugins/content/LVSpoiler/assets/mootools/spoiler.js
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\content\LVSpoiler\assets\mootools\spoiler.js
 Content Type: application/javascript
@@ -900,26 +696,6 @@ Content Type: text/css
 
 Uri: http://redleaves.ru/profile/social/737-super-user/profile
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\737-super-user\profile.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/28-only-you
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\28-only-you.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/33-day-when-springarrives
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\33-day-when-springarrives.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/35-mirage
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\35-mirage.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/3-song-of-wind
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\3-song-of-wind.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/2-music
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\2-music.html
 Content Type: text/html
 
 Uri: http://redleaves.ru/media/com_komento/config/713a0865a55413fb5df59b476c515bd0.js
@@ -942,46 +718,6 @@ Uri: http://redleaves.ru/component/tags/tag/active?format=feed&type=atom
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\active.atom
 Content Type: application/atom+xml
 
-Uri: http://redleaves.ru/media/jui/css/chosen.css?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\css\chosen.css
-Content Type: text/css
-
-Uri: http://redleaves.ru/стихи/16-october-lost-my-mind
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\16-october-lost-my-mind.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/22-weather-storms
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\22-weather-storms.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/29-brave-new-world
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\29-brave-new-world.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/30-werewolf
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\30-werewolf.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/32-two-of-the-waves
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\32-two-of-the-waves.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/36-fell
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\36-fell.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/44-choise
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\44-choise.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/45-they-do-not-understand-they-re-different
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\45-they-do-not-understand-they-re-different.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/media/jui/js/chosen.jquery.min.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\chosen.jquery.min.js
-Content Type: application/javascript
-
 Uri: http://redleaves.ru/component/tags/tag/romantic?format=feed&type=rss
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic.rss
 Content Type: application/rss+xml
@@ -989,42 +725,6 @@ Content Type: application/rss+xml
 Uri: http://redleaves.ru/component/tags/tag/romantic?format=feed&type=atom
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic.atom
 Content Type: application/atom+xml
-
-Uri: http://redleaves.ru/стихи/10-two-misantropes
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\10-two-misantropes.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/11-dont-hurt-me-no-more
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\11-dont-hurt-me-no-more.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/12-dont-leave-me
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\12-dont-leave-me.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/14-give-us-a-little-love
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\14-give-us-a-little-love.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/17-ps-i-love-you
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\17-ps-i-love-you.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/19-depressive-cool-poem
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\19-depressive-cool-poem.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/21-my-pretty-friend
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\21-my-pretty-friend.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/26-after-a-while
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\26-after-a-while.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/27-i-will-always-love-you-my-fallen-angel
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\27-i-will-always-love-you-my-fallen-angel.html
-Content Type: text/html
 
 Uri: http://redleaves.ru/component/tags/tag/romantic?limit=20&start=20
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\romantic-1.html
@@ -1038,22 +738,6 @@ Uri: http://redleaves.ru/component/tags/tag/light?format=feed&type=atom
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\light.atom
 Content Type: application/atom+xml
 
-Uri: http://redleaves.ru/проза/20-confession-and-farewell
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\20-confession-and-farewell.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/31-in-moments
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\31-in-moments.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/42-repeat
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\42-repeat.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/46-a-cat
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\46-a-cat.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/component/tags/tag/light?limit=20&start=20
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\light-1.html
 Content Type: text/html
@@ -1066,24 +750,8 @@ Uri: http://redleaves.ru/component/tags/tag/lol?format=feed&type=atom
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\lol.atom
 Content Type: application/atom+xml
 
-Uri: http://redleaves.ru/стихи/39-idiot
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\39-idiot.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/54-no-rules
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\54-no-rules.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/profile/social/740-aquamarine/profile
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\740-aquamarine\profile.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/8-62461
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\8-62461.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/9-98745
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\9-98745.html
 Content Type: text/html
 
 Uri: http://redleaves.ru/images/avatar/thumb_4b4354ad8542aaefe7282a49.jpg
@@ -1098,22 +766,6 @@ Uri: http://redleaves.ru/component/tags/tag/dark?format=feed&type=atom
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\dark.atom
 Content Type: application/atom+xml
 
-Uri: http://redleaves.ru/проза/56-back-to-leave-leave-to-return
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\56-back-to-leave-leave-to-return.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/34-blood-on-our-hearts
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\34-blood-on-our-hearts.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/проза/37-dairy_jester
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза\37-dairy_jester.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/43-go-to-step
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\43-go-to-step.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/profile/social/741-fragile-cor/profile
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\741-fragile-cor\profile.html
 Content Type: text/html
@@ -1124,10 +776,6 @@ Content Type: image/jpeg
 
 Uri: http://redleaves.ru/profile/social/745-nero-gatto/profile
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\745-nero-gatto\profile.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/38-no-name
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\38-no-name.html
 Content Type: text/html
 
 Uri: http://redleaves.ru/media/com_komento/config/bd0e8770b90203db6013c3cdd4d5244b.js
@@ -1157,14 +805,6 @@ Content Type: application/rss+xml
 Uri: http://redleaves.ru/component/tags/tag/relax?format=feed&type=atom
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\tags\tag\relax.atom
 Content Type: application/atom+xml
-
-Uri: http://redleaves.ru/стихи/40-november
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\40-november.html
-Content Type: text/html
-
-Uri: http://redleaves.ru/стихи/41-of-our-decisions
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\41-of-our-decisions.html
-Content Type: text/html
 
 Uri: http://redleaves.ru/profile/social/743-izmail/profile
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\profile.html
@@ -1258,18 +898,6 @@ Uri: http://redleaves.ru/images/inconsciente.jpg
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\inconsciente.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/проза?limit=5&format=feed&type=rss
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-1.rss
-Content Type: application/rss+xml
-
-Uri: http://redleaves.ru/проза?limit=5&format=feed&type=atom
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-1.atom
-Content Type: application/atom+xml
-
-Uri: http://redleaves.ru/проза?limit=5&start=0
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\проза-6.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/images/brave-new-world.jpg
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\brave-new-world.jpg
 Content Type: image/jpeg
@@ -1358,25 +986,9 @@ Uri: http://redleaves.ru/images/the-end.png
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\the-end.png
 Content Type: image/png
 
-Uri: http://redleaves.ru/стихи?limit=5&format=feed&type=rss
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-1.rss
-Content Type: application/rss+xml
-
-Uri: http://redleaves.ru/стихи?limit=5&format=feed&type=atom
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-1.atom
-Content Type: application/atom+xml
-
-Uri: http://redleaves.ru/стихи?limit=5&start=0
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи-7.html
-Content Type: text/html
-
 Uri: http://redleaves.ru/images/repeat.jpg
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\repeat.jpg
 Content Type: image/jpeg
-
-Uri: http://redleaves.ru/стихи/49-pleases
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\49-pleases.html
-Content Type: text/html
 
 Uri: http://redleaves.ru/images/my-pretty-friend.jpg
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\my-pretty-friend.jpg
@@ -1417,10 +1029,6 @@ Content Type: image/jpeg
 Uri: http://redleaves.ru/images/of-our-decisions.jpg
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\of-our-decisions.jpg
 Content Type: image/jpeg
-
-Uri: http://redleaves.ru/стихи/48-peterburg
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\стихи\48-peterburg.html
-Content Type: text/html
 
 Uri: http://redleaves.ru/images/old/they-do-not-understand-they're-different.jpg
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\old\they-do-not-understand-they're-different.jpg
@@ -1685,18 +1293,6 @@ Content Type: text/html
 Uri: http://redleaves.ru/component/users/?view=remind&Itemid=101
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\component\users\index-2.htm
 Content Type: text/html
-
-Uri: http://redleaves.ru/media/system/js/keepalive.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\keepalive.js
-Content Type: application/javascript
-
-Uri: http://redleaves.ru/media/system/js/punycode.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\punycode.js
-Content Type: application/javascript
-
-Uri: http://redleaves.ru/media/system/js/validate.js?18bf3c7ba66490936625ed8dbb4b85ec
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\validate.js
-Content Type: application/javascript
 
 Uri: http://redleaves.ru/profile/social/743-izmail/friends
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\743-izmail\friends.html
@@ -2094,371 +1690,787 @@ Uri: http://redleaves.ru/profile/social/search/browse?limit=12&start=0
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\profile\social\search\browse-2.html
 Content Type: text/html
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227623
+Uri: http://redleaves.ru/proza
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/94-mew-forest-ne-nuzhno-stremitsya-v-raj-ne-najdya-ego-zdes
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\94-mew-forest-ne-nuzhno-stremitsya-v-raj-ne-najdya-ego-zdes.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/94-mew-forest-ne-nuzhno-stremitsya-v-raj-ne-najdya-ego-zdes?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\94-mew-forest-ne-nuzhno-stremitsya-v-raj-ne-najdya-ego-zdes-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/87-fenibutia
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\87-fenibutia.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/87-fenibutia?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\87-fenibutia-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/83-земля-и-луна
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\83-земля-и-луна.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/83-земля-и-луна?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\83-земля-и-луна-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/78-продавец-ёлок-истории
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\78-продавец-ёлок-истории.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/78-продавец-ёлок-истории?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\78-продавец-ёлок-истории-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/77-up-and-down
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\77-up-and-down.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/77-up-and-down?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\77-up-and-down-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/68-mew-forest-be-aware-of-dracula
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\68-mew-forest-be-aware-of-dracula.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/68-mew-forest-be-aware-of-dracula?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\68-mew-forest-be-aware-of-dracula-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/67-fade
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\67-fade.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/67-fade?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\67-fade-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/66-dont-be-a-silent
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\66-dont-be-a-silent.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/66-dont-be-a-silent?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\66-dont-be-a-silent-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/25-do-i-think-her-guilty
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\25-do-i-think-her-guilty.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/25-do-i-think-her-guilty?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\25-do-i-think-her-guilty-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/7-the-one
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\7-the-one.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/7-the-one?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\7-the-one-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/47-beauty-eyes
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\47-beauty-eyes.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/47-beauty-eyes?tmpl=component&print=1&layout=default&page=
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\47-beauty-eyes-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/jui/js/jquery.min.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/jui/js/jquery-noconflict.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\jquery-noconflict.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/jui/js/jquery-migrate.min.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/system/js/caption.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\caption.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\plugins\system\t3\base-bs3\bootstrap\js\bootstrap.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/images/tumblr_mewforest.png
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\tumblr_mewforest.png
+Content Type: image/png
+
+Uri: http://redleaves.ru/proza?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/proza?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/proza/5-two-lives-one-extra
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\5-two-lives-one-extra.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/6-gold-fall
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\6-gold-fall.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/13-f_ck-this-illusion
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\13-f_ck-this-illusion.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/15-inconsciente
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\15-inconsciente.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/29-brave-new-world
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\29-brave-new-world.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/34-blood-on-our-hearts
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\34-blood-on-our-hearts.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza?limit=8&start=8
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza?limit=8&start=16
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza-2.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza?limit=8&start=24
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza-3.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/system/js/mootools-core.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\mootools-core.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/system/js/core.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\core.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/stikhi?format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/stikhi?format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/stikhi/23-where-so-many-feelings
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\23-where-so-many-feelings.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/24-now-time-for-breathe
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\24-now-time-for-breathe.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/53-night-event
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\53-night-event.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/52-not-everything-is-perfect
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\52-not-everything-is-perfect.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/4-i-do-not-like-spring
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\4-i-do-not-like-spring.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/18-the-end
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\18-the-end.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/42-repeat
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\42-repeat.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/21-my-pretty-friend
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\21-my-pretty-friend.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/40-november
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\40-november.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi?limit=8&start=8
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi-1.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi?limit=8&start=16
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi-2.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi?limit=8&start=24
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi-3.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi?limit=8&start=32
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi-4.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/system/js/mootools-more.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\mootools-more.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/proza/37-dairy_jester
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\37-dairy_jester.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/43-go-to-step
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\43-go-to-step.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/jui/css/chosen.css?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\css\chosen.css
+Content Type: text/css
+
+Uri: http://redleaves.ru/proza/20-confession-and-farewell
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\20-confession-and-farewell.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/31-in-moments
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\31-in-moments.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/38-no-name
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\38-no-name.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/41-of-our-decisions
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\41-of-our-decisions.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/46-a-cat
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\46-a-cat.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/media/jui/js/chosen.jquery.min.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\jui\js\chosen.jquery.min.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/proza/8-62461
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\8-62461.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/9-98745
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\9-98745.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/56-back-to-leave-leave-to-return
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\56-back-to-leave-leave-to-return.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/30-werewolf
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\30-werewolf.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/36-fell
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\36-fell.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/54-no-rules
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\54-no-rules.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/16-october-lost-my-mind
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\16-october-lost-my-mind.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/22-weather-storms
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\22-weather-storms.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/32-two-of-the-waves
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\32-two-of-the-waves.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/33-day-when-springarrives
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\33-day-when-springarrives.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/35-mirage
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\35-mirage.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/44-choise
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\44-choise.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/45-they-do-not-understand-they-re-different
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\45-they-do-not-understand-they-re-different.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/3-song-of-wind
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\3-song-of-wind.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/2-music
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\2-music.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/10-two-misantropes
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\10-two-misantropes.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/14-give-us-a-little-love
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\14-give-us-a-little-love.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/11-dont-hurt-me-no-more
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\11-dont-hurt-me-no-more.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/12-dont-leave-me
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\12-dont-leave-me.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/17-ps-i-love-you
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\17-ps-i-love-you.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/19-depressive-cool-poem
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\19-depressive-cool-poem.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/26-after-a-while
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\26-after-a-while.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/27-i-will-always-love-you-my-fallen-angel
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\27-i-will-always-love-you-my-fallen-angel.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza/28-only-you
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza\28-only-you.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/39-idiot
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\39-idiot.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/proza?limit=8&format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza-1.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/proza?limit=8&format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza-1.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/proza?limit=8&start=0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\proza-4.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi?limit=8&format=feed&type=rss
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi-1.rss
+Content Type: application/rss+xml
+
+Uri: http://redleaves.ru/stikhi?limit=8&format=feed&type=atom
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi-1.atom
+Content Type: application/atom+xml
+
+Uri: http://redleaves.ru/stikhi/49-pleases
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\49-pleases.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi?limit=8&start=0
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi-5.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/stikhi/48-peterburg
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\stikhi\48-peterburg.html
+Content Type: text/html
+
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624290901
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624227665
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624227675
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624227677
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624227681
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624227689
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624227691
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624227692
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624227694
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624290925
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624227708
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624290937
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/media/system/js/keepalive.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\keepalive.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/system/js/punycode.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\punycode.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/media/system/js/validate.js?bdcab7dea4583f9ed1f443f98ae04eb2
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\media\system\js\validate.js
+Content Type: application/javascript
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624290959
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624290964
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624290966
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624290967
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624290969
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624290971
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624290984
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227723
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624290999
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-1.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227724
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624291001
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-2.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227726
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624291002
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-3.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227727
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624291004
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-4.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227729
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624291005
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-5.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227730
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624291006
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-6.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624227745
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-1.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624227747
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-2.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624227748
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-3.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624227749
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-4.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624227751
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-5.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624227752
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-6.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624227755
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-1.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624227757
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-2.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624227758
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-3.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624227759
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-4.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624227761
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-5.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624227762
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-6.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624227764
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-1.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624227765
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-2.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624227766
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-3.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624227768
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-4.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624227769
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-5.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624227770
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-6.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624227772
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-1.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624227774
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-2.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624227775
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-3.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624227776
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-4.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624227778
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-5.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624227779
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-6.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624227783
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-1.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624227784
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-2.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624227786
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-3.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624227787
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-4.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624227789
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-5.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624227790
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-6.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624227793
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-1.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624227795
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-2.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624227796
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-3.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624227797
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-4.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624227799
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-5.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624227800
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-6.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624227802
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-1.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624227803
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-2.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624227805
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-3.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624227806
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-4.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624227808
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-5.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624227809
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-6.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624227811
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624291016
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-1.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624227813
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624291018
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-2.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624227814
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624291019
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-3.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624227815
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624291021
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-4.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624227817
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624291023
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-5.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624227818
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624291024
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-6.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624227831
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624291028
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624291029
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624291030
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624291032
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624291033
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624291035
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624291045
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624291047
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624291048
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624291049
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624291051
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624291052
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624291061
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624291063
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624291064
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624291066
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624291067
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624291068
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624291070
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624291072
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624291073
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624291074
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624291076
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624291077
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624291079
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624291081
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624291083
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624291084
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624291086
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624291087
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624291089
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624291090
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624291092
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624291093
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624291095
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624291096
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624291098
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-1.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624291100
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-2.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624291101
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-3.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624291103
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-4.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624291104
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-5.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624291105
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-6.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624291119
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-1.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624227832
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624291121
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-2.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624227833
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624291123
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-3.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624227835
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624291124
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-4.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624227836
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624291125
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-5.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624227837
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624291127
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-6.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227840
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624291130
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-7.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227844
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624291135
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-8.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227845
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624291137
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-9.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624227860
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-7.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624227862
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-8.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624227868
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-7.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624227869
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-8.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624227873
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-7.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624227874
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-8.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624227877
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-7.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624227879
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-8.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624227882
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-7.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624227883
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-8.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624227887
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-7.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624227888
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-8.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624227891
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-7.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624227893
-File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-8.jpg
-Content Type: image/jpeg
-
-Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624227896
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624291152
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-7.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624227897
+Uri: http://redleaves.ru/images/avatar/6e350279993a74a589a5a23e.jpg?_=1624291153
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\6e350279993a74a589a5a23e-8.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624227900
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624291159
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a66c56687fdde7ad0f7b121a.jpg?_=1624291161
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a66c56687fdde7ad0f7b121a-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624291164
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/0135b7fc8bc2f47f8b9c1b25.jpg?_=1624291165
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\0135b7fc8bc2f47f8b9c1b25-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624291168
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/52187474c34fbb93d5c75e0c.jpg?_=1624291170
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\52187474c34fbb93d5c75e0c-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624291173
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/efff28c4402179b62193be87.jpg?_=1624291174
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\efff28c4402179b62193be87-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624291177
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/a3b6e0ac91420000fc5619df.jpg?_=1624291179
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a3b6e0ac91420000fc5619df-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624291182
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/4b4354ad8542aaefe7282a49.jpg?_=1624291183
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\4b4354ad8542aaefe7282a49-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624291186
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-7.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/9e437c0269908eae2c32c90e.jpg?_=1624291188
+File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\9e437c0269908eae2c32c90e-8.jpg
+Content Type: image/jpeg
+
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624291190
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-7.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624227902
+Uri: http://redleaves.ru/images/avatar/1a939093dbd4eb7d989ff44a.jpg?_=1624291192
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\1a939093dbd4eb7d989ff44a-8.jpg
 Content Type: image/jpeg
 
-Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624227905
+Uri: http://redleaves.ru/images/avatar/a5031b5010b6fa8743ce081a.jpg?_=1624291195
 File Name: F:\dev\redleaves_backup\offline\cyotek\redleaves.ru\images\avatar\a5031b5010b6fa8743ce081a-10.jpg
 Content Type: image/jpeg
 

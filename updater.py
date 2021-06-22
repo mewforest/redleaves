@@ -10,11 +10,28 @@ import logging
 import os
 import re
 import webbrowser
+from datetime import datetime
 from distutils.dir_util import copy_tree
-from typing import Dict, List, Tuple, Union
+from pprint import pprint
+from typing import Dict, List, Union
 
 from bs4 import BeautifulSoup, Tag
 from tqdm import tqdm
+
+
+# Custom typings for metadata
+class Typings:
+    AuthorsBirths = List[Dict[str, str]]
+    HyperComments = List[Dict[str, Union[str, List[str]]]]
+
+
+# Metadata representation
+class Metadata:
+    def __init__(self, meta):
+        self.authors: Typings.AuthorsBirths = meta['authors']
+        self.comments: Typings.HyperComments = meta['comments']
+        self.comments_css: str = meta['comments_css']
+
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -84,30 +101,41 @@ def apply_pipeline(root_dir: str, etc_folder: str) -> None:
             futures.append(executor.submit(process_html, file_path=html_file, metadata=metadata))
         pbar = tqdm(total=len(html_files))
         pbar.set_description("Processing html pages")
-        for _ in concurrent.futures.as_completed(futures):
+        for future in concurrent.futures.as_completed(futures):
+            future.result()
             pbar.update(1)
     pbar.close()
 
 
-def load_metadata(etc_folder: str) -> Tuple[List[Dict[str, str]], List[Dict[str, Union[str, List[str]]]]]:
+def load_metadata(etc_folder: str) -> Metadata:
     """
-    Loads metadata:
+    Loads and returns metadata in dictionary:
 
-    1. Authors birth approximately (we do not show the exact date of birth)
-    2. HyperComments commentaries extracted with our internal tool:
-      https://github.com/redleaves-ru/hypercomments-export
+    [authors] Authors birth approximately (we do not show the exact date of birth)
+    [comments] HyperComments commentaries extracted with our internal tool:
+        https://github.com/redleaves-ru/hypercomments-export
+    [comments_css] Custom CSS for HyperComments
 
     :param etc_folder: path to JSON's folder
-    :return: author's metadata and commentaries
+    :return: metadata in dict()
     """
-    with open(os.path.join(etc_folder, 'hypercomments.json'), 'r', encoding='UTF-8') as f:
-        comments = json.load(f)
+    with open(os.path.join(etc_folder, 'hypercomments.css'), 'r', encoding='UTF-8') as f:
+        comments_css = f.read()
     with open(os.path.join(etc_folder, 'authors.json.base64'), 'rb') as f:
         authors = json.loads(base64.decodebytes(f.read()))
-    return authors, comments
+    with open(os.path.join(etc_folder, 'hypercomments.json'), 'r', encoding='UTF-8') as f:
+        comments = json.load(f)
+    for index, comment in enumerate(comments):
+        comment_re = re.match(r'https?://redleaves\.ru/.*/\d+([^#?]+)[^#]*#hcm=\d+', comment['url'])
+        comments[index]['uri'] = None if comment_re is None else comment_re.group(1)
+    return Metadata({
+        'authors': authors,
+        'comments': comments,
+        'comments_css': comments_css
+    })
 
 
-def process_html(file_path: str, metadata: Tuple[List[Dict[str, str]], List[Dict[str, Union[str, List[str]]]]]) -> None:
+def process_html(file_path: str, metadata: Metadata) -> None:
     """
     Process pipeline for provided HTML file
 
@@ -123,7 +151,8 @@ def process_html(file_path: str, metadata: Tuple[List[Dict[str, str]], List[Dict
         # fix_external_urls,
         remove_messages,
         make_images_clickable,
-        lambda sp, fp: add_hypercomments(sp, fp, comments=metadata[1])
+        improve_footer,
+        lambda sp, fp: add_hypercomments(sp, fp, metadata.comments, metadata.comments_css)
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -155,10 +184,10 @@ def add_categories_to_homepage(soup: BeautifulSoup, file_path: str) -> None:
     :param file_path: path to current HTML file
     :return: None
     """
-    if file_path.endswith("default.htm"):
+    if file_path.endswith("index.htm"):
         html_content = """
-        <div><h3>Ещё больше произведений в разделе <a href="index.phpoptioncom_contentviewcategorylayoutblogid9itemid264.htm">Проза</a> и 
-        <a href="index.phpoptioncom_contentviewcategorylayoutblogid8itemid263.htm">Стихи</a></h3></div>
+        <div><h3>Ещё больше произведений в разделе <a href="proza.html">Проза</a> и 
+        <a href="stikhi.htm">Стихи</a></h3></div>
         """
         add_children(soup, '.t3-content', html_content, 'div', {})
 
@@ -217,12 +246,12 @@ def make_images_clickable(soup: BeautifulSoup, *args):
             replace_with_element(soup, f"[src=\"{img.attrs['src']}\"]", clickable_img_raw)
 
 
-def add_hypercomments(soup: BeautifulSoup, file_name, comments):
+def add_hypercomments(soup: BeautifulSoup, file_path: str, comments: Typings.HyperComments, style: str):
     """
-    Pipe that makes ...
+    Pipe that adds HyperComments commentaries
 
     :param comments:
-    :param file_name:
+    :param file_path:
     :param soup: HTML body
     :return: None
     """
@@ -243,122 +272,37 @@ def add_hypercomments(soup: BeautifulSoup, file_name, comments):
 </div>
         """.replace('<p class="hc-quote">%REMOVE-EMPTY%</p>', '')
 
+    file_name_uri = ""
+    file_name_re = re.match(r'\d+(.*).html', file_path[file_path.rindex(os.path.sep) + 1:])
+    if file_name_re is not None:
+        file_name_uri = file_name_re.group(1)
     comments_block = soup.select_one('.kmt-list')
     has_hc_comments = False
     if comments_block is not None:
         for comment in comments:
-            comment_uri = re.match(r'https?://redleaves\.ru/.*/\d+([^#?]+)[^#]*#hcm=\d+', comment['url'])
-            # print(comment_uri.group(1), '->', file_name, comment_uri.group(1) in file_name)
-            if comment_uri is not None and comment_uri.group(1) in file_name:
+            if comment['uri'] is None:
+                continue
+            if comment['uri'] == file_name_uri:
                 has_hc_comments = True
-                # logging.info(f'Added HyperComment\'s commentary: {comment.text}')
                 add_children(soup, '.kmt-list', generate_comment_html(comment), 'li', {})
     if has_hc_comments:
         remove_element(soup, ".kmt-empty-comment")
-        insert_style(soup, """
+        insert_style(soup, style)
 
-.hc-comment {
-  display: flex;
-  font-size: 1rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333333;
 
-  padding: 20px;
-  border: 1px solid #e3e3e3;
-  border-radius: 6px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-}
+def improve_footer(soup: BeautifulSoup, *args):
+    """
+    Pipe .....
 
-.hc-avatar {
-  display: block;
-  width: 48px;
-  height: 48px;
-  border-radius: 100%;
-}
-
-.hc-content {
-  font-size: 12p3;
-  padding: 0 1rem;
-}
-
-.hc-header {
-  font-size: 0.75rem;
-  font-weight: 700;
-  line-height: 1.125rem;
-  color: #909090;
-}
-
-.hc-author {
-  margin: 0;
-  font-size: 0.9125rem;
-  font-weight: 700;
-  float: left;
-  color: #222;
-  cursor: pointer;
-}
-
-.hc-subheader {
-  display: flex;
-  align-items: flex-end;
-}
-
-.hc-date {
-  margin: 0;
-  margin-left: 1rem;
-  color: #909090;
-  font-size: 0.6875rem;
-  margin-left: 0.3125rem;
-  margin-bottom: 1px;
-  font-weight: 700;
-}
-
-.hc-quote {
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  font-style: italic;
-  color: #909090;
-  margin-bottom: 0.625rem;
-  background-color: #fff;
-  padding: 0.625rem;
-  border-left: 3px solid #d8cdcd;
-}
-
-.hc-text {
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  color: #222;
-  margin-bottom: 0.625rem;
-  word-wrap: break-word;
-}
-
-/* FIXES */
-
-.kmt-list * {
-    font-size: 14px !important;
-    line-height: 1.4 !important;
-}
-
-.hc-header, .hc-date {
-    font-size: 10px !important;
-}
-
-.hc-comment {
-    padding-top: 10px !important;
-    padding-left: 30px !important;
-    border-top: 1px solid #ddd !important;
-}
-
-.hc-subheader {
-    margin-bottom: 10px
-}
-""")
+    :param soup: HTML body
+    :return: None
+    """
+    remove_element(soup, '.copyright [style="display:none"]')
+    footer_html = f"""
+    <p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md" target="_blank">что это значит?</a>).
+    Обновлено: {datetime.now().isoformat().replace('T', ' ')[:-7]}.</p>
+    """
+    add_children(soup, '.copyright .custom', footer_html, 'div', {})
 
 
 # Helper section
