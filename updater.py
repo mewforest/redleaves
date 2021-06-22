@@ -12,7 +12,7 @@ import re
 import webbrowser
 from datetime import datetime
 from distutils.dir_util import copy_tree
-from typing import Dict, List, Union
+from typing import Dict, List, Union, Optional
 
 from bs4 import BeautifulSoup, Tag
 from tqdm import tqdm
@@ -20,8 +20,8 @@ from tqdm import tqdm
 
 # Custom typings for metadata
 class Typings:
-    AuthorsBirths = List[Dict[str, str]]
-    HyperComments = List[Dict[str, Union[str, List[str]]]]
+    AuthorsBirths = List[Dict[str, Union[str, List[str]]]]
+    HyperComments = List[Dict[str, Optional[str]]]
 
 
 # Metadata representation
@@ -147,12 +147,12 @@ def process_html(file_path: str, metadata: Metadata) -> None:
         add_categories_to_homepage,
         fix_images,
         clean_commentaries_section,
-        # fix_external_urls,
         remove_messages,
         make_images_clickable,
         lambda sp, fp: add_hypercomments(sp, fp, metadata.comments, metadata.comments_css),
         improve_footer,
         upgrade_museshots,
+        lambda sp, fp: add_authors_age(sp, fp, metadata.authors)
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -306,6 +306,7 @@ def upgrade_museshots(soup: BeautifulSoup, file_path: str):
     """
     Pipe replaces Flash-powered museshots to Spotify
 
+    :param file_path: HTML file path
     :param soup: HTML body
     :return: None
     """
@@ -330,6 +331,31 @@ def upgrade_museshots(soup: BeautifulSoup, file_path: str):
             color: #9e9e9e;
         }
         """)
+
+
+def add_authors_age(soup: BeautifulSoup, file_path: str, authors_list: Typings.AuthorsBirths):
+    file_name_uri = extract_article_uri(file_path)
+    if len(file_name_uri) == 0:
+        return
+    datetime_span = soup.select_one('.article-aside time')
+    if datetime_span is None:
+        return
+    datetime_created = datetime.fromisoformat(datetime_span.attrs["datetime"])
+    author_link = soup.select_one('.author_infobox_name a')
+    if author_link is None:
+        return
+    author_name = author_link.attrs["title"].strip()
+    author = next(filter(lambda a: author_name in a['name'], authors_list))
+    author_birthday = datetime.strptime(author['birth'], '%m.%Y')
+    authors_age = (datetime_created.replace(tzinfo=None) - author_birthday.replace(tzinfo=None)).days // 365
+    # info_html = f'<p> Автор написал произведение примерно в { authors_age } лет </p>'
+    info_html = f"""
+    <p style="width: fit-content;color: #c09853;font-size: 14px;">
+        <i class="fa icon-book "></i> 
+        { author_name } написал(а) это произведение примерно в { authors_age } лет
+    </p>
+    """
+    add_children(soup, '.article-aside', info_html, 'p', {})
 
 
 # Helper section
