@@ -914,6 +914,194 @@ jQuery(window).on('load',  function() {
 
 .hc-subheader {
     margin-bottom: 10px
+}</style><style type="text/css">
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 0.3125rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* FIXES */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
+}
+
+.hc-comment {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.hc-avatar {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.hc-content {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.hc-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: #909090;
+}
+
+.hc-author {
+    margin: 0;
+    font-size: 0.9125rem;
+    font-weight: 700;
+    float: left;
+    color: #222;
+    cursor: pointer;
+}
+
+.hc-subheader {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hc-date {
+    color: #909090;
+    font-size: 0.6875rem;
+    margin: 0 0 1px 1rem;
+    font-weight: 700;
+}
+
+.hc-quote {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    color: #909090;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-left: 3px solid #d8cdcd;
+}
+
+.hc-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #222;
+    margin-bottom: 0.625rem;
+    word-wrap: break-word;
+}
+
+/* QUICK FIXES */
+/*  replaces Bootstrap core CSS */
+
+.kmt-list * {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.hc-header, .hc-date {
+    font-size: 10px !important;
+}
+
+.hc-comment {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.hc-subheader {
+    margin-bottom: 10px
 }</style></head>
 <body>
 <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
@@ -1212,6 +1400,31 @@ Komento.require().script('komento.commenttools').done(function($) {
 <p class="hc-text">Чувствуются нотки Mr.Freeman'а. Но лишь нотки, потому не пишу, что плагиат.</p>
 </div>
 </div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,R0lGODlhMgAyAMQAAPP1+dzh7eXp8tHY58jR4s3V5O7x9vn6/Oru9NTa6Pz9/uns8/b4+vX2+v7+//b3+trg7MvT5MfQ4vj5+9fd6t7k7uPn8MbO4czT5PHz+NXc6dbc6dLZ6MbP4f///8TN4CH5BAAAAAAALAAAAAAyADIAAAX/YCeOZGmeaKqubJt+cCzPdG3feK7vfF8PFcMk4ivaCIGMZ+kJGJ8xDYBJHUCNmAd164FcexWuGPHVLcToR/kmQLvV61nETffGY206unGPKfViDn0wDIBogx8HhmIdg4qLWxeDE5BbjX1alUyIU5pLiH+aCohnnhODBY+eG32lnh5wcRCvSwt9A7RNfRK5HIO5RH2znraIrwSIH6GLgskBmgbJHxeaCdIfBpCj1x+QVtzLdNwwnYDjiYuX15AY3LyLGtcEmvHJGpoC0nmQfMkKnsHidLCQC0FAKBgQ5KKSwZeRDeUWUjngZIcEC/8k0lnQzsaAbBoXNaAwgwKlkKIqA3wIAQA7"/>
+<div class="hc-content">
+<div class="hc-header">Aquamarine: 98745 - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Aquamarine</h3>
+<div class="hc-date">2012-11-10 22:39:09</div>
+</div>
+<p class="hc-quote"><b>Артём Левин: </b>Чувствуются нотки Mr.Freeman'а. Но лишь нотки, потому не пишу, что плагиат.</p>
+<p class="hc-text">Ни грамма фримана. Убег еще года 3 назад.</p>
+</div>
+</div>
+</li><li>
+<div class="hc-comment">
+<img class="hc-avatar" src="data:image/jpeg;base64,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"/>
+<div class="hc-content">
+<div class="hc-header">Aquamarine: 98745 - Красные Листья // Литературный Art Журнал</div>
+<div class="hc-subheader">
+<h3 class="hc-author">Артём Левин</h3>
+<div class="hc-date">2012-11-10 01:37:44</div>
+</div>
+<p class="hc-text">Чувствуются нотки Mr.Freeman'а. Но лишь нотки, потому не пишу, что плагиат.</p>
+</div>
+</div>
 </li></ul>
 </div>
 </div>
@@ -1303,6 +1516,9 @@ Komento.require().script('komento.commenttools').done(function($) {
 </div><div>
 <p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md" target="_blank">что это значит?</a>).
     Обновлено: 2021-06-22 12:55:31.</p>
+</div><div>
+<p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/blob/main/README.ru.md" target="_blank">что это значит?</a>).
+    Обновлено: 2021-06-22 13:08:30.</p>
 </div></div>
 <ul id="jm_sl_navigation">
 <li class="vk"><a href="http://vk.com/redleaves" rel="nofollow" target="_blank">Читай нас ВКонтакте</a></li> </ul>

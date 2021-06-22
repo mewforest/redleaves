@@ -299,7 +299,7 @@ def improve_footer(soup: BeautifulSoup, *args):
     """
     remove_element(soup, '.copyright [style="display:none"]')
     footer_html = f"""
-    <p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/edit/main/README.ru.md" target="_blank">что это значит?</a>).
+    <p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/blob/main/README.ru.md" target="_blank">что это значит?</a>).
     Обновлено: {datetime.now().isoformat().replace('T', ' ')[:-7]}.</p>
     """
     add_children(soup, '.copyright .custom', footer_html, 'div', {})

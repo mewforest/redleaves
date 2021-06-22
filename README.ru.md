@@ -66,3 +66,5 @@
 ## Дополнительные ссылки 
 
 - [Группа ВКонтакте](https://vk.com/redleaves)
+- [Репозиторий проекта на Github](https://github.com/redleaves-ru/redleaves-ru.github.io)
+- [Страница проекта на Github](https://github.com/redleaves-ru)
