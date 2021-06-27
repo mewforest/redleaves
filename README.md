@@ -18,13 +18,6 @@ This is the official offline copy of [redleaves.ru](http://redleaves.ru)
 
 ### [Russian version](https://github.com/redleaves-ru/redleaves-ru.github.io/blob/main/README.ru.md)
 
-## Improvements
-
-- fixed broken images
-- many UI fixes
-- added all old comments from HyperComments 🤯
-- no any ads or bullshit spam in comments
-
 ## History
 
 Red Leaves project is not maintained from 2016 year, the most active days was from 2012 to 2014, original site 

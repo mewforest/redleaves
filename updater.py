@@ -118,7 +118,7 @@ def load_metadata(etc_folder: str) -> Metadata:
     :param etc_folder: path to JSON's folder
     :return: metadata in dict()
     """
-    with open(os.path.join(etc_folder, 'hypercomments.css'), 'r', encoding='UTF-8') as f:
+    with open(os.path.join(etc_folder, 'style.css'), 'r', encoding='UTF-8') as f:
         comments_css = f.read()
     with open(os.path.join(etc_folder, 'authors.json.base64'), 'rb') as f:
         authors = json.loads(base64.decodebytes(f.read()))
@@ -149,11 +149,12 @@ def process_html(file_path: str, metadata: Metadata) -> None:
         clean_commentaries_section,
         remove_messages,
         make_images_clickable,
-        lambda sp, fp: add_hypercomments(sp, fp, metadata.comments, metadata.comments_css),
+        lambda sp, fp: add_hypercomments(sp, fp, metadata.comments),
         improve_footer,
         upgrade_museshots,
         lambda sp, fp: add_authors_age(sp, fp, metadata.authors),
         spoiler_fix,
+        lambda sp, fp: add_styles_includes_dark_theme(sp, fp, metadata.comments_css)
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -247,7 +248,7 @@ def make_images_clickable(soup: BeautifulSoup, *args):
             replace_with_element(soup, f"[src=\"{img.attrs['src']}\"]", clickable_img_raw)
 
 
-def add_hypercomments(soup: BeautifulSoup, file_path: str, comments: Typings.HyperComments, style: str):
+def add_hypercomments(soup: BeautifulSoup, file_path: str, comments: Typings.HyperComments):
     """
     Pipe that adds HyperComments commentaries
 
@@ -285,7 +286,6 @@ def add_hypercomments(soup: BeautifulSoup, file_path: str, comments: Typings.Hyp
                 add_children(soup, '.kmt-list', generate_comment_html(comment), 'li', {})
     if has_hc_comments:
         remove_element(soup, ".kmt-empty-comment")
-        insert_style(soup, style)
 
 
 def improve_footer(soup: BeautifulSoup, *args):
@@ -297,7 +297,7 @@ def improve_footer(soup: BeautifulSoup, *args):
     """
     remove_element(soup, '.copyright [style="display:none"]')
     footer_html = f"""
-    <p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/blob/main/README.ru.md" target="_blank">что это значит?</a>).
+    <p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/blob/main/README.ru.md#red-leaves--%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B5-%D0%BB%D0%B8%D1%81%D1%82%D1%8C%D1%8F" target="_blank">что это значит?</a>).
     Обновлено: {datetime.now().isoformat().replace('T', ' ')[:-7]}.</p>
     """
     add_children(soup, '.copyright .custom', footer_html, 'div', {})
@@ -335,6 +335,14 @@ def upgrade_museshots(soup: BeautifulSoup, file_path: str):
 
 
 def add_authors_age(soup: BeautifulSoup, file_path: str, authors_list: Typings.AuthorsBirths):
+    """
+    Pipe adds approximately author's age base on base64-encoded month/year of each author's birth
+
+    :param authors_list: author's metadata
+    :param file_path: HTML file path
+    :param soup: HTML body
+    :return: None
+    """
     file_name_uri = extract_article_uri(file_path)
     if len(file_name_uri) == 0:
         return
@@ -360,10 +368,49 @@ def add_authors_age(soup: BeautifulSoup, file_path: str, authors_list: Typings.A
 
 
 def spoiler_fix(soup: BeautifulSoup, *args) -> None:
+    """
+    Pipe fixes js dependencies for spoilers: {{spoiler}}
+
+    :param soup:
+    :param args:
+    :return:
+    """
     replace_attributes(soup, 'href', '../plugins/content/LVSpoiler/assets/mootools/spoiler.css',
                        '../plugins/content/lvspoiler/assets/mootools/spoiler.css')
     replace_attributes(soup, 'src', '../plugins/content/LVSpoiler/assets/mootools/spoiler.js',
                        '../plugins/content/lvspoiler/assets/mootools/spoiler.js')
+
+
+def add_styles_includes_dark_theme(soup: BeautifulSoup, file_path: str, style_css: str):
+    """
+    Pipe adds dark theme styling with other CSS fixes
+
+    :param soup:
+    :param file_path:
+    :param style_css:
+    :return:
+    """
+    insert_style(soup, style_css)
+    dark_js_script = BeautifulSoup('<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"/>', features='html.parser')
+    init_js = """
+    document.addEventListener("DOMContentLoaded", () => {
+    const options = {
+            time: '0.5s',
+            mixColor: '#e6e6e6',
+            backgroundColor: "#f8f8f8",
+            saveInCookies: true,
+            label: '🌙',
+            autoMatchOsTheme: true 
+        }
+        const darkMode = new Darkmode(options);
+        darkMode.showWidget();
+    })
+    """
+    dark_js_init = BeautifulSoup(f'<script>{init_js}</script>', features='html.parser')
+    # dark_js_init: Tag
+    # dark_js_init.innerHTML = init_js
+    soup.select_one('head').append(dark_js_script)
+    soup.select_one('head').append(dark_js_init)
 
 # Helper section
 

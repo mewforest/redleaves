@@ -13,7 +13,8 @@
 
 ## Улучшения
 
-- Восстановлены все исчезнувшие комментарии из HyperComments (да, 
+- Добавлена темная тема 🌙
+- Восстановлены все исчезнувшие комментарии из HyperComments из 2012 года (да, 
   [даже](https://redleaves-ru.github.io/site/stikhi/44-choise.html)
   [токсичные](https://redleaves-ru.github.io/site/proza/32-two-of-the-waves.html) 
   [треды](https://redleaves-ru.github.io/site/proza/13-f_ck-this-illusion.html)) 🤯 
