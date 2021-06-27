@@ -292,7 +292,6 @@ ul#jm_sl_navigation .vk a {
 
 /*Dark theme*/
 
-/* black theme */
 
 
 body.darkmode--activated {
@@ -305,7 +304,7 @@ body.darkmode--activated {
     border: 1px #4E4E4E solid;
 }
 
-.darkmode--activated .article-content p {
+.darkmode--activated .article-content p, .darkmode--activated article p {
     background-color: #1B1B1B !important;
     color: #bfbfbf !important;
 }
@@ -368,7 +367,108 @@ body.darkmode--activated {
 .darkmode--activated .t3-copyright {
     color: #bfbfbf !important;
 }
-</style><script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script><script>
+
+
+.darkmode--activated .kmt-count {
+    color: #bfbfbf !important;
+}
+
+/* impove readabilty */
+
+.article-content, .article-content *:not(a, #author_infobox, .spoiler, .sp-head-click, .sp-head,
+#author_infobox, .author_infobox_name, .author_infobox_aboutme, .author_infobox_description, .author_infobox_image_jomsocial, .bold) {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .03em;
+    -webkit-text-size-adjust: 100%;
+    --left-column-width: 220px;
+    --island-offset-x: 16px;
+    word-wrap: break-word;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    margin: 15px 0;
+}
+
+/*.article-content, .article-content p:not(#author_infobox, .spoiler, .sp-head-click, .sp-head) {*/
+/*    font-size: 15px;*/
+/*}*/
+
+.article-content *:not(h1, h2, h3, h4, h5, h6) {
+    font-size: 16px !important;
+    text-align: left !important;
+
+}
+
+.article-aside {
+    margin-top: 1rem;
+}
+
+
+.article-content p:not(a, #author_infobox) br {
+    content: " ";
+    display: block;
+    margin: 0 15px;
+    line-height: 15px;
+}
+
+/* others */
+
+.author_infobox_image_jomsocial img {
+    border-radius: 10px;
+}
+
+.darkmode--activated article {
+    background-color: #1B1B1B !important;
+    color: #bfbfbf !important;
+    border: 1px #4E4E4E solid;
+}
+
+.darkmode--activated .article-content p:not(a, #author_infobox),
+.darkmode--activated article *:not(
+    a, #author_infobox, .author_infobox_name, .author_infobox_aboutme,
+    .author_infobox_description, .author_infobox_image_jomsocial, .bold, [aria-hidden="true"]
+) {
+    background-color: #1B1B1B !important;
+    color: #bfbfbf !important;
+}
+
+
+.darkmode-toggle {
+    z-index: 1000;
+}
+
+
+/* improve mobile */
+
+@media (max-width: 767px) {
+
+    .t3-content {
+        padding: 0;
+        border-style: none;
+    }
+
+    article {
+        border: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .logo-text a {
+        z-index: 10000;
+    }
+
+    .readmore a {
+        white-space: normal;
+    }
+
+    #jm_sl_navigation {
+        display: none;
+    }
+
+}</style><script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script><script>
     document.addEventListener("DOMContentLoaded", () => {
     const options = {
             time: '0.5s',
@@ -760,7 +860,7 @@ Komento.require().script('komento.commenttools').done(function($) {
 <p><a href="../index.htm">Красные Листья</a> - необычный литературный проект, объединяющий молодых авторов. Любой может <a href="../profile/social/register.html">присоединиться</a> к нам!</p>
 <p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="../10-system/61-politic.html">правилами сайта</a>. </p><div>
 <p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/blob/main/README.ru.md#red-leaves--%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B5-%D0%BB%D0%B8%D1%81%D1%82%D1%8C%D1%8F" target="_blank">что это значит?</a>).
-    Обновлено: 2021-06-27 20:08:26.</p>
+    Обновлено: 2021-06-27 22:33:14.</p>
 </div></div>
 <ul id="jm_sl_navigation">
 <li class="vk"><a href="http://vk.com/redleaves" rel="nofollow" target="_blank">Читай нас ВКонтакте</a></li> </ul>
