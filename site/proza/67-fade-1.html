@@ -276,7 +276,6 @@ ul#jm_sl_navigation .vk a {
 /*Dark theme*/
 
 
-
 body.darkmode--activated {
     color: #bfbfbf;
 }
@@ -306,7 +305,7 @@ body.darkmode--activated {
 }
 
 .darkmode--activated a:hover, .darkmode--activated.tagssimilar a:hover, .darkmode--activated .spoiler a:hover,
-.darkmode--activated .hc-author, .darkmode--activated .tagssimilar ul > li > a:hover  {
+.darkmode--activated .hc-author, .darkmode--activated .tagssimilar ul > li > a:hover {
     color: hsl(0, 100%, 60%) !important;
 }
 
@@ -359,10 +358,11 @@ body.darkmode--activated {
 }
 
 
-.darkmode--activated  .navbar-default .navbar-toggle:hover, .darkmode--activated  .navbar-default .navbar-toggle:focus {
+.darkmode--activated .navbar-default .navbar-toggle:hover, .darkmode--activated .navbar-default .navbar-toggle:focus {
     background-color: #121212;
     color: #ff6666;
 }
+
 /* impove readabilty */
 
 .article-content, .article-content *:not(a, #author_infobox, .spoiler, .sp-head-click, .sp-head,
@@ -397,14 +397,6 @@ body.darkmode--activated {
     margin-top: 1rem;
 }
 
-
-.article-content p:not(a, #author_infobox) br {
-    content: " ";
-    display: block;
-    margin: 0 15px;
-    line-height: 15px;
-}
-
 /* others */
 
 .author_infobox_image_jomsocial img {
@@ -420,17 +412,21 @@ body.darkmode--activated {
 .darkmode--activated .article-content p:not(a, #author_infobox),
 .darkmode--activated article *:not(
     a, #author_infobox, .author_infobox_name, .author_infobox_aboutme,
-    .author_infobox_description, .author_infobox_image_jomsocial, .bold, [aria-hidden="true"]
+    .author_infobox_description, .author_infobox_image_jomsocial, .bold, [aria-hidden="true"],
+    span[itemprop="genre"]
 ) {
     background-color: #1B1B1B !important;
     color: #bfbfbf !important;
 }
+
 .tagssimilar ul > li {
     border-bottom: 1px solid #212121 !important;
 }
+
 .tagssimilar ul > li > a {
     display: block;
 }
+
 .darkmode-toggle {
     z-index: 1000;
 }
@@ -483,7 +479,14 @@ body.darkmode--activated {
         const darkMode = new Darkmode(options);
         darkMode.showWidget();
     })
-    </script></head>
+    </script><style type="text/css">
+.article-content br {
+    content: " ";
+    display: block;
+    margin: 0 15px;
+    line-height: 15px;
+}
+        </style></head>
 <body class="contentpane">
 <div class="window-mainbody" id="window-mainbody">
 

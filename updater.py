@@ -154,7 +154,8 @@ def process_html(file_path: str, metadata: Metadata) -> None:
         upgrade_museshots,
         lambda sp, fp: add_authors_age(sp, fp, metadata.authors),
         spoiler_fix,
-        lambda sp, fp: add_styles_includes_dark_theme(sp, fp, metadata.comments_css)
+        lambda sp, fp: add_styles_includes_dark_theme(sp, fp, metadata.comments_css),
+        improve_long_reads
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -407,10 +408,30 @@ def add_styles_includes_dark_theme(soup: BeautifulSoup, file_path: str, style_cs
     })
     """
     dark_js_init = BeautifulSoup(f'<script>{init_js}</script>', features='html.parser')
-    # dark_js_init: Tag
-    # dark_js_init.innerHTML = init_js
     soup.select_one('head').append(dark_js_script)
     soup.select_one('head').append(dark_js_init)
+
+
+def improve_long_reads(soup: BeautifulSoup, *args) -> None:
+    """
+    Pipe that ...
+
+    :param soup: HTML body
+    :return: None
+    """
+    if soup.select_one('[href="../proza.html"]') is not None:
+        insert_style(soup, """
+.article-content br {
+    content: " ";
+    display: block;
+    margin: 0 15px;
+    line-height: 15px;
+}
+        """)
+        empty_newline = soup.find('div', text="\xa0")
+        if empty_newline is not None:
+            empty_newline.decompose()
+
 
 # Helper section
 
