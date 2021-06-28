@@ -189,7 +189,7 @@ def add_categories_to_homepage(soup: BeautifulSoup, file_path: str) -> None:
     """
     if file_path.endswith("index.htm"):
         html_content = """
-        <div сlass="read-other"><h3>Ещё больше произведений в разделе <a href="proza.html">Проза</a> и 
+        <div сlass="read-other" style="margin: 0 2rem"><h3>Ещё больше произведений в разделе <a href="proza.html">Проза</a> и 
         <a href="stikhi.html">Стихи</a></h3></div>
         """
         add_children(soup, '.t3-content', html_content, 'div', {})
