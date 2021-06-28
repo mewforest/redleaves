@@ -320,12 +320,14 @@ body.darkmode--activated {
     border-color: #4E4E4E !important
 }
 
-.darkmode--activated a, .darkmode--activated.tagssimilar a, .darkmode--activated .spoiler a, .darkmode--activated .hc-author {
-    color: hsl(0, 100%, 70%);
+.darkmode--activated a, .darkmode--activated.tagssimilar a, .darkmode--activated .spoiler a, .darkmode--activated .hc-author,
+.darkmode--activated .tagssimilar ul > li > a {
+    color: hsl(0, 100%, 70%) !important;
 }
 
-.darkmode--activated a:hover, .darkmode--activated.tagssimilar a:hover, .darkmode--activated .spoiler a:hover, .darkmode--activated .hc-author {
-    color: hsl(0, 100%, 60%);
+.darkmode--activated a:hover, .darkmode--activated.tagssimilar a:hover, .darkmode--activated .spoiler a:hover,
+.darkmode--activated .hc-author, .darkmode--activated .tagssimilar ul > li > a:hover  {
+    color: hsl(0, 100%, 60%) !important;
 }
 
 .darkmode--activated .btn, .darkmode--activated .label, .darkmode--activated .pagination > li > a,
@@ -376,6 +378,11 @@ body.darkmode--activated {
     color: #bfbfbf !important;
 }
 
+
+.darkmode--activated  .navbar-default .navbar-toggle:hover, .darkmode--activated  .navbar-default .navbar-toggle:focus {
+    background-color: #121212;
+    color: #ff6666;
+}
 /* impove readabilty */
 
 .article-content, .article-content *:not(a, #author_infobox, .spoiler, .sp-head-click, .sp-head,
@@ -438,10 +445,22 @@ body.darkmode--activated {
     background-color: #1B1B1B !important;
     color: #bfbfbf !important;
 }
-
-
+.tagssimilar ul > li {
+    border-bottom: 1px solid #212121 !important;
+}
+.tagssimilar ul > li > a {
+    display: block;
+}
 .darkmode-toggle {
     z-index: 1000;
+}
+
+.nav .icon-pencil {
+    margin-right: 7px;
+}
+
+.read-other {
+    margin: 0 2rem;
 }
 
 
@@ -975,7 +994,7 @@ body.darkmode--activated {
 <p><a href="index.htm">Красные Листья</a> - необычный литературный проект, объединяющий молодых авторов. Любой может <a href="profile/social/register.html">присоединиться</a> к нам!</p>
 <p>Все права защищены, любое, хотя бы частичное копирование материалов ограничивается <a href="10-system/61-politic.html">правилами сайта</a>. </p><div>
 <p>Архивная версия (<a href="https://github.com/redleaves-ru/redleaves-ru.github.io/blob/main/README.ru.md#red-leaves--%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B5-%D0%BB%D0%B8%D1%81%D1%82%D1%8C%D1%8F" target="_blank">что это значит?</a>).
-    Обновлено: 2021-06-27 22:50:06.</p>
+    Обновлено: 2021-06-28 05:22:32.</p>
 </div></div>
 <ul id="jm_sl_navigation">
 <li class="vk"><a href="http://vk.com/redleaves" rel="nofollow" target="_blank">Читай нас ВКонтакте</a></li> </ul>

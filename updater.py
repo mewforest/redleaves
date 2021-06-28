@@ -359,8 +359,8 @@ def add_authors_age(soup: BeautifulSoup, file_path: str, authors_list: Typings.A
     authors_age = (datetime_created.replace(tzinfo=None) - author_birthday.replace(tzinfo=None)).days // 365
     # info_html = f'<p> Автор написал произведение примерно в { authors_age } лет </p>'
     info_html = f"""
-    <p style="width: fit-content;color: #c09853;font-size: 14px;">
-        <i class="fa icon-book "></i> 
+    <p style="width: fit-content;color: #c09853 !important;font-size: 14px;">
+        <i class="fa icon-book" style="color: #c09853 !important"></i> 
         { author_name } написал(а) это произведение примерно в { authors_age } лет
     </p>
     """

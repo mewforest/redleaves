@@ -300,12 +300,14 @@ body.darkmode--activated {
     border-color: #4E4E4E !important
 }
 
-.darkmode--activated a, .darkmode--activated.tagssimilar a, .darkmode--activated .spoiler a, .darkmode--activated .hc-author {
-    color: hsl(0, 100%, 70%);
+.darkmode--activated a, .darkmode--activated.tagssimilar a, .darkmode--activated .spoiler a, .darkmode--activated .hc-author,
+.darkmode--activated .tagssimilar ul > li > a {
+    color: hsl(0, 100%, 70%) !important;
 }
 
-.darkmode--activated a:hover, .darkmode--activated.tagssimilar a:hover, .darkmode--activated .spoiler a:hover, .darkmode--activated .hc-author {
-    color: hsl(0, 100%, 60%);
+.darkmode--activated a:hover, .darkmode--activated.tagssimilar a:hover, .darkmode--activated .spoiler a:hover,
+.darkmode--activated .hc-author, .darkmode--activated .tagssimilar ul > li > a:hover  {
+    color: hsl(0, 100%, 60%) !important;
 }
 
 .darkmode--activated .btn, .darkmode--activated .label, .darkmode--activated .pagination > li > a,
@@ -356,6 +358,11 @@ body.darkmode--activated {
     color: #bfbfbf !important;
 }
 
+
+.darkmode--activated  .navbar-default .navbar-toggle:hover, .darkmode--activated  .navbar-default .navbar-toggle:focus {
+    background-color: #121212;
+    color: #ff6666;
+}
 /* impove readabilty */
 
 .article-content, .article-content *:not(a, #author_infobox, .spoiler, .sp-head-click, .sp-head,
@@ -418,10 +425,22 @@ body.darkmode--activated {
     background-color: #1B1B1B !important;
     color: #bfbfbf !important;
 }
-
-
+.tagssimilar ul > li {
+    border-bottom: 1px solid #212121 !important;
+}
+.tagssimilar ul > li > a {
+    display: block;
+}
 .darkmode-toggle {
     z-index: 1000;
+}
+
+.nav .icon-pencil {
+    margin-right: 7px;
+}
+
+.read-other {
+    margin: 0 2rem;
 }
 
 
@@ -499,8 +518,8 @@ body.darkmode--activated {
 <div class="pull-right">
 <a href="#" onclick="window.print();return false;">Печать</a> </div>
 <p>
-<p style="width: fit-content;color: #c09853;font-size: 14px;">
-<i class="fa icon-book"></i> 
+<p style="width: fit-content;color: #c09853 !important;font-size: 14px;">
+<i class="fa icon-book" style="color: #c09853 !important"></i> 
         Mew Forest написал(а) это произведение примерно в 18 лет
     </p>
 </p></aside>
