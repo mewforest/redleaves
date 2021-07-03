@@ -414,12 +414,12 @@ def add_styles_includes_dark_theme(soup: BeautifulSoup, file_path: str, style_cs
 
 def improve_long_reads(soup: BeautifulSoup, *args) -> None:
     """
-    Pipe that ...
+    Pipe that improves readability for long-reads
 
     :param soup: HTML body
     :return: None
     """
-    if soup.select_one('[href="../proza.html"]') is not None:
+    if soup.select_one('[href="../proza.html"] [itemprop="genre"]') is not None:
         insert_style(soup, """
 .article-content br {
     content: " ";
