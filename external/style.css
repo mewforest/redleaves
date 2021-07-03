@@ -324,7 +324,7 @@ body.darkmode--activated {
 .darkmode--activated article *:not(
     a, #author_infobox, .author_infobox_name, .author_infobox_aboutme,
     .author_infobox_description, .author_infobox_image_jomsocial, .bold, [aria-hidden="true"],
-    span[itemprop="genre"]
+    span[itemprop="genre"], .btn, .btn span
 ) {
     background-color: #1B1B1B !important;
     color: #bfbfbf !important;
