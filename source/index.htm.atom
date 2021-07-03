@@ -7,7 +7,7 @@
 	<subtitle type="text">Красные Листья - необычный литературный проект, который объединяет молодых авторов.</subtitle>
 	<link rel="alternate" type="text/html" href="http://redleaves.ru"/>
 	<id>http://redleaves.ru/</id>
-	<updated>2021-06-21T16:53:11+01:00</updated>
+	<updated>2021-07-04T00:29:12+01:00</updated>
 	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
 	<link rel="self" type="application/atom+xml" href="http://redleaves.ru/?format=feed&amp;type=atom"/>
 	<entry>
@@ -105,15 +105,15 @@
 		<updated>2014-02-18T20:33:09+00:00</updated>
 		<id>http://redleaves.ru/proza/77-up-and-down</id>
 		<author>
-			<name>Гончарук (не зарегестрирован)</name>
+			<name>Георгий Гончарук</name>
 		</author>
 		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;&lt;strong&gt;Георгий&amp;nbsp;Гончарук:&amp;nbsp;Вверх-вниз&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;&lt;strong&gt;&lt;img style=&quot;margin: 0px; padding: 5px; vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/up-and-down.jpg&quot; alt=&quot;up-and-down&quot; width=&quot;450&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;&lt;strong&gt;&lt;img src=&quot;http://redleaves.ru/images/up-and-down.jpg&quot; alt=&quot;up-and-down&quot; width=&quot;450&quot; height=&quot;300&quot; style=&quot;margin: 0px; padding: 5px; vertical-align: top;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;&lt;strong&gt;Жанр: проза&amp;nbsp;&lt;/strong&gt;(психологический триллер)&lt;/p&gt;
 &lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;О произведении:&amp;nbsp;«Уважаемые граждане! Для вызова лифта имеются 2 кнопки. Нажмите верхнюю, если хотите ехать вверх, нажмите на нижнюю, если хотите ехать вниз.&amp;nbsp;Нажмите сразу обе кнопки, если хотите услышать оценку вашего интеллекта.»&amp;nbsp;Чей-то анекдот…&lt;/p&gt;
 &lt;/div&gt;</summary>
 		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;&lt;strong&gt;Георгий&amp;nbsp;Гончарук:&amp;nbsp;Вверх-вниз&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;&lt;strong&gt;&lt;img style=&quot;margin: 0px; padding: 5px; vertical-align: top;&quot; src=&quot;http://redleaves.ru/images/up-and-down.jpg&quot; alt=&quot;up-and-down&quot; width=&quot;450&quot; height=&quot;300&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;&lt;strong&gt;&lt;img src=&quot;http://redleaves.ru/images/up-and-down.jpg&quot; alt=&quot;up-and-down&quot; width=&quot;450&quot; height=&quot;300&quot; style=&quot;margin: 0px; padding: 5px; vertical-align: top;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;&lt;strong&gt;Жанр: проза&amp;nbsp;&lt;/strong&gt;(психологический триллер)&lt;/p&gt;
 &lt;p style=&quot;font-size: 13px; color: #27262c;&quot;&gt;О произведении:&amp;nbsp;«Уважаемые граждане! Для вызова лифта имеются 2 кнопки. Нажмите верхнюю, если хотите ехать вверх, нажмите на нижнюю, если хотите ехать вниз.&amp;nbsp;Нажмите сразу обе кнопки, если хотите услышать оценку вашего интеллекта.»&amp;nbsp;Чей-то анекдот…&lt;/p&gt;
 &lt;/div&gt;</content>
