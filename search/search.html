@@ -10,7 +10,7 @@
     <style>
         .text-special {
             display: -webkit-box;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 4;
             -webkit-box-orient: vertical;
             text-overflow: ellipsis;
             overflow: hidden;
@@ -24,11 +24,11 @@
 <!--Reference https://tailwindcomponents.com/component/search-input-->
 
 <div id="content"
-     class="p-6 container mx-2 mx-auto bg-white dark:bg-gray-800 rounded-xl flex flex-col items-center space-x-4 shadow-sm">
+     class="p-6 container max-w-5xl mx-2 mx-auto bg-white dark:bg-gray-800 rounded-xl flex flex-col items-center space-x-4">
     <div class="relative flex mr-6 my-2">
         <input type="text" class="bg-purple-white shadow rounded border-0 p-3" style="min-width: 300px" autofocus
-               placeholder="Введите слово для поиска..."
-               @input="searchArticle">
+               placeholder="Введите слово для поиска..." v-model="searchValue"
+               @input="searchArticle" @change="searchArticle">
         <div class="absolute -right-0 pt-4 pr-3 text-purple-lighter">
             <svg class="h-4 text-dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                  x="0px" y="0px"
@@ -50,6 +50,24 @@
         <!--                <small>{{ result.doc.alias }} [id: {{ result.ref }}]</small>-->
         <!--            </div>-->
         <!--        </div>-->
+        <div class="mx-auto my-5" v-if="searchResults.length === 0">
+            <div v-if="searchValue.length > 0">
+                <h3>По запросу
+                    "<i>{{ searchValue }}</i>"
+                    ничего не найдено.
+                </h3>
+                <h4>Попробуйте переформулировать свой запрос.</h4>
+            </div>
+            <div v-else>
+                <h3>Здесь будут результаты поиска.</h3>
+                <h4>
+                    Попробуйте ввести, например,
+                    <button @click="searchValue = 'любовь'">любовь</button>
+                    или
+                    <button @click="searchValue = 'весна'">весна.</button>
+                </h4>
+            </div>
+        </div>
         <div class="mx-auto my-5" v-for="result in searchResults" :key="result.id">
             <div class="relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2">
                 <div class="z-0 order-1 md:order-2 relative w-full md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
@@ -122,9 +140,9 @@
                     throw err
                 });
 
-
+            const searchValue = Vue.ref('')
             const searchResults = Vue.ref([])
-            const searchArticle = (event) => searchResults.value = indexSearch.search(event.target.value, {
+            const searchArticle = () => searchResults.value = indexSearch.search(searchValue.value, {
                 fields: {
                     title: {boost: 3},
                     introtext: {boost: 2},
@@ -152,6 +170,7 @@
             }
             const getDescription = (text) => text.slice(text.indexOf('О произведении:') + 15).trim()
             return {
+                searchValue,
                 searchResults,
                 searchArticle,
                 getTextFromHTML,
