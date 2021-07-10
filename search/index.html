@@ -40,8 +40,7 @@
 
 <body>
 
-<!--Reference https://tailwindcomponents.com/component/responsive-card-with-image-->
-<!--Reference https://tailwindcomponents.com/component/search-input-->
+
 <div class="">
     <div class="absolute w-full p-4 top-0">
         <a class="hover:text-red-900 text-red-900 hover:underline md:float-left back-special" href="/">
@@ -67,15 +66,6 @@
             </div>
         </div>
         <div class="results">
-            <!--        Here is simplified search results for debug -->
-            <!--        <div class="result" v-for="result in searchResults" :key="result.id">-->
-            <!--            <img :src="getImage(result.doc.introtext)" alt="intro image">-->
-            <!--            <h3>{{ result.doc.title }}</h3>-->
-            <!--            <p>{{ getTextFromHTML(result.doc.introtext) }}</p>-->
-            <!--            <div class="meta">-->
-            <!--                <small>{{ result.doc.alias }} [id: {{ result.ref }}]</small>-->
-            <!--            </div>-->
-            <!--        </div>-->
             <div class="mx-auto my-5" v-if="searchResults.length === 0">
                 <div v-if="searchValue.length > 0">
                     <h3 class="text-2xl text-center mb-3">По запросу
@@ -139,10 +129,14 @@
                     </div>
                 </div>
             </div>
+            <footer class="m-3 text-gray-300 mt-3 bottom-3 text-center" :class="{'absolute': searchResults.length === 0}">
+                2021 Красные Листья. Разработал Mew Forest
+            </footer>
         </div>
     </div>
+
 </div>
-<script src="https://unpkg.com/vue@next"></script>
+<script src="src/vue.global.prod.js"></script>
 <script src="src/elasticlunr.min.js"></script>
 <script src="src/lunr.stemmer.support.js"></script>
 <script src="src/lunr.ru.js"></script>
@@ -205,7 +199,7 @@
                 const div = document.createElement("div");
                 div.innerHTML = html;
                 const contentText = div.textContent || div.innerText || "";
-                return contentText.replace(' ', '')
+                return contentText.replace(' ', '').replace('{/tip}', '').replace('{tip', '')
             }
             const getArticleUrl = (alias, id) => 'https://redleaves-ru.github.io/site' +
                 (siteMap.value.filter(url => url.endsWith(`${id}-${alias}.html`)) || ['#'])[0]

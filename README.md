@@ -26,6 +26,7 @@ custom offline site copies.
 - Added dark theme 🌙
 - Restored all disappeared comments from HyperComments from 2012 (yes, even toxic threads) 🤯
 - Restored music to works using Spotify 🎵
+- New instant search 🔫🤠
 - Added approximate age of the author for each literary work 👧🏻
 - Removed ads and spam from comments 🚯
 - Many small UI fixes (for example, the author's page now displays the entire list of his works) ✨

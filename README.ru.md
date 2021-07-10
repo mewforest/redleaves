@@ -18,6 +18,7 @@
   [даже](https://redleaves-ru.github.io/site/stikhi/44-choise.html)
   [токсичные](https://redleaves-ru.github.io/site/proza/32-two-of-the-waves.html) 
   [треды](https://redleaves-ru.github.io/site/proza/13-f_ck-this-illusion.html)) 🤯 
+- [Поиск](https://redleaves-ru.github.io/search/) переделан с нуля: он моментально ищет даже запросы с опечатками 🔫🤠
 - [Восстановлена](https://redleaves-ru.github.io/site/stikhi/4-i-do-not-like-spring.html)
   [музыка](https://redleaves-ru.github.io/site/stikhi/18-the-end.html) к произведениям с помощью Spotify 🎵
 - Добавлен примерный возраст автора у 
