@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Красные Листья - Поиск</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .text-special {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+<!--Reference https://tailwindcomponents.com/component/responsive-card-with-image-->
+<!--Reference https://tailwindcomponents.com/component/search-input-->
+
+<div id="content"
+     class="p-6 container mx-2 mx-auto bg-white dark:bg-gray-800 rounded-xl flex flex-col items-center space-x-4 shadow-sm">
+    <div class="relative flex mr-6 my-2">
+        <input type="text" class="bg-purple-white shadow rounded border-0 p-3" style="min-width: 300px" autofocus
+               placeholder="Введите слово для поиска..."
+               @input="searchArticle">
+        <div class="absolute -right-0 pt-4 pr-3 text-purple-lighter">
+            <svg class="h-4 text-dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 x="0px" y="0px"
+                 viewBox="0 0 52.966 52.966" xml:space="preserve">
+    	<path d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21
+        c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279
+        C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19
+        S32.459,40,21.983,40z"/>
+	        </svg>
+        </div>
+    </div>
+    <div class="results">
+        <!--        Here is simplified search results for debug -->
+        <!--        <div class="result" v-for="result in searchResults" :key="result.id">-->
+        <!--            <img :src="getImage(result.doc.introtext)" alt="intro image">-->
+        <!--            <h3>{{ result.doc.title }}</h3>-->
+        <!--            <p>{{ getTextFromHTML(result.doc.introtext) }}</p>-->
+        <!--            <div class="meta">-->
+        <!--                <small>{{ result.doc.alias }} [id: {{ result.ref }}]</small>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <div class="mx-auto my-5" v-for="result in searchResults" :key="result.id">
+            <div class="relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2">
+                <div class="z-0 order-1 md:order-2 relative w-full md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
+                    <div class="absolute inset-0 w-full h-full object-fill object-center bg-blue-400 bg-opacity-30 bg-cover bg-bottom"
+                         :style="`background-image: url( ${getImage(result.doc.introtext)} ); background-blend-mode: multiply;`"></div>
+                    <div class="md:hidden absolute inset-0 h-full p-6 pb-6 flex flex-col-reverse justify-start items-start bg-gradient-to-b from-transparent via-transparent to-gray-900">
+                        <h3 class="w-full font-bold text-2xl text-white leading-tight mb-2">
+                            {{ result.doc.title.toUpperCase() }}</h3>
+                        <h4 class="w-full text-xl text-gray-100 leading-tight">{{
+                                result.doc['#__categories_title']
+                            }}</h4>
+                    </div>
+                    <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-white -ml-12"
+                         viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <polygon points="50,0 100,0 50,100 0,100"/>
+                    </svg>
+                </div>
+
+                <div class="z-10 order-2 md:order-1 w-full h-full md:w-3/5 flex items-center -mt-6 md:mt-0">
+                    <div class="p-8 md:pr-18 md:pl-14 md:py-12 mx-2 md:mx-0 h-full bg-white rounded-lg md:rounded-none md:rounded-l-lg shadow-xl md:shadow-none">
+                        <h4 class="hidden md:block text-xl text-gray-400">{{ result.doc['#__categories_title'] }}</h4>
+                        <h3 class="hidden md:block font-bold text-2xl text-gray-700">{{
+                                result.doc.title.toUpperCase()
+                            }}</h3>
+                        <p class="text-gray-600 text-special">{{
+                                getDescription(getTextFromHTML(result.doc.introtext))
+                            }}</p>
+                        <a class="flex items-baseline mt-3 text-blue-600 hover:text-blue-900 focus:text-blue-900"
+                           :href="'#' + result.doc.alias">
+                            <span>Прочесть</span>
+                            <span class="text-xs ml-1">&#x279c;</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--    <pre>-->
+    <!--Results {{ searchResults }}-->
+    <!--    </pre>-->
+</div>
+
+<script src="https://unpkg.com/vue@next"></script>
+<script src="src/elasticlunr.min.js"></script>
+<script src="src/lunr.stemmer.support.js"></script>
+<script src="src/lunr.ru.js"></script>
+<script src="src/lunr.multi.js"></script>
+<script>
+    const config = {
+        data() {
+            const indexSearch = elasticlunr(function () {
+                this.use(lunr.multiLanguage('en', 'ru'));
+                this.addField('title');
+                this.addField('fulltext');
+                this.addField('introtext');
+                this.setRef('id');
+            });
+            const regexImg = /(<img[^\>]*>)/gm;
+            const regexSrc = /src="([^\"]+)"/gm;
+
+            fetch('https://redleaves-ru.github.io/external/articles.json')
+                .then(res => res.json())
+                .then(articles => {
+                    for (let article of articles) {
+                        indexSearch.addDoc(article)
+                    }
+                })
+                .catch(err => {
+                    throw err
+                });
+
+
+            const searchResults = Vue.ref([])
+            const searchArticle = (event) => searchResults.value = indexSearch.search(event.target.value, {
+                fields: {
+                    title: {boost: 3},
+                    introtext: {boost: 2},
+                    fulltext: {boost: 1}
+                }
+            })
+            const getImage = (html) => {
+                try {
+                    const img = html.match(regexImg)[0]
+                    const src = img.match(regexSrc)[0].slice(5, -1)
+                    const baseUrl = src.startsWith('http://images.redleaves.16mb.com/') ?
+                        'https://redleaves-ru.github.io/site/images/old/' : 'https://redleaves-ru.github.io/site/'
+                    return baseUrl + src.replace('http://images.redleaves.16mb.com/', '')
+                } catch (e) {
+                    console.log('Error while parsing image:', e)
+                    return ''
+                }
+            }
+            const getTextFromHTML = (html) => {
+                html = html.replace(regexImg, '')
+                const div = document.createElement("div");
+                div.innerHTML = html;
+                const contentText = div.textContent || div.innerText || "";
+                return contentText.replace(' ', '')
+            }
+            const getDescription = (text) => text.slice(text.indexOf('О произведении:') + 15).trim()
+            return {
+                searchResults,
+                searchArticle,
+                getTextFromHTML,
+                getImage,
+                getDescription
+            }
+        }
+    }
+    Vue.createApp(config).mount('#content')
+</script>
+</body>
+
+</html>
