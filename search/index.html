@@ -17,11 +17,16 @@
             overflow: hidden;
         }
 
+        .search-input-special {
+            min-width: 300px;
+        }
+
         @media all and (min-width: 500px) {
             .search-input-special {
                 min-width: 450px;
             }
         }
+
     </style>
 </head>
 
@@ -31,14 +36,14 @@
 <!--Reference https://tailwindcomponents.com/component/search-input-->
 
 <div id="content"
-     class="p-6 container max-w-5xl mx-2 mx-auto bg-white dark:bg-gray-800 rounded-xl flex flex-col items-center space-x-4">
-    <div class="relative flex mr-6 my-2 text-4xl font-light">
-        <input type="text" class="bg-purple-white shadow rounded border-0 p-3 font-light search-input-special" style=""
+     class="p-6 container max-w-5xl mx-2 mx-auto bg-white rounded-xl flex flex-col items-center ">
+    <div class="relative flex mr-6 my-2 md:text-4xl sm:text-2xl font-light">
+        <input type="text" class="bg-purple-white shadow rounded border-0 p-4 font-light search-input-special" style=""
                autofocus
                placeholder="Найти произведение..." v-model="searchValue"
                @input="searchArticle" @change="searchArticle" v-on:submit.prevent="searchArticle">
         <div class="absolute -right-0 pt-4 pr-3 opacity-30">
-            <svg class="h-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            <svg class="md:h-10 h-4 " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                  x="0px" y="0px"
                  viewBox="0 0 52.966 52.966" xml:space="preserve">
     	<path d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21
@@ -60,19 +65,23 @@
         <!--        </div>-->
         <div class="mx-auto my-5" v-if="searchResults.length === 0">
             <div v-if="searchValue.length > 0">
-                <h3>По запросу
+                <h3 class="text-2xl text-center mb-3">По запросу
                     "<i>{{ searchValue }}</i>"
                     ничего не найдено.
                 </h3>
-                <h4>Попробуйте переформулировать свой запрос.</h4>
+                <h4 class="text-base text-center">Попробуйте переформулировать свой запрос.</h4>
             </div>
             <div v-else>
-                <h3>Здесь будут результаты поиска.</h3>
-                <h4>
+                <h3 class="text-2xl text-center mb-3">Здесь будут результаты поиска.</h3>
+                <h4 class="text-base text-center">
                     Попробуйте ввести, например,
-                    <button @click="searchValue = 'любовь'; searchArticle()">любовь</button>
+                    <button @click="searchValue = 'любовь'; searchArticle()"
+                            class="text-blue-800 hover:text-blue-600 hover:underline ">любовь
+                    </button>
                     или
-                    <button @click="searchValue = 'весна'; searchArticle()">весна.</button>
+                    <button @click="searchValue = 'весна'; searchArticle()"
+                            class="text-blue-800 hover:text-blue-600 hover:underline ">весна.
+                    </button>
                 </h4>
             </div>
         </div>
@@ -81,15 +90,16 @@
                 <div class="z-0 order-1 md:order-2 relative w-full md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
                     <a :href="getArticleUrl(result.doc.alias, result.ref)">
                         <div class="absolute inset-0 w-full h-full object-fill object-center bg-blue-400 bg-opacity-30 bg-cover bg-bottom"
-                             :style="`background-image: url( ${getImage(result.doc.introtext)} ); background-blend-mode: multiply;`"></div>
+                             :style="`background-image: url( ${getImage(result.doc.introtext)} ); background-blend-mode: multiply;`">
+                        </div>
+                        <div class="md:hidden absolute inset-0 h-full p-6 pb-6 flex flex-col-reverse justify-start items-start bg-gradient-to-b from-transparent via-transparent to-gray-900">
+                            <h3 class="w-full font-bold text-2xl text-white leading-tight mb-2">
+                                {{ result.doc.title.toUpperCase() }}</h3>
+                            <h4 class="w-full text-xl text-gray-100 leading-tight">{{
+                                    result.doc['#__categories_title']
+                                }}</h4>
+                        </div>
                     </a>
-                    <div class="md:hidden absolute inset-0 h-full p-6 pb-6 flex flex-col-reverse justify-start items-start bg-gradient-to-b from-transparent via-transparent to-gray-900">
-                        <h3 class="w-full font-bold text-2xl text-white leading-tight mb-2">
-                            {{ result.doc.title.toUpperCase() }}</h3>
-                        <h4 class="w-full text-xl text-gray-100 leading-tight">{{
-                                result.doc['#__categories_title']
-                            }}</h4>
-                    </div>
                     <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-white -ml-12"
                          viewBox="0 0 100 100" preserveAspectRatio="none">
                         <polygon points="50,0 100,0 50,100 0,100"/>
