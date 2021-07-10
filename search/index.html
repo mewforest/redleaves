@@ -88,7 +88,7 @@
         <div class="mx-auto my-5" v-for="result in searchResults" :key="result.ref">
             <div class="relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2">
                 <div class="z-0 order-1 md:order-2 relative w-full md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
-                    <a :href="getArticleUrl(result.doc.alias, result.ref)">
+                    <a :href="getArticleUrl(result.doc.alias, result.ref)" target="_blank">
                         <div class="absolute inset-0 w-full h-full object-fill object-center bg-blue-400 bg-opacity-30 bg-cover bg-bottom"
                              :style="`background-image: url( ${getImage(result.doc.introtext)} ); background-blend-mode: multiply;`">
                         </div>
@@ -116,7 +116,7 @@
                                 getDescription(getTextFromHTML(result.doc.introtext))
                             }}</p>
                         <a class="flex items-baseline mt-3 text-blue-600 hover:text-blue-900 focus:text-blue-900"
-                           :href="getArticleUrl(result.doc.alias, result.ref)">
+                           :href="getArticleUrl(result.doc.alias, result.ref)" target="_blank">
                             <span>Прочесть</span>
                             <span class="text-xs ml-1">&#x279c;</span>
                         </a>
