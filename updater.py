@@ -158,7 +158,8 @@ def process_html(file_path: str, metadata: Metadata) -> None:
         lambda sp, fp: add_authors_age(sp, fp, metadata.authors),
         spoiler_fix,
         lambda sp, fp: add_styles_includes_dark_theme(sp, fp, metadata.comments_css),
-        improve_long_reads
+        improve_long_reads,
+        add_search
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -365,7 +366,7 @@ def add_authors_age(soup: BeautifulSoup, file_path: str, authors_list: Typings.A
     info_html = f"""
     <p style="width: fit-content;color: #c09853 !important;font-size: 14px;">
         <i class="fa icon-book" style="color: #c09853 !important"></i> 
-        { author_name } написал(а) это произведение примерно в { authors_age } лет
+        {author_name} написал(а) это произведение примерно в {authors_age} лет
     </p>
     """
     add_children(soup, '.article-aside', info_html, 'p', {})
@@ -395,7 +396,8 @@ def add_styles_includes_dark_theme(soup: BeautifulSoup, file_path: str, style_cs
     :return:
     """
     insert_style(soup, style_css)
-    dark_js_script = BeautifulSoup('<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"/>', features='html.parser')
+    dark_js_script = BeautifulSoup(
+        '<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"/>', features='html.parser')
     init_js = """
     document.addEventListener("DOMContentLoaded", () => {
     const options = {
@@ -434,6 +436,19 @@ def improve_long_reads(soup: BeautifulSoup, *args) -> None:
         empty_newline = soup.find('div', text="\xa0")
         if empty_newline is not None:
             empty_newline.decompose()
+
+
+def add_search(soup: BeautifulSoup, *args) -> None:
+    """
+    Pipe that adds search link to the menu
+
+    :param soup: HTML body
+    :return: None
+    """
+    link_to_search = """
+    <a class="" data-target="#" href="/search/index.html" itemprop="url"><i class="icon-search"></i> Поиск</a>
+    """
+    add_children(soup, '.navbar-nav', link_to_search, 'li', {})
 
 
 # Helper section
