@@ -27,6 +27,14 @@
             }
         }
 
+        @media all and (max-width: 767px) {
+            .back-special {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+        }
+
     </style>
 </head>
 
@@ -34,9 +42,9 @@
 
 <!--Reference https://tailwindcomponents.com/component/responsive-card-with-image-->
 <!--Reference https://tailwindcomponents.com/component/search-input-->
-<div class="container">
+<div class="">
     <div class="absolute w-full p-4 top-0">
-        <a class="hover:text-red-900 text-red-900 hover:underline float-left" href="/">
+        <a class="hover:text-red-900 text-red-900 hover:underline md:float-left back-special" href="/">
             ‹ Вернуться на Красные Листья
         </a>
     </div>
