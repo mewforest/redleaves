@@ -159,7 +159,8 @@ def process_html(file_path: str, metadata: Metadata) -> None:
         spoiler_fix,
         lambda sp, fp: add_styles_includes_dark_theme(sp, fp, metadata.comments_css),
         improve_long_reads,
-        add_search
+        add_search,
+        remove_login_password_form
     ]
     with open(file_path, 'r', encoding="UTF-8") as f:
         html_content = f.read()
@@ -449,6 +450,16 @@ def add_search(soup: BeautifulSoup, *args) -> None:
     <a class="" data-target="#" href="/search/index.html" itemprop="url"><i class="icon-search"></i> Поиск</a>
     """
     add_children(soup, '.navbar-nav', link_to_search, 'li', {})
+
+
+def remove_login_password_form(soup: BeautifulSoup, *args) -> None:
+    """
+    Pipe that removes login/password form
+
+    :param soup: HTML body
+    :return: None
+    """
+    remove_element(soup, '.login-wrap')
 
 
 # Helper section
