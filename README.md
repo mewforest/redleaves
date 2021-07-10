@@ -40,9 +40,13 @@ The following instructions can be applied to any website, not only Red Leaves:
 2. Copy all downloaded content to `source`
 3. You could change `pipe_stages` (function `process_html`) in `updater` to apply your own changes or for removing defaults, if needed.
 4. Also, you could change global styles `external/style.css`, if needed.
-5. If you need HyperComments extraction, see our [HyperComments Export](https://github.com/redleaves-ru/hypercomments-export)
-   utility.
 5. Install all requirements for Python 3.6+ (from `requirements.txt`) and run `updater.py`.
+
+### Additionals 
+
+- If you need HyperComments extraction, see our [HyperComments Export](https://github.com/redleaves-ru/hypercomments-export)
+   utility.
+- If you need to use instant search, be note that all articles was exported to `external/articles.json` with vData Joomla! component.
 
 ## Short history of Red Leaves
 > Sometime back in 2012, I came up with the idea to create a literary online magazine, and then
