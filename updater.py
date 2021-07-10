@@ -446,7 +446,7 @@ def add_search(soup: BeautifulSoup, *args) -> None:
     :return: None
     """
     link_to_search = """
-    <a class="" data-target="#" href="/search/index.html" itemprop="url"><i class="icon-search"></i>Поиск</a>
+    <a class="" data-target="#" href="/search/index.html" itemprop="url"><i class="icon-search"></i> Поиск</a>
     """
     add_children(soup, '.navbar-nav', link_to_search, 'li', {})
 
