@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Красные Листья - Поиск</title>
+    <title>Быстрый поиск по Красным Листьям</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .text-special {
@@ -14,6 +15,12 @@
             -webkit-box-orient: vertical;
             text-overflow: ellipsis;
             overflow: hidden;
+        }
+
+        @media all and (min-width: 500px) {
+            .search-input-special {
+                min-width: 450px;
+            }
         }
     </style>
 </head>
@@ -25,12 +32,13 @@
 
 <div id="content"
      class="p-6 container max-w-5xl mx-2 mx-auto bg-white dark:bg-gray-800 rounded-xl flex flex-col items-center space-x-4">
-    <div class="relative flex mr-6 my-2">
-        <input type="text" class="bg-purple-white shadow rounded border-0 p-3" style="min-width: 300px" autofocus
-               placeholder="Введите слово для поиска..." v-model="searchValue"
-               @input="searchArticle" @change="searchArticle">
-        <div class="absolute -right-0 pt-4 pr-3 text-purple-lighter">
-            <svg class="h-4 text-dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    <div class="relative flex mr-6 my-2 text-4xl font-light">
+        <input type="text" class="bg-purple-white shadow rounded border-0 p-3 font-light search-input-special" style=""
+               autofocus
+               placeholder="Найти произведение..." v-model="searchValue"
+               @input="searchArticle" @change="searchArticle" v-on:submit.prevent="searchArticle">
+        <div class="absolute -right-0 pt-4 pr-3 opacity-30">
+            <svg class="h-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                  x="0px" y="0px"
                  viewBox="0 0 52.966 52.966" xml:space="preserve">
     	<path d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21
@@ -62,17 +70,19 @@
                 <h3>Здесь будут результаты поиска.</h3>
                 <h4>
                     Попробуйте ввести, например,
-                    <button @click="searchValue = 'любовь'">любовь</button>
+                    <button @click="searchValue = 'любовь'; searchArticle()">любовь</button>
                     или
-                    <button @click="searchValue = 'весна'">весна.</button>
+                    <button @click="searchValue = 'весна'; searchArticle()">весна.</button>
                 </h4>
             </div>
         </div>
-        <div class="mx-auto my-5" v-for="result in searchResults" :key="result.id">
+        <div class="mx-auto my-5" v-for="result in searchResults" :key="result.ref">
             <div class="relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2">
                 <div class="z-0 order-1 md:order-2 relative w-full md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
-                    <div class="absolute inset-0 w-full h-full object-fill object-center bg-blue-400 bg-opacity-30 bg-cover bg-bottom"
-                         :style="`background-image: url( ${getImage(result.doc.introtext)} ); background-blend-mode: multiply;`"></div>
+                    <a :href="getArticleUrl(result.doc.alias, result.ref)">
+                        <div class="absolute inset-0 w-full h-full object-fill object-center bg-blue-400 bg-opacity-30 bg-cover bg-bottom"
+                             :style="`background-image: url( ${getImage(result.doc.introtext)} ); background-blend-mode: multiply;`"></div>
+                    </a>
                     <div class="md:hidden absolute inset-0 h-full p-6 pb-6 flex flex-col-reverse justify-start items-start bg-gradient-to-b from-transparent via-transparent to-gray-900">
                         <h3 class="w-full font-bold text-2xl text-white leading-tight mb-2">
                             {{ result.doc.title.toUpperCase() }}</h3>
@@ -96,19 +106,15 @@
                                 getDescription(getTextFromHTML(result.doc.introtext))
                             }}</p>
                         <a class="flex items-baseline mt-3 text-blue-600 hover:text-blue-900 focus:text-blue-900"
-                           :href="'#' + result.doc.alias">
+                           :href="getArticleUrl(result.doc.alias, result.ref)">
                             <span>Прочесть</span>
                             <span class="text-xs ml-1">&#x279c;</span>
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-    <!--    <pre>-->
-    <!--Results {{ searchResults }}-->
-    <!--    </pre>-->
 </div>
 
 <script src="https://unpkg.com/vue@next"></script>
@@ -128,6 +134,7 @@
             });
             const regexImg = /(<img[^\>]*>)/gm;
             const regexSrc = /src="([^\"]+)"/gm;
+            const siteMap = Vue.ref("")
 
             fetch('https://redleaves-ru.github.io/external/articles.json')
                 .then(res => res.json())
@@ -136,6 +143,13 @@
                         indexSearch.addDoc(article)
                     }
                 })
+                .catch(err => {
+                    throw err
+                });
+
+            fetch('https://redleaves-ru.github.io/external/site-map.txt')
+                .then(res => res.text())
+                .then(txt => siteMap.value = txt.split('\n').slice(2))
                 .catch(err => {
                     throw err
                 });
@@ -168,14 +182,22 @@
                 const contentText = div.textContent || div.innerText || "";
                 return contentText.replace(' ', '')
             }
+            const getArticleUrl = (alias, id) => 'https://redleaves-ru.github.io/site' +
+                (siteMap.value.filter(url => url.endsWith(`${id}-${alias}.html`)) || ['#'])[0]
             const getDescription = (text) => text.slice(text.indexOf('О произведении:') + 15).trim()
+            Vue.onMounted(() => {
+                if (searchValue.value.length > 0) {
+                    setTimeout(searchArticle, 500)
+                }
+            })
             return {
                 searchValue,
                 searchResults,
                 searchArticle,
                 getTextFromHTML,
                 getImage,
-                getDescription
+                getDescription,
+                getArticleUrl
             }
         }
     }
